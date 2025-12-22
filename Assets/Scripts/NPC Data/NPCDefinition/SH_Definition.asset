@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518db37193b86a94394146e0c7589dfb, type: 3}
+  m_Name: SH_Definition
+  m_EditorClassIdentifier: 
+  Name: Sunghoon
+  gender: 0
+  portraits:
+    normal: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    happy: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    angry: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+  DailyData:
+    level: 0.08
+    currentLevel: 1
+    talkedToToday: 1
+    questInteract: 1
+    giftPresent: 0
+    talkedOnTheDayNumber: 0
+    loreLevel: 0
+  characterPrefab: {fileID: 7611141749421104484, guid: fe29200c6e8f88b4688329e1df05388b, type: 3}
+  itemLike:
+  - {fileID: 11400000, guid: 9651170f74a555a4e8d2192be4fd7275, type: 2}
+  - {fileID: 11400000, guid: 252133bd29ecde94fa9d9c951ad76453, type: 2}
+  itemHate:
+  - {fileID: 11400000, guid: af6649fe164dc8c47a1fecbd2be570ae, type: 2}
+  Questcutscene: []
+  NextVictimDialogue:
+    QuestTriggerName: NextVictim
+    isDone: 0
+    cutscene: {fileID: 11400000, guid: 00b3e78b6fbead745aef7114cf05d80f, type: 2}
+  HeeseungConfrontDialogue:
+    QuestTriggerName: AfterDialogue
+    isDone: 0
+    cutscene: {fileID: 11400000, guid: 9ff9e27755b29584783d07f5b6aa5c77, type: 2}
+  HiddenStory:
+    QuestTriggerName: JayhoonPhoto
+    isDone: 0
+    cutscene: {fileID: 11400000, guid: 5c23b6629eb9cb844903899ac3f4655f, type: 2}
+  Homeschedule:
+  - note: leave for school
+    transform: {x: -6, y: -6, z: 0}
+    time: 08:05
+    endtime: 08:10
+    leaveScene: 1
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: come back from school
+    transform: {x: -6, y: -6, z: 0}
+    time: 18:15
+    endtime: 18:18
+    leaveScene: 0
+    inScene: 0
+    warp: 0
+    sceneName: 
+  - note: heading back to his room
+    transform: {x: 2, y: -3, z: 0}
+    time: 18:18
+    endtime: 18:25
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: enter his room
+    transform: {x: 2, y: 3, z: 0}
+    time: 18:18
+    endtime: 18:25
+    leaveScene: 0
+    inScene: 1
+    warp: 1
+    sceneName: 
+  - note: stay in his room
+    transform: {x: 7, y: 5, z: 0}
+    time: 18:25
+    endtime: 22:00
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  Townschedule:
+  - note: leave the house
+    transform: {x: -3, y: -19, z: 0}
+    time: 08:05
+    endtime: 08:10
+    leaveScene: 0
+    inScene: 0
+    warp: 0
+    sceneName: 
+  - note: walk to main road
+    transform: {x: 14, y: -19, z: 0}
+    time: 08:10
+    endtime: 08:30
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: walk up
+    transform: {x: 14, y: -1, z: 0}
+    time: 08:30
+    endtime: 08:40
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: walk right
+    transform: {x: 25, y: -1, z: 0}
+    time: 08:40
+    endtime: 08:50
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: 'walk to gate '
+    transform: {x: 25, y: 10, z: 0}
+    time: 08:50
+    endtime: 09:05
+    leaveScene: 1
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: exit school gate
+    transform: {x: 25, y: -1, z: 0}
+    time: 15:50
+    endtime: 15:55
+    leaveScene: 0
+    inScene: 0
+    warp: 0
+    sceneName: 
+  - note: walk pass the fruit shop
+    transform: {x: 14, y: -1, z: 0}
+    time: 15:55
+    endtime: 16:05
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: walk downward visit river
+    transform: {x: 14, y: -25, z: 0}
+    time: 16:05
+    endtime: 16:45
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: walk up to go back home
+    transform: {x: -3, y: -19, z: 0}
+    time: 17:30
+    endtime: 17:50
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  Schoolschedule:
+  - note: arrive school 2nd
+    transform: {x: -2, y: -17, z: 0}
+    time: 09:10
+    endtime: 09:20
+    leaveScene: 0
+    inScene: 0
+    warp: 0
+    sceneName: 
+  - note: stand infront of classroom
+    transform: {x: -3.48, y: -7.11, z: 0}
+    time: 09:20
+    endtime: 15:30
+    leaveScene: 0
+    inScene: 1
+    warp: 0
+    sceneName: 
+  - note: leave school
+    transform: {x: 2, y: -17, z: 0}
+    time: 15:30
+    endtime: 15:50
+    leaveScene: 1
+    inScene: 1
+    warp: 0
+    sceneName: 
+  generalDialogues:
+  - {fileID: 11400000, guid: bd67d7f5e93f18b40a54b53331f0f0b0, type: 2}
+  - {fileID: 11400000, guid: da315541324442447a2d5bb5085e941f, type: 2}
+  - {fileID: 11400000, guid: 22de9e67117420c4aada3c0c126fbd28, type: 2}
+  ClassmateDialogues:
+  - {fileID: 11400000, guid: 87b57f19cd6112e48a2d49f078bfb4a3, type: 2}
+  - {fileID: 11400000, guid: 267c10d169b79544dad1baeed57fd1dd, type: 2}
+  - {fileID: 11400000, guid: aebc40bf839da564cbb8c2a0e03957af, type: 2}
+  FriendDialogues:
+  - {fileID: 11400000, guid: eb2f2fb184a5ae24894836914107f57c, type: 2}
+  - {fileID: 11400000, guid: d654e7f6db77de14d81c97b91b83fb8e, type: 2}
+  - {fileID: 11400000, guid: dae257f474e519c44815199c38fa2327, type: 2}
+  - {fileID: 11400000, guid: 6434ad4aa2b35474b843bd14bf8cf11c, type: 2}
+  BestieDialogues:
+  - {fileID: 11400000, guid: 5596034cc45fede49a94cb82690ba0bf, type: 2}
+  - {fileID: 11400000, guid: 34bf4f70634028445b473c5135eefc22, type: 2}
+  - {fileID: 11400000, guid: 926f33f227a652b458863fe0205013c5, type: 2}
+  - {fileID: 11400000, guid: f7b8d7eba40cd4a4693586c4317755a5, type: 2}
+  LoreDialogues:
+  - {fileID: 11400000, guid: 4fd9f5b936304f04088056d72a35962f, type: 2}
+  - {fileID: 11400000, guid: d288f472d8b59014abfcb3139a444f32, type: 2}
+  - {fileID: 11400000, guid: 2eed4adc1df1ad4418f1db285d006d5d, type: 2}
+  - {fileID: 11400000, guid: 7d2de40d6840b9647a282042438529b1, type: 2}
+  - {fileID: 11400000, guid: 95888dde76cba99439bb73e13b4a5b9c, type: 2}
+  QuestDialogues:
+  - {fileID: 11400000, guid: 314d1de6ecf87984490344afb05561a8, type: 2}
+  - {fileID: 11400000, guid: aafddd0ca28fe2948bf1ae5d5c255cc6, type: 2}
+  - {fileID: 11400000, guid: b60a4ff6e209ced4594cde0eb3e5f4b0, type: 2}
+  - {fileID: 11400000, guid: cb94e19588413534cb231caa1e72c2f5, type: 2}
+  LikeGiftDialogues:
+  - {fileID: 11400000, guid: 15e2712d6cdd86f41834f80d536a6034, type: 2}
+  HateGiftDialogues:
+  - {fileID: 11400000, guid: 69340cf1b85a7244f850b1363c46ba4f, type: 2}
+  NormalGiftDialogues:
+  - {fileID: 11400000, guid: f0d6bcb57f8446c44a91164b85c05236, type: 2}

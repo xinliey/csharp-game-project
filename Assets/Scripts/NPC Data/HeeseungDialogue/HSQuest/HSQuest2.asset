@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: HSQuest2
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  StoryItemTrigger: 
+  line:
+  - text: "\u201CJust imagine,\u201D Ethan began, tilting his head slightly"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201Cif you had to choose a geometric shape for a strong foundation in
+      construction\u2026 "
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "what would you pick?\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices:
+  - ChoiceText: square
+    dialogueContainer: {fileID: 11400000, guid: eddcb6a72fa09a54c86707d28d5cf7da, type: 2}
+    isQuest: 0
+    score: -0.25
+  - ChoiceText: triangle
+    dialogueContainer: {fileID: 11400000, guid: cf9937f04d51dcc4087eca2ae5d89d7d, type: 2}
+    isQuest: 0
+    score: 0.25

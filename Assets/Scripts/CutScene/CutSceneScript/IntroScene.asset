@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: IntroScene
+  m_EditorClassIdentifier: 
+  cutscenename: 
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "It all began on a rainy day. The sky was crying\u2026 but so was I. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: 'I never asked to be noticed. I just wanted to pass quietly, unnoticed,
+      like a shadow. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "But Chloe never let me. She pushed me, mocked me, reminded me every day
+      that I didn\u2019t belong."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "But I never made it there. Because before my eyes\u2014 "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: she fell...from the rooftop
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: while I was on my way to her.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "The sound of her body hitting the ground\u2026 it shattered something
+      inside me."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'And then came the voices. Accusations. Eyes that pierced me like knives. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CShe killed her.\u201D They said."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: " \u201COf course it was her.\u201D They said."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: 'No one believed me. No one ever would. I wanted to scream. To fight. But
+      I was too weak. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: I crumbled under their hatred.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: "And in that moment of despair\u2026 I felt you."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: "\u2026Yes. You."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: "I don\u2019t know who you are\u2014or why you\u2019re here\u2014but I
+      can feel your presence."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: Strong. Steady. Different from me.
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: "I can\u2019t do this alone. But if it\u2019s you\u2026 maybe I don\u2019t
+      have to. "
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: 'Take it. My body, my voice, my steps forward. Guide me. Protect me. '
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: Find the truth I cannot reach alone.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: "From this moment on\u2026 we\u2019ll share this path."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 348252d7fe743b24a8df42d69742b036, type: 3}
+    line: my room is on the left side of the house , you can freely use it.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: (Press AWSD for movement and Z to interact.)
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: (you can check tips on the phone by pressing p)
+    noBackground: 0
+  options: []

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518db37193b86a94394146e0c7589dfb, type: 3}
+  m_Name: tipsDefforstoryprogress
+  m_EditorClassIdentifier: 
+  Name: Tips
+  gender: 0
+  portraits:
+    normal: {fileID: 0}
+    happy: {fileID: 0}
+    angry: {fileID: 0}
+  DailyData:
+    level: 0
+    currentLevel: 1
+    talkedToToday: 0
+    questInteract: 1
+    giftPresent: 0
+    talkedOnTheDayNumber: 0
+    loreLevel: 5
+  characterPrefab: {fileID: 0}
+  itemLike: []
+  itemHate: []
+  Questcutscene: []
+  NextVictimDialogue:
+    QuestTriggerName: 
+    isDone: 0
+    cutscene: {fileID: 0}
+  HeeseungConfrontDialogue:
+    QuestTriggerName: 
+    isDone: 0
+    cutscene: {fileID: 0}
+  HiddenStory:
+    QuestTriggerName: 
+    isDone: 0
+    cutscene: {fileID: 0}
+  Homeschedule: []
+  Townschedule: []
+  Schoolschedule: []
+  generalDialogues: []
+  ClassmateDialogues: []
+  FriendDialogues: []
+  BestieDialogues: []
+  LoreDialogues: []
+  QuestDialogues: []
+  LikeGiftDialogues: []
+  HateGiftDialogues: []
+  NormalGiftDialogues: []

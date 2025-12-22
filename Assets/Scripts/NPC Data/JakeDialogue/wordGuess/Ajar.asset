@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: Ajar
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: 'Oi, not this again! '
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "You\u2019re seriously gonna drag me into this?"
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: Fine
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: but this is the last time, yeah?
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: ...
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "This one\u2019s all about doors, mate\u2014"
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: Not fully shut, not wide open
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "just hanging there like it can\u2019t make up its mind."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "Like when I leave the fridge door a bit open \u2018cause I\u2019m distracted."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  actor: {fileID: 11400000, guid: 62fa76b9acf93854f9d6a25492c544bd, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakeHomework
+  m_EditorClassIdentifier: 
+  cutscenename: JakeHomework
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "I reached Jake\u2019s house earlier than expected. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "He told me Benjamin would take his sweet time\u2014\u201Cpretty boy has
+      to tidy himself like a mirror model before leaving his house."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "He led me to his room, saying he\u2019d grab snacks. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'Left alone, I looked at the table. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Piles of open workbooks and scribbled notes covered it.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: My eyes lingered on the handwriting.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "The loops, the strokes\u2026 it looked familiar. Too familiar. Like I\u2019d
+      seen it recently."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: I leaned forward, squinting.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: But before I could be sure, the door creaked. Jake barged in with a tray
+      of snacks
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: his eyes narrowing immediately.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "What\u2019s with the snooping around my homework, huh?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'he asked, eyebrows raised, tone half-playful, half-accusatory. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: He came closer to see what I was looking at.
+    noBackground: 0
+  options:
+  - Option: I wanted to see what you answered for this question
+    Score: 0.05
+    OptionDialogue: {fileID: 11400000, guid: f593a607c6bedcb49929dd9b5ee36071, type: 2}
+  - Option: "What\u2019s the bet between you and Benjamin?"
+    Score: -0.1
+    OptionDialogue: {fileID: 11400000, guid: 260692341caa69944ab2918166ac6e8b, type: 2}

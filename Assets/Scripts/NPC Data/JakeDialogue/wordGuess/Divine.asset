@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: Divine
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: Oi
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: you again mate?
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: '*sigh*  show me the word'
+    expression: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+  - text: "Alright, this one\u2019s fancy, mate."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "Like when something\u2019s so good it feels like it\u2019s straight from
+      the gods."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: 'Kinda like Ethan hitting those high notes '
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "when he\u2019s belting out a tune\u2014pure magic."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  actor: {fileID: 11400000, guid: 62fa76b9acf93854f9d6a25492c544bd, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

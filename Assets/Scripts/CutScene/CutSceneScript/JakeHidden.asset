@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakeHidden
+  m_EditorClassIdentifier: 
+  cutscenename: 
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "There was a big golden retriever sitting in front of Jake\u2019s house\u2014her
+      name was Layla. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: She looked full of energy and absolutely lovely, with her fluffy coat and
+      that wagging tail.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: As soon as she saw me, she trotted over, tail swishing like crazy, and
+      gently leaned her head against my leg.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Something about her reminded me of her owner.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "I heard footsteps behind me, and right away, Layla perked up even more,
+      her tail wagging harder. No surprise\u2014the person behind me was clearly
+      her favorite."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CShe\u2019s keen on ya, huh?\u201D Jake\u2019s voice came from behind,
+      that familiar Aussie drawl in full effect."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: I turned, and he gave me a lopsided smile before kneeling beside us.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CI was a bit worried, to be honest. She\u2019s usually a bit funny
+      with new people\u2014used to nip at Chloe when we were ankle-biters.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CAnkle-biters?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CKids,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CShe used to get real jelly\u2014jealous, I mean\u2014whenever I
+      talked to anyone else. I reckon it\u2019s \u2019cause we were always together,
+      me and her eversince I was in Australia. Didn\u2019t really go out much as
+      a kid. \u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: There was a pause in his voice. He looked down at Layla, his hand still
+      gently brushing her ears.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CI don\u2019t look like it now, but I was pretty bloody lonely growin\u2019
+      up. Especially when I moved back here. Bit of a stubborn bugger too. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\"Never did what Chloe said, so she made sure no one wanted to hang out
+      with me.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CDidn\u2019t wanna follow her around like some lost chook. She was
+      always a weird unit anyway.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CA\u2026 chook?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CChicken,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CYanks really don\u2019t use that one?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "He leaned in and planted a kiss on Layla\u2019s head, and then suddenly,
+      he looked like a giant sulking puppy himself."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CAnyway, wasn\u2019t all bad. Ethan moved here not long after, and
+      he was the only one who didn\u2019t care what Chloe thought. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\"She couldn\u2019t say nothin\u2019 \u2018cause he was her fianc\xE9
+      and all.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Jake leaned back on his heels, glancing at me again, softer now.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CReckon you\u2019re one of the few people I actually feel close to.
+      Besides Layla. And Ethan, of course.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "His voice was sincere, steady\u2014until it suddenly wobbled"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201C\u2026Oh, crikey, forgot the boys from school.\u201D He pulled a
+      face. \u201CUgh. They\u2019re a mob of galahs, though.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CWait\u2014mob of what?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CGalahs. Like, idiots. Jay and Nik especially. Don\u2019t tell \u2019em
+      I said that.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CYou think so too, yeah? Don\u2019t tell me you like those two.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: he seems really happy when we talk about Layla
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: after that we spend the rest of the time playing with her.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: it was really fun , I didn't even realize it was already so late.
+    noBackground: 0
+  options: []

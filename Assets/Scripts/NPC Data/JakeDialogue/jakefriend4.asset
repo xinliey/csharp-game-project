@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: jakefriend4
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: Hi!
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  - text: "So, I think it\u2019s about time we break the ice. Hahaha"
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  - text: "\u2014no, not literally smash ice blocks."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "It means\u2026 uh, start talking like proper mates. "
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "So\u2026 what\u2019re you up to tonight?\""
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  actor: {fileID: 11400000, guid: 62fa76b9acf93854f9d6a25492c544bd, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

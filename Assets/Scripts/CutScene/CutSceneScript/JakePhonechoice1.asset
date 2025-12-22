@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakePhonechoice1
+  m_EditorClassIdentifier: 
+  cutscenename: choice1
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: KeepPhone
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "No\u2026 I should keep this. If I can figure out the password, maybe I\u2019ll
+      find something. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "Something Jake wanted me to see. Even if it\u2019s wrong to pry\u2014this
+      could be my only chance at the truth."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CThank you, Ethan, but\u2026 I\u2019ll give it back myself.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: 'He fell silent. His gaze lingered on me for too long, like he was weighing
+      something. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CDon\u2019t worry,\u201D I forced a smile. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CI\u2019ll make it up to him, no matter what.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "Ethan raised a brow. \u201CShould I talk to him first?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CNo, it\u2019s fine.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "Another silence. His lips curved, but the softness didn\u2019t quite reach
+      his eyes this time."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201C\u2026Alright. Just\u2026 be careful.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CIt\u2019s late. I\u2019ll head home now.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CRight. Get home safe,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: Ethan said, his voice calm, measured. He walked past me, the sound of his
+      footsteps fading into the evening.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: 'The phone in my pocket felt heavier with every step. '
+    noBackground: 0
+  options: []

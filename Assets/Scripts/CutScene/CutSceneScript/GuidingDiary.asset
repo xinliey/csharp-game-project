@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: GuidingDiary
+  m_EditorClassIdentifier: 
+  cutscenename: 
+  Selectable: 0
+  cutSceneLevel: 1
+  nextTrigger: 1
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: Hello, my savior.
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "There are some things you need to know if we\u2019re going to survive
+      this together."
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "The girl who died\u2026 her name was Chloe. She was beautiful, popular,
+      and cruel\u2014especially to me. "
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "Ever since I transferred here, she never let a day pass without picking
+      on me. And now\u2026 because everyone knows she called me to meet her, they
+      believe I was the last one with her before she fell. "
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: That makes me the perfect suspect.
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "But I didn\u2019t do it. You believe me\u2026 right? "
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "That\u2019s why I need your help. We\u2019ll find the truth together."
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "Chloe always surrounded herself with a certain group of people. If anyone
+      knows what really happened, it\u2019ll be them"
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "Niki \u2013 my stepbrother\u2026 he barely even looks at me anymore."
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "Then Jay, Jake, Ethan, Benjamin \u2013 the ones everyone admires. Smart,
+      respected, untouchable. They were always around Chloe, like planets orbiting
+      the sun."
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "I\u2019ve saved what little I know about them in my phone. It\u2019s not
+      much, but it\u2019s a start. (press p for phone)"
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "If you discover anything more, please keep adding notes\u2014we\u2019ll
+      need every piece of information we can get."
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "For now\u2026 all roads lead back to school. "
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: it located at the northern part of the town.
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: "That\u2019s where they\u2019ll be. That\u2019s where our investigation
+      begins."
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: however , my body hasn't been well since the incident...
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: I tend to get tired easily, but buying potion at Jake's store could really
+      help
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: I usually feel much more energetic on the next day whenever I had it.
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: oh and you can change and rearrange inventory by pressing I.
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 0}
+    line: that's all! I wish you the best!
+    noBackground: 1
+  options: []

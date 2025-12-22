@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: HSLore4
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: Ethan extended a small package toward you
+    expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+  - text: "\u201CHere,\u201D he said with a faint smile"
+    expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+  - text: " \u201CI made this for you. I\u2026 hope you like it.\u201D "
+    expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+  - text: 'There was a pause, not awkward, just thoughtful. '
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: Then he glanced away, just slightly.
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201CI\u2019ve been feeling much more at ease when you're around,\u201D "
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: ' he said, a touch of warmth slipping into his voice'
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: " \u201CThank you\u2026 for bringing me peace.\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}
+  givePresent: 1
+  GiftObject: {fileID: 11400000, guid: fbf35b5d32f1a36418770ca6e3406a84, type: 2}
+  choices: []

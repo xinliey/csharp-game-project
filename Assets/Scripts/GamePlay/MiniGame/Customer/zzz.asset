@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75a882d4e5a83947911b76b4adc6e12, type: 3}
+  m_Name: zzz
+  m_EditorClassIdentifier: 
+  Name: customer2
+  data:
+    Ordered: 0
+    OrderedTime: 0
+  OrderDialogue:
+  - dialogue: I'm craving something sweet
+    dessert: {fileID: -1146705854, guid: 688ffb4dbf05d7f46bded4d11d0cf825, type: 3}
+    DessertName: CocoaCometSpiral
+  - dialogue: I heard this is good for health
+    dessert: {fileID: -2140949314, guid: 688ffb4dbf05d7f46bded4d11d0cf825, type: 3}
+    DessertName: MysticMeadowBrew
+  - dialogue: maybe, I need something refreshing
+    dessert: {fileID: 369144128, guid: 688ffb4dbf05d7f46bded4d11d0cf825, type: 3}
+    DessertName: TwilightNectar
+  movement:
+  - transform: {x: 8, y: -1, z: 0}
+    arrivedTable: 0
+  - transform: {x: 8, y: 6, z: 0}
+    arrivedTable: 0
+  - transform: {x: 3, y: 6, z: 0}
+    arrivedTable: 1
+  - transform: {x: 8, y: 6, z: 0}
+    arrivedTable: 0
+  - transform: {x: 8, y: -5, z: 0}
+    arrivedTable: 0

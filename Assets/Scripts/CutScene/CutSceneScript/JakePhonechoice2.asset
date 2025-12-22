@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakePhonechoice2
+  m_EditorClassIdentifier: 
+  cutscenename: choice2
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: JakeHouse
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "Maybe\u2026 it\u2019s safer this way. If I hold onto it, Jake will only
+      hate me more. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "He trusts Ethan more than anyone\u2014if anyone can calm him, it\u2019s
+      him."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CThanks, Ethan. I don\u2019t think Jake wants to see my face right
+      now.\u201D I handed over the phone."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CNo worries.\u201D He accepted it smoothly"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "slipping it into his pocket. \u201CI\u2019ll talk to him for you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201C\u2026You\u2019re always helping me. Thanks.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: He checked the screen briefly, the glow of the phone lighting his smile
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CYou should go home now\u2014it\u2019s late. I\u2019ll stop by Jake\u2019s
+      and scold him for snapping at you,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "I laughed weakly. \u201CYou really are a saint.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CAm I?\u201D His voice was calm, almost too calm. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "\u201CGo on now. Don\u2019t wander alone at night.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "I nodded and left, but the pit in my stomach didn\u2019t fade."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: cef8871a746fe5941ab56326f7b2e8bd, type: 3}
+    line: "Ethan slipped Jake\u2019s phone into his pocket and walked away. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: later that night.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: A phone was ringing next to my bed.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: Surprisingly it's a call from Jake. I think Ethan did talked to him.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: I picked up.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: '"hey"'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: There was a pause on the line before he spoke, his voice low and a bit
+      stiff
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "\u201CUh\u2026 look, I\u2019m sorry for earlier.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "\u201CI was out of line, yeah? Been on edge lately.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: I could hear him exhale, a faint scrape like he was rubbing the back of
+      his neck.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "\u201CAnyway\u2026 let me make it up to you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: He tried for a lighter tone, almost joking, but it wavered.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "\u201CCome over again. I\u2019ll whip up some snacks this time\u2014real
+      snacks, not just whatever\u2019s in the pantry. And\u2014\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: a quick, self-deprecating laugh
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "\u201C\u2014I\u2019ll even let you copy my homework. Proper VIP treatment.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: I opened my mouth to reply, but he barrelled on, as if afraid I might refuse.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "\u201CYeah? Good. I\u2019ll be waiting. Don\u2019t keep me hanging.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: The line clicked dead before I could answer.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: 'I lowered the phone slowly, the quiet of my room settling in around me.
+      Why the sudden change? '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: "Was he really just trying to apologise\u2026 or did he have something
+      he needed to say but couldn\u2019t bring himself to over the phone?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 69d9fcec855336e408a199443afdf2d5, type: 3}
+    line: Either way, he wanted me there.
+    noBackground: 0
+  options: []

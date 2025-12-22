@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75a882d4e5a83947911b76b4adc6e12, type: 3}
+  m_Name: customer4
+  m_EditorClassIdentifier: 
+  Name: customer2
+  data:
+    Ordered: 0
+    OrderedTime: 0
+  OrderDialogue:
+  - dialogue: this
+    dessert: {fileID: -1146705854, guid: 688ffb4dbf05d7f46bded4d11d0cf825, type: 3}
+    DessertName: CocoaCometSpiral
+  - dialogue: let's go , give me this !
+    dessert: {fileID: -1930583504, guid: 688ffb4dbf05d7f46bded4d11d0cf825, type: 3}
+    DessertName: "Goblin\u2019sGoldSlice"
+  - dialogue: tw- something I dont remember the name
+    dessert: {fileID: 369144128, guid: 688ffb4dbf05d7f46bded4d11d0cf825, type: 3}
+    DessertName: TwilightNectar
+  movement:
+  - transform: {x: 8, y: -1, z: 0}
+    arrivedTable: 0
+  - transform: {x: 8, y: 9, z: 0}
+    arrivedTable: 0
+  - transform: {x: -6, y: 9, z: 0}
+    arrivedTable: 0
+  - transform: {x: -6, y: 6, z: 0}
+    arrivedTable: 1
+  - transform: {x: -6, y: 9, z: 0}
+    arrivedTable: 0
+  - transform: {x: 8, y: 9, z: 0}
+    arrivedTable: 0
+  - transform: {x: 8, y: -1, z: 0}
+    arrivedTable: 0

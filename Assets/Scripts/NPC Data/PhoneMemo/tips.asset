@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5165370c4a964c81ecf2d35b516ae, type: 3}
+  m_Name: tips
+  m_EditorClassIdentifier: 
+  storyline:
+  - text: press z to interact
+  - text: 'press x to gift '
+  - text: part-time job at Jay's house
+  - text: make sure to go home before running out of stamina
+  - text: i'll write down more information in this note.
+  Name: Tips
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}

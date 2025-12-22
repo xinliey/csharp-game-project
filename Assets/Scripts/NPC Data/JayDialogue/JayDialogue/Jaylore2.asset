@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: Jaylore2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  line:
+  - text: Chloe doesn't really fond of study.
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: She always come and ask me to help with her homework
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: well, It's not like I can refuse her right?
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: but before she disappear, she seems to be interest
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: in math subjec since she joined Math club.
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  actor: {fileID: 11400000, guid: d34a2fe3c42b99645810e7b577343701, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: SunghoonHidden
+  m_EditorClassIdentifier: 
+  cutscenename: JayhoonPhoto
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: 'I was staring at the photo without realize sunghoon was behind me, he
+      came into the room and staying silent. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "It was very awkward to the point I had to ask him \u201Couh, so you two
+      used to be friend\u201D."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: Sunghoon was in silent for awhile before he sighed and answered
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "Sunghoon was in silent for \u201Cyes, we were very close\u201D he seems
+      reluctant as if he was thinking if he should tell me the rest of the story. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "\u201CI haven\u2019t anyone about this\u2026but you are pretty special
+      to me, the truth is we started to grow distant ever since I confessed to him\u201D. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "I wasn\u2019t sure if what I heard is right so I looked at him in his
+      eyes yet his eyes seems very serious. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "\u201CI grew up with Jay,  he might talk bluntly but I know better than
+      anyone how gentle and kind he can be"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "and at some point I confessed to him in the beginning of high school but
+      he couldn\u2019t take the fact that I am into him so he was gone for good,"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "I don\u2019t know how but after time passes we gradually started to act
+      like we hate each other so that was pretty understandable if the whole school
+      think we hate each other.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: 'I looked at sunghoon with mix feeling , he showed me his rare smile yet
+      his eyes clearly look very sad '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "\u201Cdon\u2019t you worry, I no longer have that kind of feeling towards
+      him. However I still would like to be friends again\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: 'as he finished talking , he tried to act cold again as if we were not
+      discussing about his hurtful past '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: ', his pale hands grabbed me by shoulders and lead me towards the door '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: 'by the time I realize it I was already outside of his room. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
+    line: "\u201Cbye\u201D he said coldly as he close the door at my face."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: well, I guess there's nothing I can do beside going home
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: I hope he's fine
+    noBackground: 0
+  options: []

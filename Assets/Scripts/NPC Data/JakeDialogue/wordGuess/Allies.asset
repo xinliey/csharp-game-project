@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: Allies
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: broooooo
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: seems like I hit the jackpot.
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: I'm so lazy. Can you make it quick tho.
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "This one\u2019s about mates you can count on when the going gets tough."
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: "Like your backup crew, your team\u2014you know"
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: More like the people who get stuck with your mess.
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  - text: you heard him lmao
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  - text: gotta go mate , Nik wants to enter rank game.
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  - text: later
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  actor: {fileID: 11400000, guid: 62fa76b9acf93854f9d6a25492c544bd, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

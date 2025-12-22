@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: HSLore1
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: "\"People usually assume it\u2019s my father who puts pressure on me\u2026\""
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: he said, almost like he was thinking aloud.
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201Cbut\u2026 it\u2019s actually someone else.\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: His gaze lingered on the floor, thoughtful but composed
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: like he was revealing just a sliver more than he meant to.
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

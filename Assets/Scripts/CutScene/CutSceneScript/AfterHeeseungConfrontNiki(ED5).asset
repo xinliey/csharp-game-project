@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: AfterHeeseungConfrontNiki(ED5)
+  m_EditorClassIdentifier: 
+  cutscenename: AfterHeeseungConfront
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: Ending(5/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: ba7ead64bf1df2f4f88009e6683b3ef4, type: 3}
+    line: "The door slammed open. Niki appeared, sharp gaze immediately locking onto
+      me in Ethan\u2019s grasp. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ba7ead64bf1df2f4f88009e6683b3ef4, type: 3}
+    line: Without hesitation, he stepped forward and placed himself between us.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CStep back. Now.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: 'Then, turning slightly toward me, his voice dropped quieter, firm but
+      not unkind:'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CYou shouldn\u2019t be here. Don\u2019t ever do this again.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "Ethan\u2019s eyes narrowed, irritation slipping into his usually composed
+      tone."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CHow come you started to care about her? Weren\u2019t you the one
+      treating her badly all this time\u2026 just because Chloe told you to?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: Niki froze, jaw tightening. His next words were clipped but carried weight.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CSo\u2026 you killed Chloe because of this?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "Ethan\u2019s expression faltered. The youngest friend he had always seen
+      as a little brother had asked him the question outright. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: He looked at me, then back at Niki, his voice quieter.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CJake told you everything, then?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: Niki gave no answer, his silence cutting deeper than words. Ethan let out
+      a tired scoff.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CIf I didn\u2019t get rid of Chloe, would you have even started talking
+      to her normally?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: He shifted his gaze toward me. For a moment, his voice softened.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CNiki, I don\u2019t regret it. This is the first time I\u2019ve done
+      something I truly wanted. You know I grew up in a cage of perfection, owned
+      by my family. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\"Killing Chloe\u2026 was the only way to protect her. Besides her, there\u2019s
+      no one left who can terrify Jake. No one to stir the bond between Jay and Benjamin.
+      No one to treat you like a toy. Isn\u2019t that reason enough?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "Niki\u2019s face remained unreadable, but his eyes trembled. No reply
+      came."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "The police stormed in, pulling Ethan away. He didn\u2019t resist. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: Niki stayed in front of me, posture rigid, a wall between me and everything
+      else.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CYou\u2026 don\u2019t freeze now,\u201D he said at last, clipped
+      but steady."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: de320f2af3f20a34aa5dd458dea1fd0f, type: 3}
+    line: "\u201CLet\u2019s go home. I\u2019ll cook something for you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "I felt the weight of his presence at my side. He glanced back once, just
+      briefly, at Ethan\u2014something heavy in his eyes before he looked away."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CEthan was right. If Chloe wasn\u2019t gone, I\u2019d probably still
+      treat you poorly. I\u2019m\u2026 sorry.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: He quickened his pace, waiting for me to catch up, hiding the faint gloss
+      in his eyes. He would rather die than cry in front of anyone.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CI know it\u2019s unforgivable, but\u2026 would you let me make it
+      up to you? By treating you properly, from now on?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "He was right\u2014it was unforgivable. He had abandoned me when I needed
+      someone most, believing lies without hesitation. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "Family, yet not there when it mattered. I couldn\u2019t forgive him\u2026
+      not yet. My face went blank as I answered firmly"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CWe\u2019ll see.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: Niki raised his brows, genuinely surprised. Then a crooked smile tugged
+      at his lips, mocking but honest.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CLook at you, getting all prideful now\u2026 but I like this better.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: His voice softened, almost teasing.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CThis way, princess. Let me treat you well.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: 
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: Ending(5/5)
+    noBackground: 0
+  options: []

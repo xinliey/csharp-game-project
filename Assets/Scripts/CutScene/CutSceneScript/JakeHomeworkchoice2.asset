@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakeHomeworkchoice2
+  m_EditorClassIdentifier: 
+  cutscenename: choice2
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: JakePhone
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Jake froze. His hand tightened around the tray.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201C\u2026What are you talking about?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CI just\u2026 feel like your handwriting looks familiar,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "I said, carefully pulling out the note I had found under Benjamin\u2019s
+      desk. I held it up"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: eyes flicking between the paper and the pages spread out before me. The
+      match was undeniable.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "Jake\u2019s face darkened instantly. He slammed his palm against the doorframe. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CIt was just a stupid joke between us! Why the hell are you digging
+      into it like it\u2019s some crime?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "I met his glare evenly. \u201CIf it\u2019s nothing, then why are you so
+      angry?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'His voice rose, cracking under the pressure. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201COf course I\u2019m angry! You come here, accuse me, act like I\u2019m
+      some kind of criminal! \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\"Are you even talking to me because you want to, or is it all because
+      of this?!\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'His words cut fast, his tone suddenly desperate. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CI thought you wanted to be my friend. I trusted you! But I guess
+      I was wrong.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "The guilt-trip left me reeling, his words spilling so fast I couldn\u2019t
+      wedge mine in. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: His face was red, his chest rising sharply with each breath.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "Then\u2014bang. He shoved past me, slamming the door behind him so hard
+      the walls rattled."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'I sat frozen, stunned by the outburst. My chest tightened with confusion. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Why react that strongly if it was just a joke?
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: I left the house quietly. The sun had already dipped low, shadows stretching
+      across the street.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: "As I walked, I noticed a figure ahead\u2014Jake\u2019s silhouette, lingering. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: . For a moment his eyes met mine. Then he looked away sharply, stomping
+      off.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: Something slipped from his pocket. His phone.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: "\u201CJake\u2014wait, you dropped\u2014\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: "\u201CDon\u2019t talk to me!\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: 'he shouted over his shoulder, covering his ears as if my words burned. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: Then he broke into a jog, disappearing into the dusk.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dbe02329ad4e1084aabe64b2fb415621, type: 3}
+    line: 'The phone lay on the pavement, screen cracked from the fall.  '
+    noBackground: 0
+  options: []

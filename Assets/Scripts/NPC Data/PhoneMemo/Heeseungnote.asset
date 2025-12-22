@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5165370c4a964c81ecf2d35b516ae, type: 3}
+  m_Name: Heeseungnote
+  m_EditorClassIdentifier: 
+  storyline:
+  - text: The president of student council of the school.
+  - text: He is the girl's fiance.
+  - text: The engagement was forced by adults.Seems like there's no love
+  - text: He mentioned Jay has a crush on her but he's happy for them.
+  - text: He said I brought him peace? what does it mean.
+  Name: Ethan
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}

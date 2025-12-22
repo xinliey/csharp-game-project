@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: chloeletternk
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: NextVictim
+  line:
+  - text: '"Sup.'
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+  - text: "I was about to call\u2014said I\u2019m heading over to Jay\u2019s"
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+  - text: "\u2026 eh? You went through Chloe\u2019s locker?"
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+  - text: "Tch, I get that you want the truth, but that\u2019s not nice, you know?"
+    expression: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+  - text: "\u2026Fine. Since it\u2019s already done, tell me about the letter."
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+  - text: "Wait\u2026 hold on."
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+  - text: "Isn\u2019t this\u2026"
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+  - text: "Ugh, damn it. I can\u2019t be sure what it says right now."
+    expression: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+  - text: "We\u2019ll figure it out later. "
+    expression: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+  - text: "For now, there\u2019s somewhere I need to be. "
+    expression: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+  - text: "Don\u2019t follow me. Later."
+    expression: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+  actor: {fileID: 11400000, guid: 57af6004d56c9904b85208d04ecf5015, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

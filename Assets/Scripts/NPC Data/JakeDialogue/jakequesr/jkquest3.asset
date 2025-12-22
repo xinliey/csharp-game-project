@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: jkquest3
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  StoryItemTrigger: 
+  line:
+  - text: "It was really hard to break the ice with Benjamin the first time we met.
+      Ah\u2014sorry, maybe you don\u2019t know what \u2018break the ice\u2019 means?\""
+    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+  actor: {fileID: 11400000, guid: 62fa76b9acf93854f9d6a25492c544bd, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices:
+  - ChoiceText: he was cold
+    dialogueContainer: {fileID: 11400000, guid: d42794bfbe0866d489fd4c88ea88b00f, type: 2}
+    isQuest: 0
+    score: -0.1
+  - ChoiceText: start talking
+    dialogueContainer: {fileID: 11400000, guid: 4817fc1ab3d6b254fb458ef00b9651d6, type: 2}
+    isQuest: 0
+    score: 0.1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: FirstDayCaafe
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: this is where you do part-time job
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: once you write the menu next to counter, we will open immediately
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: before customers come in , I'd like you to check the menu with me again
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: make sure you don't get the name wrong or that will be deduct from your
+      tips.
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: I hope this isn't too hard for you right?
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  actor: {fileID: 11400000, guid: d34a2fe3c42b99645810e7b577343701, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

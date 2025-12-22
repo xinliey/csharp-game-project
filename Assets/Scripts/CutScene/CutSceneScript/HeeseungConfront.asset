@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HeeseungConfront
+  m_EditorClassIdentifier: 
+  cutscenename: HeeseungConfront
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  dialogue:
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: 'Ethan greets you at the door with his usual composed smile, though his
+      eyes seem sharper than usual. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"\u201COh\u2026 I didn\u2019t expect you to come here, to my house. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: 'He gestures toward his  room. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\". Would you like some tea? \u2026You don\u2019t look well. What is it
+      I can do for you?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: 'The silence stretches, heavy. I know why I came '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: I need to tear the truth from him. But how should I ask him?
+    noBackground: 0
+  options:
+  - Option: Did you kill Chloe.
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: 41ce6eec9f451fc4da8233372a8ae5e9, type: 2}
+  - Option: I just wanna spend time with you.
+    Score: 0.05
+    OptionDialogue: {fileID: 11400000, guid: 04d3cdd8c917ef845aff416d76564870, type: 2}

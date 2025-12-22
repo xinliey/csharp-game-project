@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: quest1
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  StoryItemTrigger: 
+  line:
+  - text: From which country Hitler was born in?
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  actor: {fileID: 11400000, guid: d34a2fe3c42b99645810e7b577343701, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices:
+  - ChoiceText: Austria
+    dialogueContainer: {fileID: 11400000, guid: 35029ce205515cb48878fc5884bf3810, type: 2}
+    isQuest: 0
+    score: 0.25
+  - ChoiceText: Germany
+    dialogueContainer: {fileID: 11400000, guid: cad5f62f0ab2af44395c9d6d450e8965, type: 2}
+    isQuest: 0
+    score: -0.25

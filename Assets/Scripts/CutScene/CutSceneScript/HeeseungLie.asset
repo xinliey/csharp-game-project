@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HeeseungLie
+  m_EditorClassIdentifier: 
+  cutscenename: HeeseungLie
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "It had been gnawing at me for days. Ethan had said Jay wasn\u2019t sad
+      at all about Chloe\u2019s death. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "But that wasn\u2019t what I\u2019d seen. Jay might act angry and rough
+      around others"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "But that wasn\u2019t what I\u2019d sbut I\u2019d caught him wiping his
+      eyes when no one was around. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "He was hiding his grief\u2014so why would Ethan think otherwise? Did he
+      truly not notice\u2026 or was he lying?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CSomething on your mind?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "Ethan\u2019s gentle voice pulled me back, his eyes narrowing with that
+      familiar soft concern. He smiled faintly. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CYou look perturbed.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "The words struck me. He can read me so easily\u2026 "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "so why couldn\u2019t he see through Jay?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CEthan, you\u2019re\u2026 good at reading people, aren\u2019t you?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: 'He tilted his head with a light chuckle. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CI don\u2019t think so. I only notice the people I care about.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201C\u2026And Jay? Wasn\u2019t he one of the people you cared about?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201COf course,\u201D Ethan said without hesitation. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CI\u2019ve watched him since he was little. Jay, Jake, Benjamin\u2014I
+      practically raised them.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "He gave a quiet laugh, but it didn\u2019t reach his eyes."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CThen why didn\u2019t you notice how Jay felt after Chloe\u2019s
+      death?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "The smile slipped from his face. Ethan\u2019s gaze drifted, and his voice
+      lowered to almost a whisper. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\"to be honest,I haven\u2019t actually seen Jay since the incident. I
+      only asked from Benjamin\u2026 \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\"but I\u2019ve been buried under paperwork. Dozens of complaints from
+      parents, the school board breathing down my neck, \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\"and you see\u2026my family couldn\u2019t careless about this\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "Oh right, his family is running this school\u2026"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CHow is Jay, then? Is he really that bad?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: My brows furrowed. A knot of confusion twisted in my chest.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "Ethan\u2019s eyes flicked back to me, almost too sharp. Then he softened,
+      smiling faintly. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: " \u201CI\u2019m sorry. Maybe I shouldn\u2019t have relied on Benjamin
+      to check in on Jay. They\u2019ve had\u2026 conflicts. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\"Maybe that\u2019s why Ben couldn\u2019t get much out of him.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: 'Conflicts? '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CYou mean\u2026 between Jay and Benjamin?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: Ethan gave a quiet sigh
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CYes. Ever since high school started.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "My stomach sank. Ethan\u2019s words were smooth, but something about the
+      way he said them felt off."
+    noBackground: 0
+  options:
+  - Option: What happened to them
+    Score: 0.05
+    OptionDialogue: {fileID: 11400000, guid: b8bb49162a7c33f4a9f7bf1e532bc27a, type: 2}
+  - Option: How can I believe that?
+    Score: -0.1
+    OptionDialogue: {fileID: 11400000, guid: 1540bf46d03b3894d9be81ab74374e50, type: 2}

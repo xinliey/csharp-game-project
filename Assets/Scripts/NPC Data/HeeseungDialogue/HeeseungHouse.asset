@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HeeseungHouse
+  m_EditorClassIdentifier: 
+  cutscenename: HeesuengHouse
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  dialogue:
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: Ethan greeted you the moment you stepped inside
+    noBackground: 1
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: his voice warm but steady.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"Hello\u2014I've been waiting for you.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: He reached for something on the table and handed it to you
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: a small bottle filled with pills, the label reading antidepressant
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: '"I found this inside Chloe''s desk."'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: '"Not only that. After I found the medicine'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: ", I went to the clinic listed on the bottle\u2019s label. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: Seems she had been there several times."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: He paused, as if recalling your earlier testimony.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"And from what you told me\u2014"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "by the time you went up to the rooftop, she had already fallen\u2026 "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: and there was no one else there, correct?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"I wouldn\u2019t want to believe she would took her own life. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "But\u2026 now that we have this medicine in our hands"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "we can\u2019t ignore it.\""
+    noBackground: 0
+  options:
+  - Option: then this letter ?
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: b2188d657262aad4894d0b1d22bf3dca, type: 2}
+  - Option: what could trigger her to suicide?
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: 2f10037c39ebf0b4f85d728f12b442b5, type: 2}

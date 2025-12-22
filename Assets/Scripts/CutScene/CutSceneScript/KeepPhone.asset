@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: KeepPhone
+  m_EditorClassIdentifier: 
+  cutscenename: KeepPhone
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "After bringing Jake\u2019s phone back to my room, I kept staring at it
+      on the desk."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "The screen lit up faintly\u2014silent, locked, waiting."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CHey, have you seen Jake\u2019s phone?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "Niki\u2019s voice came from outside. He had just gotten back, later than
+      usual. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CHe\u2019s been whining about losing it and dragged me around town
+      for two bloody hours helping him look.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CAh\u2026 I picked it up. He dropped it on the road.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'A pause. Then Niki sounded half-surprised, half-annoyed. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CHah? And you didn\u2019t say anything earlier? You know how much
+      he nagged me about it? You could\u2019ve spared me a jog across the whole town!\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "\u201CI did try\u2014I called him, but he was too mad to listen. I even
+      told Ethan. Thought he\u2019d pass the word along.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CNope. Didn\u2019t hear a thing from Ethan.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: Niki gave a loud sigh, the kind you could almost feel through the wall.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: " \u201CWhat set Jake off this time anyway, did you two fight?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201C\u2026No. He just\u2026 got upset and stormed off.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'There was silence for a beat, then Niki muttered, '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CWhatever. I\u2019ll call his house and tell them his phone\u2019s
+      here.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CYeah, thanks.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: Finally, I was alone again.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'I turned back to the phone. The soft glow from the locked screen stared
+      back at me, almost daring me. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: What should I do with it?
+    noBackground: 0
+  options:
+  - Option: unlock it
+    Score: -0.05
+    OptionDialogue: {fileID: 11400000, guid: 6e0689e1325058f40a77312f7068cc56, type: 2}
+  - Option: I'll return it to him tomorrow
+    Score: 0.05
+    OptionDialogue: {fileID: 11400000, guid: 3d8abf18d491cc648bf645616149992d, type: 2}

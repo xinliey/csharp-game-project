@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: Jaysadcutscene
+  m_EditorClassIdentifier: 
+  cutscenename: JaySad
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Since Ethan mentioned that Jay was Chloe\u2019s lover, I figured I should
+      at least try talking to him about the situation. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'If anyone could give me a clearer picture, it would be him. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Still\u2026 Ethan said Jay seemed perfectly fine after Chloe died, which
+      made the idea of facing him even more unsettling."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'I was walking down the quiet school hall in the evening, rehearsing in
+      my head what I would say. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: But as I turned the corner toward our classrooms, I froze.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 5ce2a215eb2ed2f4c953b115bdab7a7d, type: 3}
+    line: "Through the window, I spotted a familiar silhouette\u2014Jay\u2014standing
+      at the table that used to be Chloe\u2019s."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 5ce2a215eb2ed2f4c953b115bdab7a7d, type: 3}
+    line: "I was about to call out, but the sound of muffled sobs stopped me cold.
+      My heart skipped. Was he\u2026 crying? "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 0e3fea0187d565c48822ef410bce7166, type: 3}
+    line: "Ethan told me Jay hadn\u2019t looked sad at all, but here he was, shoulders
+      trembling, his hand clutching the edge of the desk as if holding himself together."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 0e3fea0187d565c48822ef410bce7166, type: 3}
+    line: "Did Ethan misread him\u2026 or lie to me? "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 0e3fea0187d565c48822ef410bce7166, type: 3}
+    line: 'Was Jay putting on a tough front in front of everyone? '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 0e3fea0187d565c48822ef410bce7166, type: 3}
+    line: "Or\u2026 could Jay really have had something to do with Chloe\u2019s death,
+      and now the guilt was catching up to him?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: My mind went completely blank. His head snapped up, as if he had sensed
+      someone watching him. Our eyes met for a brief, frozen moment.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "Panic surged through me. I didn\u2019t know what to do, and before I could
+      think, I turned and bolted down the hall"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: as I went home that day... Jay's crying image was stuck in my head
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: how am I suppose to sleep...
+    noBackground: 0
+  options: []

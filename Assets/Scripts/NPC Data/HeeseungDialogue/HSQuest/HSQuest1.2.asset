@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: HSQuest1.2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: "\u201CNo,\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: he continued, a small smile tugging at his lips,
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201CI like it because you can multiply it by any number,"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: and the sum of the digits will still be nine.
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "Isn\u2019t that\u2026 oddly satisfying?\u201D"
+    expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

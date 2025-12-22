@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HSliechoice1
+  m_EditorClassIdentifier: 
+  cutscenename: 
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: SunghoonTable
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "Ethan\u2019s expression faltered, but he quickly looked away, voice soft
+      and careful"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201C\u2026It\u2019s their personal matter. I don\u2019t think they\u2019d
+      appreciate me talking behind their backs.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\"If you really want to know, you should ask them directly.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: he glanced away "seems like it's time"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: '"I need to go and take care of those reports in my room"'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: '"let''s talk later"'
+    noBackground: 0
+  options: []

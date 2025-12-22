@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: HSBestfriend1
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: "\u201CWould you... like to come over sometime?\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: Ethan cleared his throat, trying to sound casual
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201CI mean, I\u2019d like to show you my collection,\u201D "
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: 'he added, lips twitching into a small, sheepish smile. '
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201CIt\u2019s kind of dorky, but\u2014well, I think you'd enjoy it.\u201D"
+    expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+  - text: His gaze flicked away, just for a moment.
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201CI don\u2019t usually invite people over,\u201D "
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: 'he murmured, more to himself than to you. '
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  - text: "\u201CSo\u2026 you know. Just saying.\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a166f656fec327b4ea5357b0cc4022fb, type: 3}
+  m_Name: Protein
+  m_EditorClassIdentifier: 
+  word: Protein
+  dialogueContainer: {fileID: 11400000, guid: 8cb73b25e9eb29c4caf3bf5fd15fdd9e, type: 2}
+  Hint: 'Nutrient '
+  wordUsed: 0

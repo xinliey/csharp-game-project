@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HeeseungConfess1(ED2)
+  m_EditorClassIdentifier: 
+  cutscenename: HeeseungConfess1
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: Ending(2/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: Ethan gave a small chuckle
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: eyes glinting with both amusement and sincerity.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: "\"Dummy girl\u2026 I\u2019ve been in love with you ever since the day
+      I first saw you.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: "\"You might not remember\u2026 "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: "I was that little boy crying outside the headmaster\u2019s office\u2014and
+      you happened to be there, comforting me.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: "I was that little boy crying outside the headmaster\u2019s office\u2014and
+      you happened to be there, comforting me.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    line: '"wait, you were that boy?"'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: '"Yes," '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: '"I was the boy you rescued from those bullies"'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: He looked as if there was something more into that.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: but in the end he chose to bury that topic.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "\"You shouted, \u2018The teacher\u2019s coming!\u2019 and they ran for
+      their lives. Do you remember now?\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "\"Doesn\u2019t matter how long it\u2019s been\u2026 you\u2019ve always
+      had the kindest soul. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "That\u2019s why I\u2019m in love with you.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: Ethan blinked, realizing the weight of his own words.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "\"\u2026Oh dear,\" he murmured"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "\"That\u2019s embarrassingly cheesy, isn\u2019t it? Enough of this\u2014let\u2019s
+      get some food, shall we?\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: 
+    noBackground: 0
+  options: []

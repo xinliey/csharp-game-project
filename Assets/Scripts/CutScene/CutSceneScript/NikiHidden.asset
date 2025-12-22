@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: NikiHidden
+  m_EditorClassIdentifier: 
+  cutscenename: NikiHidden
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "There is a cute gift box on the table inside Niki\u2019s room "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "I couldn\u2019t take a closer look since I hear Niki\u2019s stomping behind
+      me as he walked into the room. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'He raised his brows once he noticed me , switching gaze to the gift on
+      the table. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201Coh that\u201D he mumbled then looked at me "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "it was present for me and you from father from oversea , seems like he
+      and stepmother will not be home any time soon.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: I nodded nothing surprising since they are never really home.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "Niki picked up that box and open it \u201Cdon\u2019t sulk, are you a little
+      girl? \u201C "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'he picked up a piece of chocolate and put it on my hand '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201Cyou know... was very anxious when father brought you and stepmother
+      home\u2026\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: I looked him , waiting to hear what's he gonna say next
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: " \"I was afraid of being left behind and it was quite hurtful to see him
+      loving someone else the way he loved my mother\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: he talked with his low voice in monotone , picked up a piece of chocolate
+      and ate it.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: ". I wasn\u2019t sure of what I should response to him so I was just eating
+      that chocolate in silence until he was the one breaking the silence "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: " \u201Cbut hey , seeing how happy he is now , I think it was worth the
+      pain\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "Niki smiled gently \u201Cafter some time passed , I\u2019ve come to understand
+      him and emphasized him, he must also be going through a lot of pain too ever
+      since my mother passed, don\u2019t you think\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'I nodded , to be more precise I was quite shock to have a heart to heart
+      conversation with him like this. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'This consider the first time he ever explained something to me '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: Niki diidnt continue talking, he just grab few more pieces of chocolate
+      and shove it into his mouth
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "and gave the rest of the box to me. \u201Cyou can have the rest\u201D.  "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: He proceed to walked off his room like nothing happened.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: He left me this heavy feeling in my heart that I can't explain.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: will we ever be the good siblings for each other.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: I wonder
+    noBackground: 0
+  options: []

@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: KeepPhonechoice1
+  m_EditorClassIdentifier: 
+  cutscenename: choice1
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: HeeseungConfront
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'My fingers trembled slightly as I tried to unlock it. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "Surely Jake would make his password something personal, something easy\u2026"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "\u201CLayla.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: The screen lit up. Unlocked.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "I froze. That was\u2026 too easy."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: Almost immediately, a notification buzzed.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: it's a new message from Benjamin.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'Benjamin: saw you online. got your phone back?'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: My throat went dry. Slowly, I typed back, pretending to be Jake.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: 'Me (as Jake): yeah.'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "I opened his messenger. His chat list was a storm\u2014memes, random group
+      chats, short arguments. My eyes skimmed past them until\u2014"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: A conversation buried halfway down, muted and greyed out. Almost invisible.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "The name was nothing but three letters: \u201CEJB\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "It didn\u2019t look like a normal group chat. No picture. No notifications.
+      Hidden on purpose?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: "The messages weren\u2019t recent, but the longer I scrolled, the heavier
+      my chest grew."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: dd2a564ec85e9684d9a11aeff5da7aed, type: 3}
+    line: ...
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4ce6b35cc03b43a4e83ebdfda88e0db1, type: 3}
+    line: "Benjamin\u2019s replies got fewer. Shorter. Reluctant."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 296e61aa7277f9143b428b9cf94dd5ef, type: 3}
+    line: "They\u2019d made it into some kind of game. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 296e61aa7277f9143b428b9cf94dd5ef, type: 3}
+    line: "Testing Chloe\u2019s loyalty like she was part of an experiment."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: Then I reached the date of her death.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: 'The chat ended there. No follow-up. No confirmation. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: My stomach dropped.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: Ethan was there. Inside the building. The day Chloe fell.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: dee2b3849af0a4c4b9400d614a8d4899, type: 3}
+    line: My hand trembled as I locked the phone, the screen going black.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: "He was involved in this \u201Cplan\u201D?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: "He forgot a bag\u2026 in the building."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: "I clenched Jake\u2019s phone tighter in my hand."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: Ethan might have been right there.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 41a6bddb3daa3044e8c6c99a64b56f14, type: 3}
+    line: I need to check him again.
+    noBackground: 0
+  options: []

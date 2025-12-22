@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: NextVictimSh
+  m_EditorClassIdentifier: 
+  cutscenename: NextVictim
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: Ending(1/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "The school hall was buzzing with voices, louder and heavier than usual.
+      Something was wrong\u2014everyone could feel it."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: I spotted Jay, Niki, and Jake pushing their way through the crowd toward
+      me. Their faces were pale, drawn tight with unease.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CEthan and Benjamin\u2026 they\u2019ve both been missing since yesterday,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: Jake said, his tone sharp but trembling at the edges.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201C\u2026Benjamin\u2019s gone?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "Jay\u2019s composure shattered. His face twisted with panic as he paced"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CNo, no, no\u2026 he wouldn\u2019t just vanish like that. there must
+      be some misunderstanding.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201Ctrust me, he\u2019s been with me since we were kids. He\u2019s always
+      there\u2014always\u2014he can\u2019t just\u2026\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: Niki stepped forward cautiously.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201CJay. Calm down. We\u2019ll figure this out. Let\u2019s think clearly\u2014\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "Jake came in , gently pat on his friend\u2019s back, Jay gritted his teeth
+      , his shoulders trembled mumbling something to himself"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201C\u2026Why was I like that to him\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: 'Niki leave the rest to Jake as he shift his gaze towards me '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "\u201C\u2026Have you seen them?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "The last time I heard Benjamin\u2019s voice was on the phone. I\u2019d
+      called him to ask about the strange riddle in Chloe\u2019s letter\u2026"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "but his reply was off. He had sounded nervous, rushed. And then\u2014he
+      hung up. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: 'I swallowed hard, fingers brushing against the folded paper in my pocket.
+      Should I show them? '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: this letter might be connected. But what if revealing it only made things
+      worse?
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "For a moment, hesitation pinned me in place. Then, with a quiet breath,
+      I pulled out Chloe\u2019s letter and held it out."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: The boys froze, staring at it, the weight of the moment settling like a
+      stone.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: "Niki\u2019s voice came quiet, measured. \u201C\u2026You\u2019ve only shown
+      this to Benjamin?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: 'I nodded. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: For a long moment, no one moved. Then Niki exhaled.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: "\u201C\u2026I\u2019ll notify the police.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: He turned quickly and disappeared into the crowd.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: 'Jay stood rooted to the spot, trembling with Jake beside him shaking his
+      head '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: "\u201CThis is bad\u2026\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: 'He looked back at me, his usual recklessness giving way to urgency. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: "\u201CJust stay close to us, alright? We will be able to find them.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 25e0b871d1542f141aff940a7c22b126, type: 3}
+    line: The sound of chatter in the hall went on around us, but for me, the world
+      felt suddenly muffled
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: 'like all that existed was the letter trembling in my hand, and the hollow
+      fear rising in my chest. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: In the end, no matter how hard we searched, Jay and Ethan were nowhere
+      to be found.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: My thoughts spun in circles.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "What really happened? Did someone take them? Or\u2026 was one of them
+      the killer all along? "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: The questions clawed at my chest, but no answers came. Only uncertainty.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: I glanced down at my hands, trembling, the letter still clenched tight.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: "\u201C\u2026Could things have turned out differently\u2026 if I had made
+      another choice?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: and with that thought, the darkness of doubt swallowed me whole.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: 
+    noBackground: 0
+  options: []

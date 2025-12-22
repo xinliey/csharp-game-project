@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: Sandwich
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: ...
+    expression: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+  - text: ah...this.
+    expression: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+  - text: 'Common structure: carbohydrate base, protein core'
+    expression: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+  - text: often with condiments.
+    expression: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+  - text: Layered. Portable. Efficient.
+    expression: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+  - text: "DO NOT REDUCE JAKE\u2019S ENTIRE PERSONALITY TO A LUNCH ITEM"
+    expression: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+  - text: SHOW SOME RESPECT TO THE SANDWICH, BENJAMIN
+    expression: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+  - text: Jay
+    expression: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+  - text: disturbing people during a phone call is poor manner.
+    expression: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+  - text: and Respect is earned.
+    expression: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+  - text: His last one was just bread and sadness.
+    expression: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+  actor: {fileID: 11400000, guid: 30b69fa3255e52b43879b81041c04784, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

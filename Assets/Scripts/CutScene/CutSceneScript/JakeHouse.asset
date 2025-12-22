@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakeHouse
+  m_EditorClassIdentifier: 
+  cutscenename: JakeHouse
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: ChloeLetterSecond
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "I came to Jake\u2019s house as promised."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: He greeted me at the door with a bright smile, Layla wagging her tail at
+      his side.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CHey, you made it. C\u2019mon in,\u201D he said, sounding cheerful."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: We sat down in his room, and he pulled out a puzzle book, setting it on
+      the table between us.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CYou into puzzles?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: I asked, since he looked more stressed than entertained.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'He gave a short, dry laugh. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CMe? Nah, not really. Got kinda\u2026 traumatised by \u2019em, to
+      be honest.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: He dropped the pen and leaned back with a sigh.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CChloe\u2014she always looked like the studious type, yeah? But really,
+      she was obsessed with riddles.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\"Proper obsessed. She used to shove pages of them at me and make me solve
+      the lot. And if I didn\u2019t have the answers by the next morning\u2026\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'His smile twisted into something bitter. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201C\u2026she\u2019d confiscate my brekkie...breakfast-  I mean.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "He smirked faintly at his slip, then shrugged. \u201CCruel, huh?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "I blinked in surprise. \u201CShe really did that?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CYeah. Half the time I had to ask the boys for help. She thought
+      she was some kind of mastermind, I reckon. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\"Lucky for me, she chilled out once she got a boyfriend\u2014at least
+      then she stopped forcing everyone else to play her little games.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: His words stuck with me.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "Chloe\u2026 riddles\u2026"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'That letter in her locker. Could there have been a hidden meaning in it? '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: I need to check it again. Fast.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CJake, I\u2019m sorry\u2014there\u2019s something urgent I need to
+      do.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: He frowned, sulking slightly.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201COi\u2014what about me then? Just gonna ditch me?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CUh\u2026 play with Layla?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: He slumped back dramatically.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CFine. I\u2019ll go bother Jay instead, since you\u2019re too busy
+      for me.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CI\u2019m sorry,\u201D I said quickly, already getting up."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "He gave me a cheeky look as I left, like he was half amused, half sulking.
+      But I didn\u2019t have time to dwell on it."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Right now, only one thing mattered
+    noBackground: 0
+  options: []

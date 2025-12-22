@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: Nk4.4
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: "So\u2026 what should we have for dinner tonight? "
+    expression: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+  - text: "\u2026Hm, should we crash at Jay\u2019s place? "
+    expression: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+  - text: "Hehehe, of course he\u2019d feed us for free. "
+    expression: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+  - text: That guy owes us anyway
+    expression: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
+  actor: {fileID: 11400000, guid: 57af6004d56c9904b85208d04ecf5015, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

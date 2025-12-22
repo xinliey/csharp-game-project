@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: AfterHeeseungConfrontHeeseung
+  m_EditorClassIdentifier: 
+  cutscenename: AfterHeeseungConfront
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    line: 'For a moment, he only stared, eyes unreadable. Then, finally, Ethan let
+      out a deep sigh. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    line: "His grip loosened, and when he spoke again, his voice carried that familiar
+      softness\u2014too gentle to be real."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    line: "\u201CCome on now\u2026 don\u2019t be scared. I won\u2019t do anything
+      to you. I promise.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    line: "His words were tender, but the chill in my bones wouldn\u2019t fade. His
+      smile was warm, yet it felt like a mask I couldn\u2019t tear off."
+    noBackground: 0
+  options:
+  - Option: "Of course, I\u2019d be scared , you killed her didn\u2019t you."
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: 2a36d55a6cc3e3c45a1ca04acf7107ab, type: 2}
+  - Option: "Please\u2026Ethan tell me the truth"
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: 6754de7cc10ca2244ab343e7adb64085, type: 2}

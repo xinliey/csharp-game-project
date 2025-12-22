@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HeeseungHouseChoice2
+  m_EditorClassIdentifier: 
+  cutscenename: HeesuengHouse
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  dialogue:
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: Ethan leaned back slightly, folding his arms in thought.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"That\u2019s a good question\u2026 Since I was her fianc\xE9,"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "I can say this\u2014Chloe had a very strict family"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "That might explain why she wasn\u2019t always kind to others"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "And you know\u2026 studying was never her strength. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "Maybe\u2026 it all became too much for her.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: He stepped closer, his expression softening as he reached out and held
+      your hand.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"Please don\u2019t make that face\u2014"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "you\u2019re making me worried.\" "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"I don\u2019t want to see this pretty face weighed down with stress.
+      What "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"I don\u2019t want to see this pretty face weighed down with stress."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "What can I do\u2026 ah\u2014how about I make you some ramyeon? "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: We can talk about this more once you feel better."
+    noBackground: 0
+  options:
+  - Option: Heeseung...Why are you treating me so good.
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: dce4091f6798b394e8dcd427095040eb, type: 2}
+  - Option: you're acting like you like me.
+    Score: 0
+    OptionDialogue: {fileID: 11400000, guid: dce4091f6798b394e8dcd427095040eb, type: 2}

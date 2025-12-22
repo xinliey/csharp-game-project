@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: SunghoonDeskchoice1
+  m_EditorClassIdentifier: 
+  cutscenename: SunghoonDesk
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: JakeHouse
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201C...What are you doing at my desk?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: I nearly jumped. Benjamin stood at the doorway, watching me, his expression
+      flat
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'I quickly palmed the note into my pocket. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CI\u2026 I was just checking if anyone had seen my pen. It\u2019s
+      been missing for a few days.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Benjamin\u2019s brow furrowed. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CThis isn\u2019t the lost and found. Don\u2019t touch my things again.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: He dropped heavily into his seat, pulling a book toward him
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'but his frown lingered, eyes cutting at me like a warning: leave.'
+    noBackground: 0
+  options: []

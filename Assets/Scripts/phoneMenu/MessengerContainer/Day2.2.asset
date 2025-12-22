@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f654e17a49f8dfb48954f0183bbde855, type: 3}
+  m_Name: Day2.2
+  m_EditorClassIdentifier: 
+  line:
+  - text: so helpful
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: 'really advanced the conversation, thanks '
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: ...yeesh
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: Hey.
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: Just finished playing.
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: "What\u2019s going on in here?"
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: "Uh... just talkin\u2019 homework"
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: bit of a mess, mate.
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: that weren't the nice way of talking ,Jay
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: my bad
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: '[name] if you are stuck'
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: i have some notes that could be useful
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: I'll send it to you later.
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: for you guys , come to mine
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: remember
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: open the door by yourself
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: i cant open the door for you
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: are you on playing rank again
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: yes
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: aight , thanks mate
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: thank you
+    name: Benjamin
+    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    playerNext: 0
+  - text: Thanks, Ethan.
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  choices: []

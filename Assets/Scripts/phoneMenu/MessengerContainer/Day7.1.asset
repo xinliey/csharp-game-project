@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f654e17a49f8dfb48954f0183bbde855, type: 3}
+  m_Name: Day7.1
+  m_EditorClassIdentifier: 
+  line:
+  - text: "let\u2019s goooo"
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: 'someone appreciates the art of my lifestyle '
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: wow.
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: 'he burned a tortilla on a pan with no heat '
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: and you STILL defend him?
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: "I\u2019m hurt."
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: "this is like defending a raccoon because \u201Che\u2019s trying his best\u201D"
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: but I respect it
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: "i\u2019d rather room with nik than benjamin\u2019s fork police tbh"
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: "at least Nik doesn\u2019t label his bloody rice"
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: It was jasmine rice.
+    name: Benjamin
+    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    playerNext: 0
+  - text: The label was accurate.
+    name: Benjamin
+    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    playerNext: 0
+  - text: ...
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  choices: []

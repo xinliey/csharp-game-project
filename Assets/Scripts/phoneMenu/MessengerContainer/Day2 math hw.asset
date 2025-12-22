@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f654e17a49f8dfb48954f0183bbde855, type: 3}
+  m_Name: Day2 math hw
+  m_EditorClassIdentifier: 
+  line:
+  - text: anyone started the math homework?
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: the last page looks like ancient hieroglyphs
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: Mate I stared at it for 10 minutes
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: ended up deep-frying dumplings instead
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: my brain legit tapped out
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: Page 3 is fine if you read the example
+    name: Benjamin
+    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    playerNext: 0
+  - text: ohhh wow
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: thanks for the groundbreaking advice professor
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: "I\u2019m not responsible for your inability to follow instructions."
+    name: Benjamin
+    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    playerNext: 0
+  - text: "Oh I\u2019m so sorry Mr. Highlight-Every-Line"
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: Some of us function on vibes and panic.
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: Aight calm down, fellas
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: Aight calm down, fellas
+    name: it's maths, not war
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: he started it
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: with his smug "read the example" energy
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: "If using my brain offends you, I\u2019ll stop."
+    name: Benjamin
+    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    playerNext: 0
+  - text: "Please don\u2019t"
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: one of us has to carry the mental load
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: and it sure as hell ain't me
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: whatever
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: "I\u2019ll just bribe Ethan with food "
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 0
+  - text: and he's gonna teach us
+    name: Jay
+    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    playerNext: 1
+  choices:
+  - ChoiceText: I can help
+    messengerContainer: {fileID: 11400000, guid: 3f858d8821dc5ed44bdde7952e09e5b1, type: 2}
+    score: 0.05
+    npc: {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
+  - ChoiceText: I'm confuse too
+    messengerContainer: {fileID: 11400000, guid: eadcc9f1edda53745bc42b69c7b79281, type: 2}
+    score: 0.05
+    npc: {fileID: 11400000, guid: 39b286997ae085a4dbc7a3b9458a195d, type: 2}

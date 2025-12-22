@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: quest4ans2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  line:
+  - text: 'that''s not it. '
+    expression: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+  - text: for ancient Rome , purple is forbidden for commoner
+    expression: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+  - text: because the dye was very expensive back then.
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: because the dye was very expensive back then.
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  - text: '*sigh* I''ll get going'
+    expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+  actor: {fileID: 11400000, guid: d34a2fe3c42b99645810e7b577343701, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

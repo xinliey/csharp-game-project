@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f654e17a49f8dfb48954f0183bbde855, type: 3}
+  m_Name: Day5 heenik gaming
+  m_EditorClassIdentifier: 
+  line:
+  - text: Ethan
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: 'boss fight still on the table '
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: or are you adulting again
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: depends
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: 'are you gonna run in yelling again '
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: or actually have a plan this time
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: my plan is yelling
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: 'how come yall playing without me '
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: "because you don\u2019t want to play horror game "
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: my bad , dayum
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: my bad , dayum
+    name: Jake
+    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    playerNext: 0
+  - text: me reviving you every 3 minutes
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: "that\u2019s called teamwork"
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: "I\u2019m already in the game "
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: waiting
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: "you\u2019re gonna die and scream in the VC"
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: "i don\u2019t scream"
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: i express intensity
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 0
+  - text: sure sure
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: send invite
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: "I\u2019ll carry you emotionally too while I\u2019m at it"
+    name: Ethan
+    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    playerNext: 0
+  - text: this is why I hate looking up to you
+    name: Nik
+    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    playerNext: 1
+  choices:
+  - ChoiceText: don't skip dinner
+    messengerContainer: {fileID: 11400000, guid: 6c004cb62617b4248955167a526638c0, type: 2}
+    score: 0.05
+    npc: {fileID: 11400000, guid: c4900522f706eee48b9d4ad0fbf99bb9, type: 2}
+  - ChoiceText: he is screaming now
+    messengerContainer: {fileID: 11400000, guid: b36ed11a3fb3ba54dba50fe67e1c0b7a, type: 2}
+    score: 0.05
+    npc: {fileID: 11400000, guid: 39b286997ae085a4dbc7a3b9458a195d, type: 2}

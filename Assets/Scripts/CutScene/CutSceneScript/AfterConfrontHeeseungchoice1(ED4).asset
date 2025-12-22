@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: AfterConfrontHeeseungchoice1(ED4)
+  m_EditorClassIdentifier: 
+  cutscenename: AfterHeeseungConfront
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: Ending(4/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "\u201CHahaha\u2026 afraid, you said. Yet here you are, alone\u2026 despite
+      knowing that. Or perhaps\u2026\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "\u201C\u2026do you have a soft spot for this murderer?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "Before I could recoil, his arms wrapped around me in a suffocating embrace.
+      My breath caught\u2014his warmth pressed against me"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\u201CIt will be much better\u2026 if you just stay unknown.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: His grip tightened, as though he would never let me go. Then, softly, almost
+      trembling, he began to speak
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\u201CYou know\u2026 I loved you long before this. Back when I was nothing\u2014when
+      she tortured me, when my father pretended I didn\u2019t exist. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\"Chloe\u2026 she sent the others after me that day, told them to beat
+      me until I couldn\u2019t stand. I went to my father\u2026 begged him for help\u2026
+      and he just kicked me out, left me to bleed.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\u201C\u2026But then you came. Do you remember? I was on the ground, fists
+      raining down on me, and then\u2014your voice. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\"You screamed that the teacher was coming, and the bullies scattered.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\u201CYou\u2026 you handed me a tissue. Just one\u2026 shy, fleeting kindness.
+      And then you ran away. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: "\"But to me\u2026 it was everything. Everything.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 782b5fe870daf124ba93633a4c307f77, type: 3}
+    line: His tone twisted, pathetic and pleading as he buried his face against my
+      shoulder
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "\u201CLook at me\u2026 being mistreated like that. You feel bad for me,
+      don\u2019t you? You\u2019ll be by my side\u2026 right?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: Before I could answer, his arms locked around me like chains. His smile
+      was gentle, but his voice was terrifyingly firm.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "\u201CDon\u2019t leave my side. This time\u2026 I will protect you. Forever.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: "The weight of his words sank in\u2014this wasn\u2019t protection. This
+      was a cage. And in that moment, I realized\u2026 he wasn\u2019t planning to
+      let me leave at all."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: 
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 18822c1b565430b4195cab4d947b9752, type: 3}
+    line: Ending(4/5)
+    noBackground: 0
+  options: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: HSQuest3
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  StoryItemTrigger: 
+  line:
+  - text: "\"Do you remember which is the only even number among the primes?\u201D"
+    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+  actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices:
+  - ChoiceText: 2
+    dialogueContainer: {fileID: 11400000, guid: 6395db388cad82040b792efd8bac31b9, type: 2}
+    isQuest: 0
+    score: 0.15
+  - ChoiceText: 1
+    dialogueContainer: {fileID: 11400000, guid: 60911bbf7ea79ee4dba1b9420df5b3ef, type: 2}
+    isQuest: 0
+    score: -0.15

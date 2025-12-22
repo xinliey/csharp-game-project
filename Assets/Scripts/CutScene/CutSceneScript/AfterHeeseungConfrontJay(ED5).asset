@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: AfterHeeseungConfrontJay(ED5)
+  m_EditorClassIdentifier: 
+  cutscenename: AfterHeeseungConfront
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: Ending(5/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: ba7ead64bf1df2f4f88009e6683b3ef4, type: 3}
+    line: The front door slammed open with a deafening crash.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ba7ead64bf1df2f4f88009e6683b3ef4, type: 3}
+    line: "Jay barged into Ethan\u2019s house and yanked me away, holding me close
+      while he was panting."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201CIs everything okay? Jake called me\u2014he said you could be in
+      danger. Why didn\u2019t you answer my phone? I was looking everywhere for you,
+      I even called the cops!\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "The sound of sirens echoed closer. Jay\u2019s arm tightened protectively
+      around me as he glared at Ethan."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201C\u2026What did you do to her?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "For the first time, Ethan\u2019s calm mask cracked. His eyes narrowed,
+      his voice low and sharp."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201C\u2026Jay. Why are you here?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "There was weight in his voice, anger simmering beneath it. But as his
+      gaze lingered on Jay\u2014his childhood friend"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: the sharpness bled away. His shoulders slumped, his voice softened, almost
+      weary.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "...So Jake told you everything. Then you should know I wouldn\u2019t hurt
+      her.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: Jay froze, the anger in his face giving way to something closer to fear.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201CEthan\u2026 are you admitting it? That everything Jake said is true?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: Ethan looked at him with a faint, almost bitter smile. There was no denial,
+      no fight left.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201CWhy, Ethan? Why didn\u2019t you ask us for help? There must\u2019ve
+      been another way to get Chloe away from you!\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\"What are we to you? Were we never reliable to you?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "Ethan shook his head slowly. His voice wasn\u2019t angry anymore\u2014only
+      tired."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201CIt\u2019s not like that, Jay\u2026 You wouldn\u2019t understand.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "The police lights spilled into the room, red and blue flashing across
+      Ethan\u2019s face. Instead of fear, there was relief, even a kind of peace."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\u201CThis is the first time I\u2019ve done something I truly wanted.
+      You know I grew up in a cage of perfection, owned by my family. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\"Killing Chloe\u2026 was the only way to protect her.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: His eyes shifted toward me, softer than before.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "Besides her\u2026 there\u2019s no one else left who can terrify Jake.
+      \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "\"No one who can stir the bond between you and Benjamin. No one to treat
+      little Niki like a toy. Isn\u2019t that reason enough?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 6d7b5fa19d501774a901bd902940af59, type: 3}
+    line: "Jay\u2019s lips trembled, but no more words came out. He could only watch
+      as Ethan allowed the police to cuff him."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a8ae4b527b92bca489eacb84b2be6fce, type: 3}
+    line: "Jay\u2019s lips trembled, but no more words came out. He could only watch
+      as Ethan allowed the police to cuff him."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a8ae4b527b92bca489eacb84b2be6fce, type: 3}
+    line: "Ethan didn\u2019t resist\u2014he only glanced at me for a moment as they
+      led him away."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: The silence after he was gone was heavy. Finally, Jay turned to me, his
+      voice low but gentle.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201C\u2026I know this is sudden, but you don\u2019t look okay. It\u2019s
+      not right to leave you alone after this\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\"you must\u2019ve been terrified. Come to my place. I\u2019ll cook something
+      for you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: He was right. The thought of being alone made my chest tighten. I gave
+      him a small nod
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: he exhaled, almost in relief, before guiding me outside.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 50d1ec2a4a3aa254c81026e43f217f28, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CYou did great. Normally I\u2019d nag you for pulling something this
+      reckless\u2026 but right now, I\u2019m just glad you\u2019re safe.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 50d1ec2a4a3aa254c81026e43f217f28, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "His words wrapped around me like a quiet warmth, even as Ethan\u2019s
+      last look lingered in the back of my mind."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: 
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: Ending(5/5)
+    noBackground: 0
+  options: []

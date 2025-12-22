@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JakeHomeworkchoice1
+  m_EditorClassIdentifier: 
+  cutscenename: Choice1
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: JakeHouse
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Jake scoffed, setting the tray down next to the books.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CAren\u2019t you impatient? We\u2019re here to discuss homework,
+      not copy each other\u2026\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Before I could reply, another voice cut in from the doorway.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CYou copied my science homework,\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: ",\u201D Benjamin said flatly, stepping inside. His gaze locked on Jake"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201C\u2026all the time.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: 'Jake broke into a laugh, scratching the back of his head. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CWell, at least don\u2019t make it sound so bad. Everyone does it,
+      right?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CYou weren\u2019t even good at hiding it.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Benjamin sat down beside me, opening his bag, the disapproval sharp in
+      his voice.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Jake puffed his cheeks like a sulking child before turning his eyes toward
+      Benjamin, almost pleading.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CBy the way, can someone stay with me tomorrow? My parents won\u2019t
+      be home, and it gets so lonely\u2026\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: His gaze clung to Benjamin like a puppy waiting for affection.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CI\u2019m busy,\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Benjamin answered without hesitation, eyes never lifting from his book.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "Jake\u2019s smile faltered before he turned to me instead."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201CWhat about you?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: The unease in my chest twisted. This might be a chance to keep an eye on
+      him.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "\u201C...Sure.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: "Jake\u2019s grin lit up instantly. \u201CYou\u2019re the best!\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: He clapped his hands before leaning over his homework again as if nothing
+      had happened.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
+    line: Benjamin gave the faintest sigh, flipping a page without looking at either
+      of us.
+    noBackground: 0
+  options: []

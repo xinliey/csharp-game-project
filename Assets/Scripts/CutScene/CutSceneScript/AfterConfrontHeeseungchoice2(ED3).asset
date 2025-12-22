@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: AfterConfrontHeeseungchoice2(ED3)
+  m_EditorClassIdentifier: 
+  cutscenename: AfterHeeseungConfront
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: Ending(3/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "For a heartbeat, the room was unbearably still. Then, Ethan\u2019s expression
+      broke\u2014his mask of calm cracking as his eyes filled with raw pain."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    line: "\u201CI just\u2026 I\u2019ve always been threatened by Chloe. But what
+      I couldn\u2019t endure\u2026 was when she mistreated you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    line: "\u201CAfter she discovered I\u2026 had feelings for you, she made sure
+      to drag you into this twisted circle. I hate it\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: that was a sudden confession...
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    line: "\" I hate that she touched you, hurt you\u2026 I can take it when it\u2019s
+      me, but when it\u2019s you\u2014\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    line: "\u201CShe can mistreat me as much as she wants\u2026 but when she lays
+      her hands on you, I\u2014I lose my mind. Because I can\u2019t even properly
+      protect you. \""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    line: "\"I felt like such a loser. I\u2019m sorry\u2026 I\u2019m so sorry I couldn\u2019t
+      protect you well enough.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "Slowly, he lifted his gaze to me. His eyes glistened, and for once, they
+      weren\u2019t sharp, or cold, or mocking\u2014they were painfully human."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    line: "\u201C\u2026I love you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: The words hung in the air, fragile but undeniable. He smiled faintly, almost
+      innocently, as though a burden had finally slipped from his shoulders
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    line: "\u201CThank you\u2026 for always giving me kindness. Now I know what exactly
+      I need to do for you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "His gaze lingered on me one last time\u2014tender, almost glowing with
+      devotion\u2014before he turned away. Step by step, he walked past me"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: toward the door. My body refused to move. All I could do was watch in silence
+      as the click of the lock echoed through the room.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    line: "\u201C\u2026I will turn myself over. That is the best thing I can do for
+      you now.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 1dc89c4ec5f96da4899c4c213e63dc47, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: 'My brain went blank. By the time I gathered my thoughts, the police had
+      already gather in front of his house. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 1dc89c4ec5f96da4899c4c213e63dc47, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "Seems like Niki didn\u2019t find me at home so he reported to police.
+      As Ethan turned himself over, The police came into the house."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 1dc89c4ec5f96da4899c4c213e63dc47, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "they found me sitting there, pale and frozen, and quietly escorted me
+      out. No questions. No interrogations. Only silence. Ethan\u2026 had confessed
+      everything."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 1dc89c4ec5f96da4899c4c213e63dc47, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: "Ethan\u2026 if you hadn\u2019t killed her\u2026 "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 1dc89c4ec5f96da4899c4c213e63dc47, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: would we have had a good relationship?
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 1dc89c4ec5f96da4899c4c213e63dc47, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: 
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    line: Ending(3/4)
+    noBackground: 0
+  options: []

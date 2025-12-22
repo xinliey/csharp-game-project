@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: jkquest3.2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  StoryItemTrigger: 
+  line:
+  - text: "Wahhh, spot on! You\u2019re bloody smart!"
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  - text: "Don\u2019t ever leave my side, alright?"
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  - text: "? I\u2019ll teach you heaps more stuff, promise!"
+    expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
+  actor: {fileID: 11400000, guid: 62fa76b9acf93854f9d6a25492c544bd, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices: []

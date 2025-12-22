@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: JayHidden
+  m_EditorClassIdentifier: 
+  cutscenename: 
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "The floor was a mess\u2014papers everywhere. Some looked neatly written,
+      others were crumpled like trash. I figured I\u2019d help clean up"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: I started picking them up. But as I reached for a handful of the crumpled
+      ones, my eyes caught a few lines scrawled on the page.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "It was a music sheet\u2014with lyrics."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: Curious, I smoothed out another page. Then another. And another.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "The lyrics were\u2026 heartbreakingly raw. Sad in a way that snuck up
+      on you. Before I knew it, I felt a lump forming in my throat."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CHey, what\u2019s taking you so\u2014\u201D Jay stepped into the
+      room, stopping short when he saw my face."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CWhoa\u2014what\u2019s wrong? Why do you look like you're about to
+      cry?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ce887522456dcf446999db5d507ff64b, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: He walked over quickly, concern flickering in his eyes. But when he saw
+      the papers in my hands, his expression shifted.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201COh. You read those?\u201D His voice turned awkward, almost embarrassed. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CThose are just\u2026 nothing. Scraps. I was gonna toss them. I don\u2019t
+      think any of that\u2019s worth turning into actual music.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "I could see the hesitation in his eyes. I hesitated, then asked softly,
+      \u201CDid you write this for Chloe?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: His reaction was immediate. He froze, then slowly shook his head, avoiding
+      my gaze.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CNo. It was for someone stupid enough to fall for me\u2026 when I\u2019m
+      well not quite a lovely guy.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: He walked over to the table, flopped into the chair, and leaned back with
+      a sigh.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CI mean\u2026 I felt bad. Like really bad. They cared about me more
+      than I ever deserved. And even though I knew that, I did stuff that hurt them
+      just because I don\u2019t feel the same.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CSometimes I wish they\u2019d just hate me. It\u2019d be easier,
+      you know? Guilt sucks way more when the other person still loves you.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: A dry, bitter laugh escaped his lips as he ran a hand through his hair.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CI don\u2019t know. Maybe this is the punishment I deserved.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: Silence settled between us. Then Jay glanced at the papers in my hands,
+      gently took them from me, and replaced them with a small stack from the desk.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CIf you\u2019re gonna read something, read these,\u201D he said,
+      trying to sound casual. \u201CThese are the ones I actually tried to clean
+      up.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "He handed them over, and there was a faint smirk on his face\u2014half
+      proud, half trying not to care too much."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: "\u201CEthan looked at them. Said they\u2019re decent. He even agreed to
+      sing them for me, so\u2026 I guess you can look forward to that.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: '"now shoo , I gotta continue working on my music."'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ff126e7574811684685a5302817b010d, type: 3}
+    line: Jay went back fully focus on music , completely drown into his own world
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: I went home after that.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: Jay must have been hiding how hurtful he felt all along...
+    noBackground: 0
+  options: []

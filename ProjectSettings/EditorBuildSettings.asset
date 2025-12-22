@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 476219fefaa127144b471c884ca23ca4
+  - enabled: 1
+    path: Assets/Scenes/schoo_hall.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/town.unity
+    guid: 8450078d69e2bdd4b91d8c448a00d04c
+  - enabled: 1
+    path: Assets/Scenes/mc_house.unity
+    guid: 17b9ccc9f2e293a4a9d380912f29a500
+  - enabled: 1
+    path: Assets/Scenes/heeseung_house.unity
+    guid: 48e44a0f52698be4db807e68de3e3571
+  - enabled: 1
+    path: Assets/Scenes/Jay_bedroom.unity
+    guid: d6a0954700e69c142bcc12d91148fadb
+  - enabled: 1
+    path: Assets/Scenes/jay_house.unity
+    guid: 22d7aaf66ce282f46801047e0c88b679
+  - enabled: 1
+    path: Assets/Scenes/sunghoon_house.unity
+    guid: 383743ab9c7bd3d4384e2c2ed927c0e5
+  - enabled: 1
+    path: Assets/Scenes/jake_house.unity
+    guid: b3f9b560b3abe464e995122218f446fc
+  - enabled: 1
+    path: Assets/Scenes/essential.unity
+    guid: a50bf756f2e66ed4f9a24989108f13b3
+  - enabled: 1
+    path: Assets/Scenes/SchoolMinigame.unity
+    guid: 4c7766902ac443d4996993d2b3aa2796
+  - enabled: 1
+    path: Assets/Scenes/cafeMinigame.unity
+    guid: e0898baeafac1b346a10fb3f7e27e854
+  m_configObjects: {}

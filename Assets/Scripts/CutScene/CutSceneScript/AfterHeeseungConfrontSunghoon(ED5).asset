@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: AfterHeeseungConfrontSunghoon(ED5)
+  m_EditorClassIdentifier: 
+  cutscenename: AfterHeeseungConfront
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: Ending(5/5)
+  EndingCutscene: 1
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: ba7ead64bf1df2f4f88009e6683b3ef4, type: 3}
+    line: 'The door slammed open. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: ba7ead64bf1df2f4f88009e6683b3ef4, type: 3}
+    line: "Benjamin  appeared, sharp gaze immediately locking onto me in Ethan\u2019s
+      grasp"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CIs everything okay?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "Benjamin asked, completely ignoring Ethan\u2019s presence. He pulled me
+      into his steady embrace"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: '"I was looking for you everywhere , Jake said you could be in danger"'
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: Outside, the sound of police sirens grew louder.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: Benjamin turned back facing Ethan.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CPlease surrender, Ethan.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "Ethan looked anxious beneath his calm exterior,His eyes searched Benjamin\u2019s
+      poker face."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CIt\u2019s not like you to meddle in someone else\u2019s mess. Is
+      she really that important to you?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "Benjamin\u2019s tone stayed level. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CEthan\u2026 I know what she put you through. But why go this far?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "Ethan shook his head slowly. His voice wasn\u2019t angry anymore\u2014only
+      tired."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CIt\u2019s not like that, Benjamin\u2026 You wouldn\u2019t understand.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "The police lights spilled into the room, red and blue flashing across
+      Ethan\u2019s face. Instead of fear, there was relief\u2014almost peace."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CThis is the first time I\u2019ve done something I truly wanted.
+      You know how I was raised\u2014locked in perfection, owned by my family.\""
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\". Killing Chloe\u2026 was the only way to protect her.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: His eyes shifted toward me, softening.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "\u201CBesides her\u2026 there\u2019s no one else left who can terrify
+      Jake. You can fix your relationship with Jay. No one to treat Niki like a toy.
+      Isn\u2019t that reason enough?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: dfa2da878b9292a49a9b426803424426, type: 3}
+    line: "Benjamin stood still, unreadable. The silence dragged, heavy as stone.
+      He didn\u2019t answer."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a8ae4b527b92bca489eacb84b2be6fce, type: 3}
+    line: "The officers entered, cuffing Ethan. He didn\u2019t resist, only glanced
+      at me once more before being led away."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a8ae4b527b92bca489eacb84b2be6fce, type: 3}
+    line: The quiet that followed was suffocating. Finally, Benjamin turned, his
+      voice low, steady, but gentler than before.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+    line: "\u201C\u2026Let\u2019s go. Shall we take a breather by the lake?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "He gave a faint, reassuring smile. \u201CIt\u2019ll help you calm down.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: 'I pursed my lips. Being alone right now might not be wise, but time with
+      Benjamin always steadied me. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "It wasn\u2019t a bad idea. I nodded, walking by his side as we left Ethan\u2019s
+      house\u2014though heavy thoughts still weighed me down."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: It would take time to process everything.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: 
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 9c28666a8e558824eb0c89e22e1a8808, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
+    line: Ending(5/5)
+    noBackground: 0
+  options: []

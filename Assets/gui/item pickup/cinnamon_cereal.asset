@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b42b7a06741381419956ad26cec20a1, type: 3}
+  m_Name: cinnamon_cereal
+  m_EditorClassIdentifier: 
+  Name: Cinnamon Cereal
+  stackable: 1
+  icon: {fileID: -1342039078, guid: b3676333e18f8bf4eb623e5510d3f40a, type: 3}
+  itemPrefab: {fileID: 2328926851765177774, guid: 1ae15f2d0236b574d8a18098b0d2ed49, type: 3}
+  price: 50
+  canBeSold: 1
+  isQuestItem: 0
+  isLookable: 0
+  ItemData: 

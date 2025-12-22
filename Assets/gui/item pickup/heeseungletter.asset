@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b42b7a06741381419956ad26cec20a1, type: 3}
+  m_Name: heeseungletter
+  m_EditorClassIdentifier: 
+  Name: Mysterious Note
+  stackable: 0
+  icon: {fileID: -574493892, guid: 10a374bb6cf71a34681b1d233020957c, type: 3}
+  itemPrefab: {fileID: 2259420840542501071, guid: b96729ac1126d2448a2dbdf2031d72fc, type: 3}
+  price: 0
+  canBeSold: 0
+  isQuestItem: 1
+  isLookable: 1
+  ItemData: "\"Will you stop. I told you dont tell me what me what to do, I. don't
+    know why now , you've always been quiet. isn't it ironic. if your sister hear
+    about this she will have a good laugh. I'm telling you , If you take any more
+    step. I\u2019ll make sure you will no longer be given another chance. Have a
+    look in a mirror. You\u2019re nothing without me , I\u2019m more than just your
+    half. Well , It\u2019s not my fault that you have a miserable life. I\u2019ll
+    not tell Your sister, she would be in panic. So you owe me , come to see me tonight. 
+    From CHloe\""

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: HeeseungConfrontchoice2
+  m_EditorClassIdentifier: 
+  cutscenename: choice1
+  Selectable: 0
+  cutSceneLevel: 0
+  nextTrigger: 1
+  NextTriggerName: NPCSave
+  dialogue:
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "Ethan blinked, visibly taken aback. For a brief moment, his sharp gaze
+      softened into something warm\u2014almost tender."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CI\u2019m\u2026 very happy to hear that. Honestly, I\u2019ve been
+      a little anxious since yesterday. I guess I just missed you a lot.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: He led me gently into his room, his movements calm, almost ordinary. Before
+      I could process it, he excused himself with a small smile
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CWait here\u2014I\u2019ll bring some snacks. We can talk properly.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "The door clicked shut behind him. I was left alone, staring at the quiet
+      room. My chest tightened with confusion. He didn\u2019t look\u2014or act\u2014like
+      someone who could kill. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "But Chloe\u2019s letter\u2026 I couldn\u2019t ignore it. My heart told
+      me danger was close, yet my mind refused to accept it."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: Before long, Ethan returned, carrying a small tray. He set it down with
+      a smile, but his eyes searched my face.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201C\u2026What is it? You look pale.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "My throat tightened. Even with no solid proof, fear gnawed at me. Ethan
+      sat beside me\u2014closer than I expected."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: His warmth brushed against me, yet all I felt was a bone-deep chill. My
+      body stiffened. He frowned.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "\u201CAre you okay? You look as if you\u2019re\u2026 scared.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "The silence hung heavy. Then, suddenly\u2014his expression shifted. Slowly,
+      his lips curved into a cold smile."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "\u201C\u2026What have you done?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "The words slipped from him like venom, freezing my blood. My body screamed
+      to run. My mind whispered\u2014what if he really is the killer?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "The words slipped from him like venom, freezing my blood. My body screamed
+      to run. My mind whispered\u2014what if he really is the killer?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: Desperate, I forced myself up, voice trembling as I tried to sound casual.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "\u201CI\u2014I need to use the toilet\u2026\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
+    line: "\u201C\u2026What did you find?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "before I could take a step, his hand shot out. His grip locked around
+      mine\u2014unyielding, suffocating. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 904f19e32f2e891499c9da19b135d58c, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: 4eb3ef716a71a9f4292391af67a0c53a, type: 3}
+    line: "I tried to pull away, but it was useless. His face looked gentle, almost
+      boyish\u2026 yet his voice was colder than ice."
+    noBackground: 0
+  options: []

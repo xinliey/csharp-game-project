@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5165370c4a964c81ecf2d35b516ae, type: 3}
+  m_Name: NikiStoryProgress
+  m_EditorClassIdentifier: 
+  storyline:
+  - text: he is my stepbrother from father's side.
+  - text: He seems to believe everything Chloe said about me.
+  - text: Chloe treated him coldly before the incident.
+  - text: Chloe was trying to brainwash him to hate me.
+  - text: Chloe seems to get closer with Sunghoon recently.
+  Name: Nik
+  actor: {fileID: 11400000, guid: 57af6004d56c9904b85208d04ecf5015, type: 2}

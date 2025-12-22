@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd95fbc5e2d13414a94745d8c4ec5b65, type: 3}
+  m_Name: SHQuest3
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  StoryItemTrigger: 
+  line:
+  - text: how much energy do you think our brain consume?
+    expression: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
+  actor: {fileID: 11400000, guid: 30b69fa3255e52b43879b81041c04784, type: 2}
+  givePresent: 0
+  GiftObject: {fileID: 0}
+  choices:
+  - ChoiceText: 80%
+    dialogueContainer: {fileID: 11400000, guid: ca96e19cb73903d49830a7a75bd8d0bf, type: 2}
+    isQuest: 0
+    score: -0.15
+  - ChoiceText: 20%
+    dialogueContainer: {fileID: 11400000, guid: 7e35ae73df210d8498387825d84ccbee, type: 2}
+    isQuest: 0
+    score: 0.15

@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2e7f187e03e5b469144e196d3c2e92, type: 3}
+  m_Name: SunghoonDesl
+  m_EditorClassIdentifier: 
+  cutscenename: SunghoonDesk
+  Selectable: 1
+  cutSceneLevel: 0
+  nextTrigger: 0
+  NextTriggerName: 
+  EndingCutscene: 0
+  dialogue:
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 1
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "The classroom was silent\u2014everyone else had already rushed off to
+      the canteen. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'I noticed a thin scrap of paper was being teased back and forth across
+      the floor by the breeze from the open window. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "It slipped out from under Benjamin\u2019s desk."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: I bent down to pick it up, meaning only to put it back.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: " But once I caught a glimpse of the handwriting\u2014two different scrawls,
+      side by side. I frozed."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Handwriting A (playful, sharp): \u201CHey. Don\u2019t you think she likes
+      you?\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Handwriting B (neat, restrained): \u201CStop joking.\u201D "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CNot joking. You didn\u2019t see the way she keeps coming around
+      you?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CShe\u2019s just curious about the science club.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CCurious, huh? Nah, you didn\u2019t catch her eyes. The way she was
+      staring, like she could eat you alive.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201C\u2026Don\u2019t say it like that.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CWanna bet?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201C\u2026Bet what?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CIf she dumps him for you, I\u2019ll buy your lunch all semester.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CYou can\u2019t play with people\u2019s feelings.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CRelax. Think of it as testing her loyalty\u2014for his sake.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201C\u2026Focus on class.\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "\u201CHa, ignoring me now?\u201D"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "I stared at the lines, my stomach sinking. One of the handwritings\u2014"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "I recognized. Benjamin\u2019s. Since the same handwriting are on the books
+      on his table."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: The measured tone, the way the letters leaned just slightly. No doubt.
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "But the other\u2026 I had no idea."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "they talked about,A girl\u2026science club\u2026"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: Was this about Chloe?
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "She was with Jay, but\u2026 did she really have a crush on Benjamin? "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Was this what Ethan meant when he mentioned \u201Cconflict\u201D? "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "wait , didn\u2019t Ethan said it happened since high school started?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "And what about Jay\u2014did he know?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "If he found out Chloe had feelings for Benjamin, wouldn\u2019t that make
+      him the obvious suspect?"
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "He\u2019d have a motive. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "But\u2026 Benjamin? He didn\u2019t seem like someone who\u2019d get involved
+      in childish games like this. "
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Then again\u2026 the person he was writing with didn\u2019t sound innocent
+      either. Their words felt almost cruel."
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: 'Who was it? Whoever it was, I needed to find out. '
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: c609187c3cf0fd5409846ec2f2e678a4, type: 3}
+    line: "Just then\u2014footsteps echoed down the hallway, growing closer. My heart
+      leapt. "
+    noBackground: 0
+  options:
+  - Option: Keep that note
+    Score: -0.1
+    OptionDialogue: {fileID: 11400000, guid: a24551a2ff9fe4b40b0338311302f5d4, type: 2}
+  - Option: leave it be
+    Score: 0.05
+    OptionDialogue: {fileID: 11400000, guid: 254359e1a4d87794c9b79ff6d3942551, type: 2}
