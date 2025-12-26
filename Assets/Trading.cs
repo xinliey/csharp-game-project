@@ -31,7 +31,7 @@ public class Trading : MonoBehaviour
         storePanel.SetActive(true);
         inventoryPanel.SetActive(true);
         toolBarPanel.SetActive(false);
-        int id = 0;
+       
         /*foreach(Text n in texts)
         {
             int price = (int)(store.storeContent.slots[id].item.price * store.sellToPlayerMultip);

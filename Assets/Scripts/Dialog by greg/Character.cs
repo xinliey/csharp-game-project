@@ -161,6 +161,7 @@ public class Character : MonoBehaviour
     }
     IEnumerator ChangingDay()
     {
+        //for player who ran out of stamina 
         GameManager.instance.screenFader.Tint();
         playerRespawn.StartRespawn();
         ResetTalkState();

@@ -30,34 +30,36 @@ public class SceneTransitionManager : MonoBehaviour
     {
         StartCoroutine(Transition(to, targetPosition));
     }
- 
+
 
     IEnumerator Transition(string to, Vector3 targetPosition)
     {
         screenFader.Tint();
-        yield return new WaitForSeconds(1f / screenFader.speed +0.1f);
-        SwitchScene(to,targetPosition); 
-        
-        while (load!=null & unload != null)
+        yield return new WaitForSeconds(1f / screenFader.speed + 0.1f);
+        SwitchScene(to, targetPosition);
+
+        while (load != null & unload != null)
         {
             if (load.isDone) { load = null; }
-            if (unload.isDone) { unload = null; }  
-          
+            if (unload.isDone) { unload = null; }
+
             yield return new WaitForSeconds(0.2f);
         }
-        
-       cameraConfiner.UpdateBounds();
+
+        cameraConfiner.UpdateBounds();
         yield return new WaitForEndOfFrame();
 
-       screenFader.UnTint();
+        screenFader.UnTint();
         currentTime = GameManager.instance.gameTime.GetCurrentTime();
         string result = currentTime.Substring(0, 2);
-        if ( result == GetHomeTime)
+        //Debug.Log($"get home time is 19 current time is {result}");
+        if (result == GetHomeTime)
         {
-            SystemMessengerBox.Instance.ShowMessage("it's getting really late, I should go home");
+            Debug.Log("result is equal to get home time");
+            SystemMessengerBox.Instance.ShowMessage("it's getting quite late");
         }
-       
     }
+    
     public void SwitchScene(string to,Vector3 targetPosition) //changing scene without fading screen
     {
         load = SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
@@ -78,7 +80,7 @@ public class SceneTransitionManager : MonoBehaviour
     public void Respawn(Vector3 respawnPosition, string respawnScene)
     {
         SystemMessengerBox.Instance.ShowMessage("I'm so tired, I have no more strength");
-        //Debug.Log($"Respawning player at position {respawnPosition} in scene {respawnScene}");
+        Debug.Log($"Respawning player at position {respawnPosition} in scene {respawnScene}");
         InitSwitchScene(respawnScene, respawnPosition);
         GameManager.instance.gameTime.SkipToMorning();
 

@@ -22,7 +22,7 @@ public class GameTime : MonoBehaviour
     public Image screenOverlay;
     [SerializeField] PlayerScoreRecord player;
     private int currentDay;
-    Vector3 respawnPointPosition = new Vector3(-4, 17, 0);
+    Vector3 respawnPointPosition = new Vector3(-10, 17, 0);
     public bool isNewDay = false;
     List<TimeAgent> agents;
     public int days;
@@ -92,7 +92,7 @@ public class GameTime : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.T))
         {
-            //SkipTime(hours: 1);
+            SkipTime(hours: 1);
         }
     }
     public void SkipSchoolTime()
@@ -112,8 +112,8 @@ public class GameTime : MonoBehaviour
         if (respawn == false && timeText.text == "20:00")
         {
             respawn = true;
-           
-            
+
+           // for player who havent go to bed by 8pm
             SceneTransitionManager.Instance.Respawn(respawnPointPosition, "mc_house");
             SkipToMorning();
 

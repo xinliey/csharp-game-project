@@ -4688,7 +4688,7 @@ Transform:
   m_GameObject: {fileID: 446485563}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.9, y: 0.1, z: -10}
+  m_LocalPosition: {x: -7.33, y: 13.45, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5984,7 +5984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screenFader: {fileID: 662172428}
   cameraConfiner: {fileID: 972003549}
-  GetHomeTime: 16
+  GetHomeTime: 19
 --- !u!114 &662172425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6033,7 +6033,7 @@ MonoBehaviour:
   TypingSound: {fileID: 1531940312}
   CutScenePanel: {fileID: 925581419}
   relocationScene: mc_house
-  target: {x: -6, y: 15, z: 0}
+  target: {x: -10, y: 15, z: 0}
   concludedialog: 0
 --- !u!114 &662172428
 MonoBehaviour:
@@ -10273,7 +10273,7 @@ Transform:
   m_GameObject: {fileID: 972003544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.9, y: 0.1, z: -10}
+  m_LocalPosition: {x: -7.33, y: 13.45, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13906,7 +13906,7 @@ Transform:
   m_GameObject: {fileID: 1531940294}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.9, y: 0.1, z: 0}
+  m_LocalPosition: {x: -7.33, y: 13.45, z: 0}
   m_LocalScale: {x: 0.8867, y: 0.8766, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14149,7 +14149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069f5b564ab4ef6418ea220af603b850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPointPosition: {x: -4, y: 17, z: 0}
+  respawnPointPosition: {x: -10, y: 15, z: 0}
   respawnPointScene: mc_house
 --- !u!114 &1531940308
 MonoBehaviour:
