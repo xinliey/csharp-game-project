@@ -15,91 +15,91 @@ MonoBehaviour:
   line:
   - text: Ethan
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: 'boss fight still on the table '
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: or are you adulting again
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: depends
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: 'are you gonna run in yelling again '
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: or actually have a plan this time
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: my plan is yelling
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: 'how come yall playing without me '
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "because you don\u2019t want to play horror game "
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: my bad , dayum
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: my bad , dayum
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: me reviving you every 3 minutes
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "that\u2019s called teamwork"
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "I\u2019m already in the game "
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: waiting
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "you\u2019re gonna die and scream in the VC"
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "i don\u2019t scream"
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: i express intensity
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: sure sure
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: send invite
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "I\u2019ll carry you emotionally too while I\u2019m at it"
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: this is why I hate looking up to you
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 1
   choices:
   - ChoiceText: don't skip dinner

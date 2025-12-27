@@ -15,70 +15,70 @@ MonoBehaviour:
   line:
   - text: "I know this situation isn\u2019t easy for anyone."
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Anyway
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: I post the club fair poster this morning.
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: ' Anyone actually going? '
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: or yall pretending to be too cool again?
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: 'Yeah. Already planning to sell cookies. '
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Guilt-trip people into buying with sad puppy eyes.
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: You already guilt-trip people just by talking.
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: But yeah, Pass. Gonna fake a leg injury that day.
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: I'm a student council in case you forgot ^^
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: ...
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: oof
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: 'please no Jake, I beg you.  '
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: 'I might go. Just to heckle the chess club. Again. '
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Jake no.
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Jake
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: he went offline
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   choices: []

@@ -15,54 +15,54 @@ MonoBehaviour:
   line:
   - text: Wow.
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "Didn\u2019t know you were into stand-up comedy."
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: We were close.
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "That\u2019s different"
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: ' bro'
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: i regret unmuting this chat
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: I...
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "I\u2019m just gonna sip my milk tea and mind my GPA"
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Anyway.
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "remind me what pages we\u2019re doing for literature"
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Before I start flipping my desk
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "Page 82\u201390."
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "You\u2019re welcome."
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   choices: []

@@ -15,106 +15,106 @@ MonoBehaviour:
   line:
   - text: IT WAS FOR A RECIPE
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: kinda
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: I saw it on a gym reel and the guy looked jacked
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "you\u2019re gonna look haunted if you keep eating fruit soup"
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "I couldn\u2019t walk into the kitchen for an hour."
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "I couldn\u2019t walk into the kitchen for an hour."
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: It smelled like betrayal.
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: every time you pass by it, Nik
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "there\u2019s a reason the fire alarm blinks "
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: it remembers
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: oi but like
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: was the strawberry okay?
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: did it survive the trauma
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: or did it go out in a soggy blaze of glory
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: ???
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: no
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: but my macros did
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Next group event is a cooking contest.
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Loser cooks winner dinner for a week.
     name: Ethan
-    profile: {fileID: 21300000, guid: 99ecc6641ab4dd342ad8fe8d58dbbc12, type: 3}
+    profile: {fileID: -1225870029, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Perfect.
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "Can\u2019t wait to destroy you all with a lemon tart and zero mercy."
     name: Jay
-    profile: {fileID: 21300000, guid: c336f9c30def7ee4f81c563fe6f804da, type: 3}
+    profile: {fileID: -1443478474, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Only if I get to clean the kitchen myself afterward.
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Properly.
     name: Benjamin
-    profile: {fileID: 21300000, guid: 9c4a1bc349c6c9249bd96229bc2d7860, type: 3}
+    profile: {fileID: 783196782, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "[name] you\u2019re on my team"
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: we may not win
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "but we\u2019ll be entertaining lolol"
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   choices: []

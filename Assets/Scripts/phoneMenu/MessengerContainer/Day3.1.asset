@@ -15,34 +15,34 @@ MonoBehaviour:
   line:
   - text: ...
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: guess it was
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "Glad you\u2019re entertained"
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: Anyway, Jake
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: if you actually want to understand what that means
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "I\u2019ve got a psych article."
     name: Nik
-    profile: {fileID: 21300000, guid: 6062d46bc448ecc4d9259c056c155cf7, type: 3}
+    profile: {fileID: -743335258, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: bro
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   - text: "e\u2019re not diagnosing me over kangaroo dreams again"
     name: Jake
-    profile: {fileID: 21300000, guid: 8889b0107f642c74498dcf03b9be0f86, type: 3}
+    profile: {fileID: 188839144, guid: c5047b5e4b9479045a45f35c5a92ef69, type: 3}
     playerNext: 0
   choices: []

@@ -1,0 +1,23 @@
+# Game Testing Log – 2025/12/27
+
+## Session Goal
+Long play session to identify gameplay, system, and progression issues.
+
+## Issues Identified
+1. Player fainting during part-time does not reset sleep or part-time status
+2. Ethan remains at his room door after school
+3. Missing sound when entering NPC rooms
+4. Hidden quest respawn does not fully reset player state
+5. Minimum level to enter NPC room should be 3 (level 2 too low)
+6. Incorrect spawn position when entering Ben’s house (offset to NE)
+7. isInCutscene flag not preventing night sky overlay during part-time
+8. Quest interaction does not appear to add score
+9. Jake is not home by 7 PM
+10. Part-time work should add extra affection score for Jay
+11. Unable to enter Ben, Jay, and Ethan’s rooms despite sufficient level
+12. Nik has incorrect talk-on-day count (30 instead of 10)
+13. Respawn and time warning system stop working after extended play
+14. Nik resets to level 1 after surpassing level 3
+15. UI becomes unclickable due to fading image on scene load
+16. Nik’s post-school animation missing
+17. Randomized dialogue causes story progression issues; dialogue order should be controlled

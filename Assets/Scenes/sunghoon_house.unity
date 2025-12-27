@@ -170,7 +170,7 @@ MonoBehaviour:
   pickUpDrop: {fileID: 0}
   dropCount: 0
   spread: 0
-  displayText: Sunghoon's parent's room , it's locked.
+  displayText: Ben's  parent's room , it's locked.
   player: {fileID: 11400000, guid: d34e10f2f9a15bf4ebc7201122e4f07f, type: 2}
   sparkle: {fileID: 1303028465}
   hideitem: 0
@@ -10474,7 +10474,7 @@ MonoBehaviour:
   pickUpDrop: {fileID: 0}
   dropCount: 0
   spread: 0
-  displayText: Sunghoon's younger sister's room, It's locked
+  displayText: Ben's younger sister's room, It's locked
   player: {fileID: 11400000, guid: d34e10f2f9a15bf4ebc7201122e4f07f, type: 2}
   sparkle: {fileID: 1303028465}
   hideitem: 0

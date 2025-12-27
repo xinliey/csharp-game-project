@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b42b7a06741381419956ad26cec20a1, type: 3}
   m_Name: chloephoto
   m_EditorClassIdentifier: 
-  Name: Photo of Heeseung and Chloe
+  Name: Photo of Ethan and Chloe
   stackable: 0
   icon: {fileID: -176679003, guid: 088d0997ec9249b418bd4018caa16781, type: 3}
   itemPrefab: {fileID: 5122965426340322626, guid: 4c8179b187a7efa4b9c3961c191659f3, type: 3}
@@ -20,4 +20,4 @@ MonoBehaviour:
   canBeSold: 0
   isQuestItem: 1
   isLookable: 1
-  ItemData: A photo of Heeseung and Chloe in one frame they are smiling at the camera
+  ItemData: A photo of Ethan  and Chloe in one frame they are smiling at the camera

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jaylore3
   m_EditorClassIdentifier: 
   dialogueType: 0
-  StoryItemTrigger: CoucilRoom
+  StoryItemTrigger: CoucilDoor
   line:
   - text: Can you help me pass snack to Heeseung?
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}

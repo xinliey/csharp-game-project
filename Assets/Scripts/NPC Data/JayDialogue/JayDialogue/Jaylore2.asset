@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Jaylore2
   m_EditorClassIdentifier: 
   dialogueType: 0
+  StoryItemTrigger: 
   line:
   - text: Chloe doesn't really fond of study.
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
@@ -22,7 +23,7 @@ MonoBehaviour:
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
   - text: but before she disappear, she seems to be interest
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
-  - text: in math subjec since she joined Math club.
+  - text: in Science subjec since she joined Science club.
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
   actor: {fileID: 11400000, guid: d34a2fe3c42b99645810e7b577343701, type: 2}
   givePresent: 0

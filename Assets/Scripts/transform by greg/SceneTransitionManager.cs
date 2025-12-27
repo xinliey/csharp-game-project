@@ -79,6 +79,7 @@ public class SceneTransitionManager : MonoBehaviour
     }
     public void Respawn(Vector3 respawnPosition, string respawnScene)
     {
+
         SystemMessengerBox.Instance.ShowMessage("I'm so tired, I have no more strength");
         Debug.Log($"Respawning player at position {respawnPosition} in scene {respawnScene}");
         InitSwitchScene(respawnScene, respawnPosition);

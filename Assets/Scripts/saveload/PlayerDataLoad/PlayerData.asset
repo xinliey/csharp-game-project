@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   SaveName: 
-  playerName: xintest1
+  playerName: xin
   LoadFromMenu: 0
-  gameDay: 13
-  maxStamina: 250
-  money: 0
+  gameDay: 32
+  maxStamina: 300
+  money: 80
   currentLevel: 0
-  currentTrigger: 
+  currentTrigger: CoucilDoor
   npcs:
   - {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}
   - {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
@@ -61,17 +61,17 @@ MonoBehaviour:
   - QuestTriggerName: HeeseungConfront
     isDone: 0
     cutscene: {fileID: 11400000, guid: 6db26804132bc5748ac2016b664e8e64, type: 2}
-  wordguessScore: 2
-  wordguessReward: 0
-  arriveSchool: 0
+  wordguessScore: 15
+  wordguessReward: 3
+  arriveSchool: 1
   InMiniGameScene: 0
   finishedSchool: 0
   MessengerTrigger: 0
   TodayTexted: 0
-  PartTimeOnDay: 0
+  PartTimeOnDay: 8
   MenuLooked: 0
-  currentDessert: CocoaCometSpiral
-  currentCooking: CocoaCometSpiral
+  currentDessert: TwilightNectar
+  currentCooking: TwilightNectar
   dessertHolding: 
   ordered: 0
   FirstOrder: 1
