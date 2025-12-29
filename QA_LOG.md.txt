@@ -21,3 +21,12 @@ Long play session to identify gameplay, system, and progression issues.
 15. UI becomes unclickable due to fading image on scene load
 16. Nik’s post-school animation missing
 17. Randomized dialogue causes story progression issues; dialogue order should be controlled
+
+## Fixes Implemented – 2025/12/29
+
+- Refactored NPC dialogue system to enforce quest-first flow
+- Fixed quest score increment logic and interaction score conditions
+- Unified respawn and sleep reset system via shared function
+- Adjusted fade image timing to prevent UI blocking
+- Smoothed respawn transition animation
+- Updated Ben’s room door, schedule, and location
