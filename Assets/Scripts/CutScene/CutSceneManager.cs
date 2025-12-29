@@ -303,9 +303,15 @@ public class CutSceneManager : MonoBehaviour
         SceneTransitionManager.Instance.InitSwitchScene(relocationScene, target);
         yield return new WaitForSeconds(6f);
         
-        
+         player.MenuLooked = false;
+        player.DidParttimeToday = false;
+        player.arriveSchool = false;
+        player.finishedSchool = false;
+        player.TodayTexted = false;
+        player.FirstOrder = true;
         //GameManager.instance.screenFader.UnTint();
-        GameManager.instance.gameTime.SkipToMorning();
+        // GameManager.instance.gameTime.SkipToMorning();
+        GameManager.instance.sleep.nextDay();
         //yield return new WaitForSeconds(2f);
         GameManager.instance.disableControls.EnableControl(); 
         yield return null;

@@ -46685,11 +46685,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 360423389427455123, guid: dd3d0eb21e33ac44cbe99ccad0ab909e, type: 3}
       propertyPath: targetPosition.x
-      value: 0
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 360423389427455123, guid: dd3d0eb21e33ac44cbe99ccad0ab909e, type: 3}
       propertyPath: targetPosition.y
-      value: -2
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 360423389427455123, guid: dd3d0eb21e33ac44cbe99ccad0ab909e, type: 3}
       propertyPath: sceneNameToTransition

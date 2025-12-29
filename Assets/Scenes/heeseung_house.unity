@@ -1474,14 +1474,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 543022295415239173, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 11400000, guid: d34e10f2f9a15bf4ebc7201122e4f07f, type: 2}
-    - target: {fileID: 543022295415239173, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
-      propertyPath: sparkle
-      value: 
-      objectReference: {fileID: 693730400}
-    - target: {fileID: 543022295415239173, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
       propertyPath: ownerRoom
       value: 
       objectReference: {fileID: 1866087788}
@@ -1524,10 +1516,6 @@ PrefabInstance:
     - target: {fileID: 1381644876133236677, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2501113354802340401, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 3976786821275834810, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
       propertyPath: m_Name
@@ -6635,11 +6623,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!1 &693730400 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 875804457436948202, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
-  m_PrefabInstance: {fileID: 498413213}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &700364076
 GameObject:
   m_ObjectHideFlags: 0

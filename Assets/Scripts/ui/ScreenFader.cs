@@ -62,8 +62,12 @@ public class ScreenFader : MonoBehaviour
             Color c = image.color;
             c = Color.Lerp(tintedColor, unTintedColor, f);
             image.color = c;
-            yield return new WaitForEndOfFrame();
 
+            
+            yield return new WaitForEndOfFrame();
+           
         }
+        yield return new WaitForSeconds(0.2f);
+        imagefade.gameObject.SetActive(false);
     }
 }

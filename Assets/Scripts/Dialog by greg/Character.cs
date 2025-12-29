@@ -136,6 +136,7 @@ public class Character : MonoBehaviour
         isExhausted = true;
         Debug.Log("player is exhausted");
         disableControls.DisableControl();
+
         StartCoroutine(ChangingDay());
        
        
@@ -161,17 +162,15 @@ public class Character : MonoBehaviour
     }
     IEnumerator ChangingDay()
     {
-        //for player who ran out of stamina 
+        //for player who ran out of stamina during outside 
         GameManager.instance.screenFader.Tint();
         playerRespawn.StartRespawn();
-        ResetTalkState();
-        stamina.SetToMax();
-        UpdateStaminaBar();
+        
         yield return new WaitForSeconds(6f);
 
 
         //GameManager.instance.screenFader.UnTint();
-        GameManager.instance.gameTime.SkipToMorning();
+        //GameManager.instance.gameTime.SkipToMorning();
         disableControls.EnableControl();
         isExhausted = false;
         yield return null;

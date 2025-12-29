@@ -165,12 +165,7 @@ public class GameTime : MonoBehaviour
         player.gameDay += 1;
         dateText.text = GetCurrentDate();
 
-        player.MenuLooked = false;
-        player.DidParttimeToday = false ;
-        player.arriveSchool = false;
-        player.finishedSchool = false;
-        player.TodayTexted = false;
-        player.FirstOrder = true;
+     
         isNewDay = true;
     }
 

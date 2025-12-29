@@ -16,6 +16,7 @@ public class SceneTransitionManager : MonoBehaviour
     //private bool sceneTransitionInProgress = false; // Prevent multiple triggers
     [SerializeField] ScreenFader screenFader;
     [SerializeField] CameraConfiner cameraConfiner;
+    
     string currentTime;
     public string GetHomeTime = "19";
     private string currentScene; // Current active scene name
@@ -83,7 +84,7 @@ public class SceneTransitionManager : MonoBehaviour
         SystemMessengerBox.Instance.ShowMessage("I'm so tired, I have no more strength");
         Debug.Log($"Respawning player at position {respawnPosition} in scene {respawnScene}");
         InitSwitchScene(respawnScene, respawnPosition);
-        GameManager.instance.gameTime.SkipToMorning();
+        GameManager.instance.sleep.nextDay();
 
 
     }

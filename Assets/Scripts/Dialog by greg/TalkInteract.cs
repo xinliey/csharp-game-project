@@ -95,11 +95,19 @@ public class TalkInteract : Interactable
        // Debug.Log($"current level is{npcCharacter.CurrentLevel}");
         if (npcCharacter.CurrentLevel == 1)
         {
-           
-            DialogueContainer dialogueContainer = npcDefintition.generalDialogues[Random.Range
+            DialogueContainer dialogueContainer;
+            if (npcCharacter.level == 0f)
+            {
+                dialogueContainer = npcDefintition.QuestAnswer[0];
+            }
+            else
+            {
+                dialogueContainer = npcDefintition.generalDialogues[Random.Range
                 (0, npcDefintition.generalDialogues.Count)];
-            GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+            }
             score = 0.25f;
+            GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+            
         }
         else if(npcCharacter.CurrentLevel == 0)
         {
@@ -138,24 +146,54 @@ public class TalkInteract : Interactable
         }
         else if (npcCharacter.CurrentLevel == 2) 
         {
-            DialogueContainer dialogueContainer = npcDefintition.ClassmateDialogues[Random.Range
-                (0, npcDefintition.ClassmateDialogues.Count)];
+            DialogueContainer dialogueContainer;
+            if (npcCharacter.level == 0f)
+            {
+                dialogueContainer = npcDefintition.QuestAnswer[1];
+            }
+            else
+            {
+                dialogueContainer = npcDefintition.generalDialogues[Random.Range
+                (0, npcDefintition.generalDialogues.Count)];
+            }
             score = 0.25f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+            
+            
         }
         else if(npcCharacter.CurrentLevel == 3)
         {
-            DialogueContainer dialogueContainer = npcDefintition.FriendDialogues[Random.Range
-                (0, npcDefintition.FriendDialogues.Count)];
-            score = 0.15f;
+            DialogueContainer dialogueContainer;
+            if (npcCharacter.level == 0f)
+            {
+                dialogueContainer = npcDefintition.QuestAnswer[2];
+            }
+            else
+            {
+                dialogueContainer = npcDefintition.generalDialogues[Random.Range
+                (0, npcDefintition.generalDialogues.Count)];
+            }
+score = 0.15f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+            
+            
         }
         else if(npcCharacter.CurrentLevel == 4)
         {
-            DialogueContainer dialogueContainer = npcDefintition.BestieDialogues[Random.Range
-                (0, npcDefintition.BestieDialogues.Count)];
-            score = 0.10f;
+            DialogueContainer dialogueContainer;
+            if (npcCharacter.level == 0f)
+            {
+                dialogueContainer = npcDefintition.QuestAnswer[3];
+            }
+            else
+            {
+                dialogueContainer = npcDefintition.generalDialogues[Random.Range
+                (0, npcDefintition.generalDialogues.Count)];
+            }
+ score = 0.10f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+           
+           
 
         }
         //Debug.Log($"score is{score}");

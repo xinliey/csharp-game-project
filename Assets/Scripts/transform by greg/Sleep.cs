@@ -106,19 +106,22 @@ public class Sleep : MonoBehaviour
         
         character.FullHeal();
         character.FullRest(0);
-        gameTime.SkipToMorning(); // this line have problem
+        gameTime.SkipToMorning(); 
         //character.CheckLevel();
         data.DidParttimeToday = false;
         data.arriveSchool = false;
         data.finishedSchool = false;
         data.TodayTexted = false;
         data.MenuLooked = false;
-        screenFader.UnTint();
+        data.inPartTimeScene = false;
+    
         character.ResetTalkState();
-        Niki.ResetSchedule();
-        yield return new WaitForSeconds(2f);
-        disableControls.EnableControl();
+        Niki.ResetSchedule();  
+        yield return new WaitForSeconds(4f);
+        screenFader.UnTint();
         
+        disableControls.EnableControl();
+       
 
 
         yield return null; 

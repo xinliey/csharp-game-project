@@ -91,6 +91,9 @@ public class NPCDefintition : ScriptableObject
     public List<ScheduleEntry> Homeschedule = new List<ScheduleEntry>();
     public List<ScheduleEntry> Townschedule = new List<ScheduleEntry>();
     public List<ScheduleEntry> Schoolschedule = new List<ScheduleEntry>();
+
+    [Header("Quest Hint Dialogue")]
+    public List<DialogueContainer> QuestAnswer = new List<DialogueContainer>();
     [Header("Lv1 Dialogues")]
     public List<DialogueContainer> generalDialogues;
 

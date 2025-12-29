@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: cafeDay1
   m_EditorClassIdentifier: 
   dialogueType: 1
+  StoryItemTrigger: 
   line:
   - text: so you are ready for part time job?
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
@@ -23,7 +24,7 @@ MonoBehaviour:
   - ChoiceText: yes
     dialogueContainer: {fileID: 11400000, guid: fbd187e26b8fb9e47bd0d5704d176c07, type: 2}
     isQuest: 0
-    score: 0
+    score: 0.05
   - ChoiceText: no
     dialogueContainer: {fileID: 11400000, guid: f8a778c61a981954880dc6f91346527b, type: 2}
     isQuest: 0

@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 543022295415239173}
   - component: {fileID: 3681604317807058603}
   - component: {fileID: 3474268192606674714}
+  - component: {fileID: 6051602838127410165}
   m_Layer: 6
   m_Name: enteringRoom
   m_TagString: Door
@@ -72,7 +73,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3976786821275834810}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.3274755, y: -7.368703, z: 0.23904848}
   m_LocalScale: {x: 1.1174111, y: 1.1600649, z: 1}
   m_ConstrainProportionsScale: 0
@@ -146,10 +147,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownerRoom: {fileID: 0}
-  player: {fileID: 0}
-  ThisQuestItem: 
+  player: {fileID: 11400000, guid: d34e10f2f9a15bf4ebc7201122e4f07f, type: 2}
+  sparkle: {fileID: 875804457436948202}
+  door: {fileID: 6051602838127410165}
+  questIndex: 0
+  enterTrigger: 
   PlayerCurrentItem: 
   questRoom: 0
+  cutscenewheneneter: 0
+  HideLayer: 0
+  layerToHide: {fileID: 0}
 --- !u!114 &3681604317807058603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +172,8 @@ MonoBehaviour:
   transitionType: 0
   sceneNameToTransition: 
   targetPosition: {x: 0, y: 0, z: 0}
+  ShowLayer: {fileID: 0}
+  ShowHidingLayer: 0
 --- !u!61 &3474268192606674714
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -210,6 +219,102 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
+--- !u!82 &6051602838127410165
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3976786821275834810}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b25b9176cb22b2c48828fcc24611c1bb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8214353169771974886
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +340,7 @@ Transform:
   m_GameObject: {fileID: 8214353169771974886}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 3.33, z: 0}
+  m_LocalPosition: {x: -0.1, y: 5.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

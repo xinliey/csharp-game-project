@@ -19,12 +19,12 @@ MonoBehaviour:
     happy: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     angry: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
   DailyData:
-    level: 0.24
-    currentLevel: 1
+    level: 0.25
+    currentLevel: 2
     talkedToToday: 0
     questInteract: 1
     giftPresent: 0
-    talkedOnTheDayNumber: 5
+    talkedOnTheDayNumber: 1
     loreLevel: 0
     TriggerLore: 0
   characterPrefab: {fileID: 7611141749421104484, guid: 27ddc2b6e7040534a8b3f5317d817738, type: 3}
@@ -86,7 +86,7 @@ MonoBehaviour:
     time: 16:35
     endtime: 16:40
     leaveScene: 0
-    inScene: 0
+    inScene: 1
     warp: 0
     sceneName: 
   - note: walk to room
@@ -106,7 +106,7 @@ MonoBehaviour:
     warp: 1
     sceneName: 
   - note: play game
-    transform: {x: 0, y: 17.59, z: 0}
+    transform: {x: 0, y: 17, z: 0}
     time: 16:40
     endtime: 17:00
     leaveScene: 0
@@ -187,24 +187,25 @@ MonoBehaviour:
     inScene: 1
     warp: 0
     sceneName: 
+  QuestAnswer:
+  - {fileID: 11400000, guid: 5685c0d873b2b944ca94d39aef338f1d, type: 2}
+  - {fileID: 11400000, guid: 43c30b1da1c2b2746a687e69b33fe70c, type: 2}
+  - {fileID: 11400000, guid: 649451025f5716b458f3c45925fff106, type: 2}
+  - {fileID: 11400000, guid: b58e8060b429d954db3829e43773e8ee, type: 2}
   generalDialogues:
   - {fileID: 11400000, guid: 925dd2bfd6a6b324db0e929332b5e710, type: 2}
-  - {fileID: 11400000, guid: 5685c0d873b2b944ca94d39aef338f1d, type: 2}
   - {fileID: 11400000, guid: 6d8e85ddf5a3ca24187b401ce694a8c5, type: 2}
   ClassmateDialogues:
   - {fileID: 11400000, guid: 756758d72a4a933418c1a8bc20a75d93, type: 2}
   - {fileID: 11400000, guid: 9302a1b859dfada41affb03253851751, type: 2}
-  - {fileID: 11400000, guid: 43c30b1da1c2b2746a687e69b33fe70c, type: 2}
   FriendDialogues:
   - {fileID: 11400000, guid: 038bfc8de086e594aa5065df71bd9560, type: 2}
   - {fileID: 11400000, guid: 4410148e48ef48e4d8c8a99828a16c24, type: 2}
   - {fileID: 11400000, guid: 442eecec069aa45419f9bbf3b917ba5f, type: 2}
-  - {fileID: 11400000, guid: 649451025f5716b458f3c45925fff106, type: 2}
   BestieDialogues:
   - {fileID: 11400000, guid: 65fc2e2934a21b948aa745584e820b19, type: 2}
   - {fileID: 11400000, guid: 57e37785bb2f8a14da6e59dadaaaefd1, type: 2}
   - {fileID: 11400000, guid: e7d082c5f953cdd4988d16088585b042, type: 2}
-  - {fileID: 11400000, guid: b58e8060b429d954db3829e43773e8ee, type: 2}
   LoreDialogues:
   - {fileID: 11400000, guid: 1e9acde1dfe04fb46b8a505aaef12716, type: 2}
   - {fileID: 11400000, guid: 4560162e71511334b9b2329b28258e2f, type: 2}

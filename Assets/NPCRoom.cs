@@ -10,7 +10,7 @@ public class NPCRoom : Interactable
     [SerializeField] GameObject ownerRoom;
     [SerializeField] PlayerScoreRecord player;
     [SerializeField] GameObject sparkle;
-    
+    [SerializeField] AudioSource door;
     public int questIndex;//for cutscene
     public string enterTrigger;
     public string PlayerCurrentItem;
@@ -52,8 +52,9 @@ public class NPCRoom : Interactable
         if (questRoom == false)
         {
 
-            if (npc.CurrentLevel >= 2)
+            if (npc.CurrentLevel >= 3)
             {
+                door.Play();
                 transition.DoorTransition(character.transform);
                 if (HideLayer == true)
                 {

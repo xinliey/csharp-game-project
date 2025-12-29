@@ -284,8 +284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
-  level: 0
   QuestDone: 0
+  level: 0
 --- !u!1001 &205276096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1047,6 +1047,14 @@ PrefabInstance:
     - target: {fileID: 1381644876133236677, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3681604317807058603, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
+      propertyPath: transitionType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3681604317807058603, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
+      propertyPath: sceneNameToTransition
+      value: Jay_bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 3976786821275834810, guid: 0b70473bd3fd8fe4ebbc2c0c1dcaf239, type: 3}
       propertyPath: m_Name

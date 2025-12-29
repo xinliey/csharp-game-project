@@ -25,9 +25,10 @@ public class GameManager : MonoBehaviour
         {
             canvas.SetActive(false);
         }
-      */
+      */sleep = player.GetComponent<Sleep>();
         
     }
+    public Sleep sleep;
     public GameObject player;
     public ItemContainer inventoryContainer; 
     public ItemDragAndDropManager dragAndDropManager;

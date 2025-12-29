@@ -15,11 +15,11 @@ MonoBehaviour:
   SaveName: 
   playerName: xin
   LoadFromMenu: 0
-  gameDay: 32
-  maxStamina: 300
-  money: 80
+  gameDay: 3
+  maxStamina: 100
+  money: 150
   currentLevel: 0
-  currentTrigger: CoucilDoor
+  currentTrigger: 
   npcs:
   - {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}
   - {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
@@ -32,7 +32,7 @@ MonoBehaviour:
     isDone: 1
     cutscene: {fileID: 11400000, guid: aced1957255653f4c8fb24155b58ffb7, type: 2}
   - QuestTriggerName: Guiding
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: e3e85f0ecb9f583429aabe8b65c90347, type: 2}
   - QuestTriggerName: JaySad
     isDone: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - QuestTriggerName: HeeseungConfront
     isDone: 0
     cutscene: {fileID: 11400000, guid: 6db26804132bc5748ac2016b664e8e64, type: 2}
-  wordguessScore: 15
-  wordguessReward: 3
-  arriveSchool: 1
+  wordguessScore: 0
+  wordguessReward: 0
+  arriveSchool: 0
   InMiniGameScene: 0
-  finishedSchool: 0
+  finishedSchool: 1
   MessengerTrigger: 0
   TodayTexted: 0
-  PartTimeOnDay: 8
+  PartTimeOnDay: 1
   MenuLooked: 0
   currentDessert: TwilightNectar
   currentCooking: TwilightNectar
@@ -78,6 +78,6 @@ MonoBehaviour:
   correct: 1
   isDessertInHand: 0
   DidParttimeToday: 0
-  inPartTimeScene: 0
+  inPartTimeScene: 1
   chloeletterattempt: 0
   closestnpc: {fileID: 0}

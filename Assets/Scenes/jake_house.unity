@@ -4715,6 +4715,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9144151758695496201, guid: 5f236d1f4308a2b40a78a365a1625c2f, type: 3}
+      propertyPath: TownSchedule
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144151758695496201, guid: 5f236d1f4308a2b40a78a365a1625c2f, type: 3}
       propertyPath: SchoolSchedule
       value: 0
       objectReference: {fileID: 0}

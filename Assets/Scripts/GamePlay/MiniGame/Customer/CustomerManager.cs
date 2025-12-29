@@ -64,9 +64,9 @@ public class CustomerManager : MonoBehaviour
         {
             GameManager.instance.dialogueSystem.Initialize(dialog);
             player.FirstOrder = true;
-
+            player.inPartTimeScene = false;
         }
-       player.inPartTimeScene = false;
+       
         ExitCafe.SetActive(true);
         
     }

@@ -146,16 +146,17 @@ public class NPCCharacter : TimeAgent
     internal void IncreaseRelationship(float v)
     {
         if(QuestInteract == false){ //if player havent done quest
-            Level += v;
+            //Level += v;
             QuestInteract = true;
         }
         else if(TalkedToToday == false)
-        {  
-            Level += v;
+        { 
+            TalkedOnTheDayNumber += 1;
+           // Level += v;
             TalkedToToday = true;
         }
-        //Level += v;
-        TalkedOnTheDayNumber += 1;
+        Level += v;
+        
         CheckCurrentRelationship();
     }
     internal void LateForSchoolDeduct(float v)
@@ -182,11 +183,12 @@ public class NPCCharacter : TimeAgent
             UnityEngine.Debug.Log($"reset talk stage for {character.name}");
             
             TalkedToToday = false;
-            TalkedOnTheDayNumber = gameTime.days;
+           // TalkedOnTheDayNumber = gameTime.days;
             gameTime.isNewDay = false;
-            if (TalkedOnTheDayNumber % 4 == 0) //reset every three days 
+            if (TalkedOnTheDayNumber % 3 == 0) //reset every three days 
             {
                 QuestInteract = false;
+
             }
             if (TalkedOnTheDayNumber%3==0) //reset every three days 
             {
