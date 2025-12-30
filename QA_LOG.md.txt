@@ -30,3 +30,43 @@ Long play session to identify gameplay, system, and progression issues.
 - Adjusted fade image timing to prevent UI blocking
 - Smoothed respawn transition animation
 - Updated Ben’s room door, schedule, and location
+
+# Game Testing Log – 2025/12/30
+
+## Session Goal
+Long play session to identify gameplay, system, and progression issues.
+
+## Issues Identified
+
+1. Part-Time Job Reward Logic  
+   - Extra score is not being awarded to Jay during part-time job gameplay.
+
+2. Quest and Lore Interaction Conflict  
+   - Quest interactions and lore-only interactions are currently overlapping.
+   - During lore interactions, no quest progression or score updates should be triggered to avoid incorrect level and state changes.
+
+3. UI Readability – Player Phone  
+   - Font size in the player’s phone UI is too large and should be reduced for better readability.
+
+4. Progression Pacing – Jay  
+   - Jay’s interaction triggers activate too late in the progression flow.
+   - Adjust trigger threshold to activate at Level 3 to improve pacing and player engagement.
+
+5. NPC Availability – Ethan  
+   - Ethan appears too infrequently on the map, making it difficult for players to interact with him.
+   - Adjust schedule so Ethan remains available for a longer period after school.
+
+6. Score Balance Adjustment  
+   - Add bonus score for Ethan and Jay when the player arrives at school early.
+   - These characters require faster progression compared to other NPCs.
+
+7. Quest Reset Logic  
+   - When resetting the game, ensure all quest-related `isDone` booleans are properly reset to prevent broken quest states.
+
+8. Cutscene Trigger Review  
+   - Recheck and document how each cutscene trigger functions, including conditions and dependencies.
+Status: Pending
+Priority: Medium
+Notes: Issues identified during long-session playtesting
+
+

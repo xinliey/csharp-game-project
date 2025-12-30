@@ -35,7 +35,7 @@ public class Sleep : MonoBehaviour
         }
         else
         {
-            Debug.Log("niki cant be found");
+           // Debug.Log("niki cant be found");
         }
     }
     internal void DoSleep()
@@ -94,7 +94,7 @@ public class Sleep : MonoBehaviour
         }
         else
         {
-            Debug.Log("niki cant be found");
+            //Debug.Log("niki cant be found");
         }
         ScreenFader screenFader = GameManager.instance.screenFader;
         
@@ -117,7 +117,7 @@ public class Sleep : MonoBehaviour
     
         character.ResetTalkState();
         Niki.ResetSchedule();  
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3f);
         screenFader.UnTint();
         
         disableControls.EnableControl();

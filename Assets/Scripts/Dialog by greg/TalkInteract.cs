@@ -140,7 +140,7 @@ public class TalkInteract : Interactable
             npcDefintition.DailyData.TriggerLore = false;
             npcDefintition.DailyData.loreLevel += 1; //lore 0 is for lv 1 , lore 1 is for level 2
             npcCharacter.CurrentLevel = npcDefintition.DailyData.loreLevel + 1;
-            Debug.Log($"setting trigger lore to {npcDefintition.DailyData.TriggerLore}");
+           // Debug.Log($"setting trigger lore to {npcDefintition.DailyData.TriggerLore}");
            
 
         }
@@ -153,7 +153,7 @@ public class TalkInteract : Interactable
             }
             else
             {
-                dialogueContainer = npcDefintition.generalDialogues[Random.Range
+                dialogueContainer = npcDefintition.ClassmateDialogues[Random.Range
                 (0, npcDefintition.generalDialogues.Count)];
             }
             score = 0.25f;
@@ -170,7 +170,7 @@ public class TalkInteract : Interactable
             }
             else
             {
-                dialogueContainer = npcDefintition.generalDialogues[Random.Range
+                dialogueContainer = npcDefintition.FriendDialogues[Random.Range
                 (0, npcDefintition.generalDialogues.Count)];
             }
 score = 0.15f;
@@ -187,7 +187,7 @@ score = 0.15f;
             }
             else
             {
-                dialogueContainer = npcDefintition.generalDialogues[Random.Range
+                dialogueContainer = npcDefintition.BestieDialogues[Random.Range
                 (0, npcDefintition.generalDialogues.Count)];
             }
  score = 0.10f;

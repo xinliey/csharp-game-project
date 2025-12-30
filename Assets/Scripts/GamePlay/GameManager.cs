@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
     }
     public void minigameDisable()
     {
-        Debug.Log("disabling the panel in essential");
+        //Debug.Log("disabling the panel in essential");
         toolbar.SetActive(false);
         HpBar.SetActive(false);
     }

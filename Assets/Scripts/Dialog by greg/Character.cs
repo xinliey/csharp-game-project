@@ -86,7 +86,7 @@ public class Character : MonoBehaviour
 
     public void CutScene(int currentCutScene)
     {
-        Debug.Log("now in calling cutscene from cutscene script");  
+       // Debug.Log("now in calling cutscene from cutscene script");  
         
         cutsceneManager.GetCutsceneIndex(currentCutScene);
     }
@@ -134,7 +134,7 @@ public class Character : MonoBehaviour
     {
 
         isExhausted = true;
-        Debug.Log("player is exhausted");
+        //Debug.Log("player is exhausted");
         disableControls.DisableControl();
 
         StartCoroutine(ChangingDay());
@@ -146,7 +146,7 @@ public class Character : MonoBehaviour
         foreach (NPCDefintition n in npcreset)
         {
 
-            UnityEngine.Debug.Log($"reset talk stage for {n.name}");
+           // UnityEngine.Debug.Log($"reset talk stage for {n.name}");
             n.DailyData.talkedToToday = false;
 
             if (n.DailyData.talkedOnTheDayNumber % 4 == 0) //reset every three days 

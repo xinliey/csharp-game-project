@@ -180,12 +180,13 @@ public class NPCCharacter : TimeAgent
        
         if(gameTime.isNewDay==true)
         {
-            UnityEngine.Debug.Log($"reset talk stage for {character.name}");
+           // UnityEngine.Debug.Log($"reset talk stage for {character.name}");
             
             TalkedToToday = false;
            // TalkedOnTheDayNumber = gameTime.days;
             gameTime.isNewDay = false;
-            if (TalkedOnTheDayNumber % 3 == 0) //reset every three days 
+            if (TalkedOnTheDayNumber % 3 == 0 && character.DailyData.TriggerLore==false) //reset every three days and make sure the game condition is not under lore triggering
+                //because if player did quest while lore is being triggered , they will forced to do the first quest and will miss the quest hint since the score will be added.
             {
                 QuestInteract = false;
 
