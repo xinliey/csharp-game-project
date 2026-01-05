@@ -9,11 +9,14 @@ public class OrderInteraction : Interactable
     DessertMenuTrigger menu;
     private BoxCollider2D boxCollider;
     private bool isOpened = false;
+    NPCCharacter jay;
+    float score = 0.15f;
     private void Awake()
     {
         character = GetComponent<Character>();
         menu = GetComponent<DessertMenuTrigger>();
         boxCollider = GetComponent<BoxCollider2D>();
+        jay = GetComponent<NPCCharacter>();
      
     }
     public override void Interact(Character character)
@@ -45,6 +48,7 @@ public class OrderInteraction : Interactable
                 menu.DisplayMenu();
                //Debug.Log("jay will show you today's menu ");
                 data.MenuLooked = true;
+                jay.IncreaseRelationship(score);
                 isOpened = true;
             }
 

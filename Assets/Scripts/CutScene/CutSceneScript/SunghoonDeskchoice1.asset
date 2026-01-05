@@ -16,7 +16,7 @@ MonoBehaviour:
   Selectable: 0
   cutSceneLevel: 0
   nextTrigger: 1
-  NextTriggerName: JakeHouse
+  NextTriggerName: JakeHomework
   EndingCutscene: 0
   dialogue:
   - npc: {fileID: 2800000, guid: ed237cd23ddeaad4d81a9c787ca048fd, type: 3}

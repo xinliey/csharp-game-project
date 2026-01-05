@@ -69,4 +69,27 @@ Status: Pending
 Priority: Medium
 Notes: Issues identified during long-session playtesting
 
+## Fixes Implemented – 2026/1/5
+1. Part-Time Job Interaction – Jay  
+   - Added `NpcCharacter` script to Jay’s object in the part-time job gameplay.
+   - Enabled score to be added correctly when the player interacts with Jay through the menu.
 
+2. Quest and Lore Interaction Isolation  
+   - Automatically set `questInteract` and `giftPresent` booleans to true during lore dialogues.
+   - Prevents other interactions from triggering while lore dialogue is active.
+
+3. UI Adjustment – Player Phone  
+   - Increased font size in the phone application for improved readability.
+
+4. NPC Schedule & Environment Adjustment – Ethan  
+   - Adjusted council door position.
+   - Updated Ethan’s schedule so he appears more frequently at school.
+   - Ethan now leaves school at 18:30 and returns home by 19:00.
+
+5. Quest Reset Logic  
+   - Added logic to reset `quest.isDone` boolean from `NpcDefinition` from MainMenu script.
+   - Main story quests remain stored in `PlayerData`, while NPC-specific and score-dependent quests are handled within each NPC’s definition.
+
+6. Cutscene System Review & Hint Logic  
+   - Rechecked and verified cutscene system linkages and dependencies.
+   - Added logic to provide player hints when required quest items are missing.

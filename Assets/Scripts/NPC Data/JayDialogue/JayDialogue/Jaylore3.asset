@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueType: 0
   StoryItemTrigger: CoucilDoor
   line:
-  - text: Can you help me pass snack to Heeseung?
+  - text: Can you help me pass snack to Heeseung tomorrow?
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
-  - text: "he ordered it but I didn\u2019t have time to deliver it"
+  - text: he ordered it but I have to run back to cafe early.
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}
   - text: you can just put it on his desk in council room.
     expression: {fileID: 2800000, guid: 86a0e2016c4d6fd4a8d838caae75b619, type: 3}

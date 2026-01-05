@@ -49,6 +49,7 @@ public class PlayerScoreRecord : ScriptableObject
     public bool isDessertInHand = true;
     public bool DidParttimeToday = false;
     public bool inPartTimeScene = false;
+    public bool chloeletterInHand;
     public int chloeletterattempt;
     public NPCDefintition closestnpc;
     

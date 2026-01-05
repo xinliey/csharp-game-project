@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   SaveName: 
-  playerName: xin
+  playerName: test
   LoadFromMenu: 0
-  gameDay: 25
-  maxStamina: 300
-  money: 80
+  gameDay: 4
+  maxStamina: 150
+  money: 0
   currentLevel: 0
-  currentTrigger: HeeseungLie
+  currentTrigger: ChloeLetterSecond
   npcs:
   - {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}
   - {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
@@ -41,10 +41,10 @@ MonoBehaviour:
     isDone: 0
     cutscene: {fileID: 11400000, guid: 58b9854d0f1ea3748b0b039223dbaa80, type: 2}
   - QuestTriggerName: SunghoonDesk
-    isDone: 0
+    isDone: 1
     cutscene: {fileID: 11400000, guid: 888f1bfd5ce8390459fa3409c218479a, type: 2}
   - QuestTriggerName: JakeHomework
-    isDone: 0
+    isDone: 1
     cutscene: {fileID: 11400000, guid: cde2c894e16674441ad37fc4bb338fb9, type: 2}
   - QuestTriggerName: JakePhone
     isDone: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
     isDone: 0
     cutscene: {fileID: 11400000, guid: 055e7d2053c729c47b66226948658db6, type: 2}
   - QuestTriggerName: JakeHouse
-    isDone: 0
+    isDone: 1
     cutscene: {fileID: 11400000, guid: 4cf9378ffa90e4b42915a2b7ca8d67af, type: 2}
   - QuestTriggerName: HeeseungHouse
     isDone: 0
@@ -61,23 +61,24 @@ MonoBehaviour:
   - QuestTriggerName: HeeseungConfront
     isDone: 0
     cutscene: {fileID: 11400000, guid: 6db26804132bc5748ac2016b664e8e64, type: 2}
-  wordguessScore: 17
-  wordguessReward: 2
+  wordguessScore: 4
+  wordguessReward: 0
   arriveSchool: 1
   InMiniGameScene: 0
-  finishedSchool: 0
+  finishedSchool: 1
   MessengerTrigger: 0
-  TodayTexted: 0
-  PartTimeOnDay: 7
+  TodayTexted: 1
+  PartTimeOnDay: 0
   MenuLooked: 0
-  currentDessert: CocoaCometSpiral
-  currentCooking: CocoaCometSpiral
+  currentDessert: FoamSpellCraft
+  currentCooking: FoamSpellCraft
   dessertHolding: 
   ordered: 0
   FirstOrder: 1
-  correct: 1
+  correct: 0
   isDessertInHand: 0
   DidParttimeToday: 0
   inPartTimeScene: 0
+  chloeletterInHand: 1
   chloeletterattempt: 0
   closestnpc: {fileID: 0}

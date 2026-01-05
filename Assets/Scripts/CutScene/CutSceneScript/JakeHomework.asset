@@ -19,26 +19,33 @@ MonoBehaviour:
   NextTriggerName: 
   EndingCutscene: 0
   dialogue:
-  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+  - npc: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
-    line: "I reached Jake\u2019s house earlier than expected. "
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: '"hey, can you check this homework for me"'
     noBackground: 0
-  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+  - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
     ChangeImage: 1
-    background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
-    line: "He told me Benjamin would take his sweet time\u2014\u201Cpretty boy has
-      to tidy himself like a mirror model before leaving his house."
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: Jake came to me after class , I glanced around , wondering why is he asking
+      me out of all people
+    noBackground: 0
+  - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
+    ChangeImage: 0
+    background: {fileID: 21300000, guid: fd21ef946708af440a2932cc2dfc55df, type: 3}
+    line: "He told me Benjamin would take his sweet time in toilet checking the mirror\u2014\u201Cpretty
+      boy has to tidy himself like a mirror model before going anywhere\""
     noBackground: 0
   - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
     ChangeImage: 0
     background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
-    line: "He led me to his room, saying he\u2019d grab snacks. "
+    line: "He led me to his table, saying he\u2019d grab snacks since he's too hungry
+      and I can take my time looking at his homework. "
     noBackground: 0
   - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
     ChangeImage: 0
     background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
-    line: 'Left alone, I looked at the table. '
+    line: 'Left alone, I looked at the table full of random books and homework. '
     noBackground: 0
   - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
     ChangeImage: 0
@@ -75,7 +82,7 @@ MonoBehaviour:
   - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
     ChangeImage: 0
     background: {fileID: 21300000, guid: 76f77e90b502b7041b795a7bd878e151, type: 3}
-    line: "What\u2019s with the snooping around my homework, huh?\u201D "
+    line: "What\u2019s with the snooping around all my worksheets, huh?\u201D "
     noBackground: 0
   - npc: {fileID: 2800000, guid: c92290dc2afc8eb4ea0adb937d18c5b1, type: 3}
     ChangeImage: 0
@@ -88,7 +95,7 @@ MonoBehaviour:
     line: He came closer to see what I was looking at.
     noBackground: 0
   options:
-  - Option: I wanted to see what you answered for this question
+  - Option: I wanted to see if you did other homework
     Score: 0.05
     OptionDialogue: {fileID: 11400000, guid: f593a607c6bedcb49929dd9b5ee36071, type: 2}
   - Option: "What\u2019s the bet between you and Benjamin?"

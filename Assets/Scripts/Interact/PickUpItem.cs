@@ -67,12 +67,14 @@ public class PickUpItem : MonoBehaviour
             
             if (GameManager.instance.inventoryContainer != null)
             {
-                if (item.isLookable==true)
+                if (item.isLookable == true)
                 {
                     SystemMessengerBox.Instance.ShowMessage("right click on the item in the inventory for more information");
-
+                    if (item.Name == "Mysterious Note")
+                    {
+                        GameManager.instance.ChloeLetterCheck();
+                    }
                 }
-                
                 GameManager.instance.inventoryContainer.Add(item, count);
                 toolBarInventory.Show();
             }

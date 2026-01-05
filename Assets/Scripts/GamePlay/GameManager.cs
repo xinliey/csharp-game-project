@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject toolbar;
     [SerializeField] GameObject HpBar;
     [SerializeField] AudioSource clickSound;
+    [SerializeField] ChloeLetterSecondAttempt letter;
     public static GameManager instance;
     [SerializeField] PlayerScoreRecord data;
    // public GameObject canvas;
@@ -55,6 +56,11 @@ public class GameManager : MonoBehaviour
     {
         toolbar.SetActive(true);
         HpBar.SetActive(true);
+    }
+    public void ChloeLetterCheck()
+    {
+        data.chloeletterInHand = true;
+        letter.RecheckChloeLetter();
     }
 }
 

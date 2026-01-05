@@ -17,13 +17,28 @@ public class ChloeLetterSecondAttempt : MonoBehaviour
     public List<string> answers = new List<string>();
     private void Awake()
     {
+        if (player.chloeletterInHand == true)
+        {
+            letterbtn.gameObject.SetActive(true);
+            Panel.SetActive(false);
+        }
+        else
+        {
+            letterbtn.gameObject.SetActive(false);
+            SystemMessengerBox.Instance.ShowMessage("I need to check Chloe's locker at school");
+        }
+        
+    }
+    public void RecheckChloeLetter()
+    {
+        letterbtn.gameObject.SetActive(true);
         Panel.SetActive(false);
     }
-
     public void ChloeLetterBtnPressed()
     {
         GameManager.instance.gameTime.PauseTime();
         Panel.SetActive(true);
+        GameManager.instance.disableControls.DisableControl();
         UpdateAttempt();
        
     }                     
@@ -68,7 +83,7 @@ public class ChloeLetterSecondAttempt : MonoBehaviour
         {
             attempts.text = "0";
             confirmbtn.SetActive(false);
-            
+            HelpBtn();
         }
     }
 
@@ -82,5 +97,6 @@ public class ChloeLetterSecondAttempt : MonoBehaviour
     public void ExitBtn()
     {
         Panel.SetActive(false);
+        GameManager.instance.disableControls.EnableControl();
     }
 }

@@ -81,9 +81,11 @@ public class NPCCharacter : TimeAgent
         {
 
             character.DailyData.TriggerLore = true;
+            character.DailyData.questInteract = true;
             CurrentLevel = 0;
             Level = 0f;
-            character.DailyData.questInteract = true;
+            character.DailyData.giftPresent = true;
+            //character.DailyData.questInteract = true;
         }
         /*float roundedLevel = Mathf.Round(Level * 100f) / 100f;
         UnityEngine.Debug.Log($"current score is {roundedLevel}");
@@ -185,11 +187,14 @@ public class NPCCharacter : TimeAgent
             TalkedToToday = false;
            // TalkedOnTheDayNumber = gameTime.days;
             gameTime.isNewDay = false;
-            if (TalkedOnTheDayNumber % 3 == 0 && character.DailyData.TriggerLore==false) //reset every three days and make sure the game condition is not under lore triggering
+            if (TalkedOnTheDayNumber % 3 == 0) //reset every three days and make sure the game condition is not under lore triggering
                 //because if player did quest while lore is being triggered , they will forced to do the first quest and will miss the quest hint since the score will be added.
             {
-                QuestInteract = false;
-
+                if(character.DailyData.TriggerLore == false)
+                {
+                    QuestInteract = false;
+                }
+    
             }
             if (TalkedOnTheDayNumber%3==0) //reset every three days 
             {

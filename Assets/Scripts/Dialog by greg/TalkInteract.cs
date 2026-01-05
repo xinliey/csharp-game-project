@@ -140,8 +140,8 @@ public class TalkInteract : Interactable
             npcDefintition.DailyData.TriggerLore = false;
             npcDefintition.DailyData.loreLevel += 1; //lore 0 is for lv 1 , lore 1 is for level 2
             npcCharacter.CurrentLevel = npcDefintition.DailyData.loreLevel + 1;
-           // Debug.Log($"setting trigger lore to {npcDefintition.DailyData.TriggerLore}");
-           
+            // Debug.Log($"setting trigger lore to {npcDefintition.DailyData.TriggerLore}");
+            score = 0;
 
         }
         else if (npcCharacter.CurrentLevel == 2) 

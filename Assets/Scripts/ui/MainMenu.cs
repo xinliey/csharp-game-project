@@ -77,6 +77,7 @@ public class MainMenu : MonoBehaviour
     {
         foreach(ItemSlot slot in Inventory.slots)
         {//cleaning all the inventory 
+            Debug.Log("restting inventory");
             slot.Clear();
         }
        
@@ -97,6 +98,9 @@ public class MainMenu : MonoBehaviour
             npc.DailyData.loreLevel = 0;
             npc.DailyData.currentLevel = 1;
             npc.DailyData.questInteract = true;
+            npc.NextVictimDialogue.isDone = false;
+            npc.HeeseungConfrontDialogue.isDone = false;
+            npc.HiddenStory.isDone = false;
         }
         DataUsing.finishedSchool = false;
         DataUsing.wordguessScore = 0;

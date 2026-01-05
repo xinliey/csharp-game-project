@@ -3684,6 +3684,7 @@ GameObject:
   - component: {fileID: 224510219}
   - component: {fileID: 224510222}
   - component: {fileID: 224510223}
+  - component: {fileID: 224510224}
   m_Layer: 6
   m_Name: jayleft1
   m_TagString: Untagged
@@ -3947,6 +3948,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &224510224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224510217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b881610443bddb644b2e604918c47dca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
+  QuestDone: 0
+  level: 0
 --- !u!1 &239304946
 GameObject:
   m_ObjectHideFlags: 0
