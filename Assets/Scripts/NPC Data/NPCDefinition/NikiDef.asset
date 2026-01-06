@@ -21,7 +21,7 @@ MonoBehaviour:
   DailyData:
     level: 0.25
     currentLevel: 2
-    talkedToToday: 1
+    talkedToToday: 0
     questInteract: 1
     giftPresent: 0
     talkedOnTheDayNumber: 6
@@ -45,7 +45,7 @@ MonoBehaviour:
     cutscene: {fileID: 11400000, guid: 0deb7e53bcb83224aa5f7b3c9f818c07, type: 2}
   HiddenStory:
     QuestTriggerName: 
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: 8384b2d855e66754b876b60c60e7aab5, type: 2}
   Homeschedule:
   - note: walk to room door

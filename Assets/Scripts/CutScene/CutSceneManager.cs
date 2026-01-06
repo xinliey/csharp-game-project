@@ -211,25 +211,7 @@ public class CutSceneManager : MonoBehaviour
             }
 
         }
-        
-    /*
-    if (currentLine < currentCutScene.dialogue.Count)
-    {
-        if (currentCutScene.dialogue[currentLine].background != null)
-        {
-            cutSceneImage.sprite = currentCutScene.dialogue[currentLine].background;
-            Debug.Log($"Background set to: {cutSceneImage.sprite.name}");
-            pushbutton.gameObject.SetActive(true);
-        }
-        else
-        {
-            Debug.LogWarning("Background is null for this dialogue line.");
-        }
-    }
-    else
-    {
-        Debug.LogWarning("currentLine index is out of range.");
-    }*/
+       
 }
     public void BackToMenuButton()
     {
@@ -239,6 +221,7 @@ public class CutSceneManager : MonoBehaviour
     }
     public void Initialize(CutSceneDialogue cutsceneno)
     {
+        GameManager.instance.DisableSoundtrack();
         gameTime.PauseTime();
         //Debug.Log($"current dialog is{cutsceneno.cutscenename}");
         Show(true);
@@ -256,12 +239,13 @@ public class CutSceneManager : MonoBehaviour
 
     public void Conclude()
     {
-     
+
         if (currentCutScene.EndingCutscene == false)
         {
             Show(false);
             CutScenePanel.SetActive(false);
             gameTime.ResumeTime();
+            GameManager.instance.screenFader.Tint();
             cutSceneImage.gameObject.SetActive(false);
             if (currentCutScene.nextTrigger == true)
             {
@@ -270,21 +254,24 @@ public class CutSceneManager : MonoBehaviour
                 {
                     nextTrigChloeLetter = true;
                 }
+                GameManager.instance.screenFader.UnTint();
             }
             else
             {
-                player.currentTrigger = null;
-                StartCoroutine(ChangingDay());
-                
+                player.currentTrigger = null; //if there's no current trigger change the day 
+                                              //StartCoroutine(ChangingDay());
+                SceneTransitionManager.Instance.InitSwitchScene(relocationScene, target);
+                GameManager.instance.sleep.nextDay();
+
             }
             if (nextTrigChloeLetter == true)
             {
                 //SystemMessengerBox.Instance.ShowMessage("Chloe's Letter shortcut has been added to the screen");
                 ChloeLetter.SetActive(true);
-
+                GameManager.instance.screenFader.UnTint();
             }
-            concludedialog = true; 
-           
+            concludedialog = true;
+
         }
         if (currentCutScene.EndingCutscene == true)
         {
@@ -293,29 +280,11 @@ public class CutSceneManager : MonoBehaviour
             EndingText.text = currentCutScene.NextTriggerName;
 
         }
-       
+
+        GameManager.instance.EnableSoundtrack
+            ();
+    }
     
-    }
-    IEnumerator ChangingDay()
-    {
-        GameManager.instance.disableControls.DisableControl();
-        GameManager.instance.screenFader.Tint();
-        SceneTransitionManager.Instance.InitSwitchScene(relocationScene, target);
-        yield return new WaitForSeconds(6f);
-        
-         player.MenuLooked = false;
-        player.DidParttimeToday = false;
-        player.arriveSchool = false;
-        player.finishedSchool = false;
-        player.TodayTexted = false;
-        player.FirstOrder = true;
-        //GameManager.instance.screenFader.UnTint();
-        // GameManager.instance.gameTime.SkipToMorning();
-        GameManager.instance.sleep.nextDay();
-        //yield return new WaitForSeconds(2f);
-        GameManager.instance.disableControls.EnableControl(); 
-        yield return null;
-    }
     IEnumerator ChangeImage()
     {
         //Debug.Log("before tinting");

@@ -148,7 +148,7 @@ public class DialogueSystem : MonoBehaviour
 
     public void Initialize(DialogueContainer dialogueContainer)
     {
-
+        GameManager.instance.DisablePlayerBox();
         GameManager.instance.gameTime.PauseTime(); 
         Show(true);
         currentDialogue = dialogueContainer;
@@ -183,6 +183,7 @@ public class DialogueSystem : MonoBehaviour
         
        // Debug.Log("dialogue is over");
         Show(false);
+        GameManager.instance.EnablePlayerBox();
         if (currentDialogue.StoryItemTrigger == null || currentDialogue.StoryItemTrigger == "")
         {
            // Debug.Log("storytrigger in this dialogue is null");

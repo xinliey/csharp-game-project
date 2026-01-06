@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
         {
             if (!walkAudio.isPlaying)
             {
-                walkAudio.volume = 0.05f;
+                walkAudio.volume = 0.02f;
                 walkAudio.Play();
             }
         }

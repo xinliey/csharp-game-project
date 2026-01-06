@@ -8,7 +8,7 @@ public class Sleep : MonoBehaviour
     [SerializeField] GameObject exitbtn;
     [SerializeField] GameObject nextday;
     [SerializeField] GameObject backbtn;
-   
+    [SerializeField] Vector3 respawnPointPosition = new Vector3(-10, 17, 0);
     DisableControls disableControls;
     Character character;
     GameTime gameTime;
@@ -103,7 +103,7 @@ public class Sleep : MonoBehaviour
       
         exitbtn.SetActive(false);
         nextday.SetActive(false);
-        
+        //SceneTransitionManager.Instance.InitSwitchScene("mc_house", respawnPointPosition);
         character.FullHeal();
         character.FullRest(0);
         gameTime.SkipToMorning(); 

@@ -9,7 +9,7 @@ public class TalkInteract : Interactable
     public int talkStaminaCost = 1;
     private SpriteRenderer spriteRenderer;
     private Character character;
-    private BoxCollider2D collder;
+    //private BoxCollider2D collder;
     //[SerializeField] DialogueContainer dialogue;
     NPCCharacter npcCharacter;
     NPCDefintition npcDefintition; //getting the dialogue from the definition
@@ -26,7 +26,7 @@ public class TalkInteract : Interactable
         npcCharacter = GetComponent<NPCCharacter>();
         npcDefintition = npcCharacter.character;
         spriteRenderer = GetComponent<SpriteRenderer>();
-        collder = GetComponent<BoxCollider2D>();
+       // collder = GetComponent<BoxCollider2D>();
        // animator = GetComponent<Animator>();
        
         
@@ -38,7 +38,7 @@ public class TalkInteract : Interactable
 
         if (character.player.currentTrigger != null)
         {
-            collder.enabled = false;
+            //collder.enabled = false;
            // Debug.Log("current trigger is not null proceed to check the information");
             matchedCutscene = CheckTriggerName(character);
             if (matchedCutscene==false)
@@ -243,7 +243,7 @@ score = 0.15f;
     public void IncreaseRelationShip(float v)
     {
         npcCharacter.IncreaseRelationship(v);
-        collder.enabled = true;
+        //collder.enabled = true;
    
         
     }

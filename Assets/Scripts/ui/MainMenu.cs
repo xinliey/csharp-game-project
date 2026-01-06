@@ -10,8 +10,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] string nameEssentialScene;
     [SerializeField] string nameNewGameStartScene;
     [SerializeField] PlayerScoreRecord DataUsing;
-    [SerializeField] ItemContainer Inventory; 
-
+    [SerializeField] ItemContainer Inventory;
+    [SerializeField] AudioSource Soundtrack;
     
     [SerializeField] AudioSource ClickSound;
     [SerializeField] GameObject NewPlayerPanel;
@@ -20,7 +20,11 @@ public class MainMenu : MonoBehaviour
 
 
     AsyncOperation operation;
-    
+
+    public void Awake()
+    {
+        Soundtrack.Play();
+    }
     public void ExitGame()
     {
         PlaySoundOfClick();
@@ -67,6 +71,7 @@ public class MainMenu : MonoBehaviour
     private void ProceedToGameWithData()
     {
         DataUsing.LoadFromMenu = true;
+        Soundtrack.Stop();
         /*SceneManager.LoadScene(nameNewGameStartScene,LoadSceneMode.Single);
         SceneManager.LoadScene(nameEssentialScene, LoadSceneMode.Additive);*/
         ImageFader.Tint(nameNewGameStartScene, nameEssentialScene);

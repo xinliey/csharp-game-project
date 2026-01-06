@@ -13,11 +13,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] ChloeLetterSecondAttempt letter;
     public static GameManager instance;
     [SerializeField] PlayerScoreRecord data;
-   // public GameObject canvas;
-   
+    // public GameObject canvas;
+    [SerializeField] AudioSource soundtrack;
+    BoxCollider2D box;
     private void Awake()
     {
         instance = this;
+        soundtrack.loop=true;
+        soundtrack.Play();
         /*if (data.InMiniGameScene != true)
         {
             canvas.SetActive(true);
@@ -27,6 +30,7 @@ public class GameManager : MonoBehaviour
             canvas.SetActive(false);
         }
       */sleep = player.GetComponent<Sleep>();
+        box=player.GetComponent<BoxCollider2D>();
         
     }
     public Sleep sleep;
@@ -41,6 +45,36 @@ public class GameManager : MonoBehaviour
     public void DisableFade()
     {
         fadeImage.SetActive(false);
+    }
+    public void DisablePlayerBox()
+    {
+        
+        if (box != null)
+        {
+           
+            box.enabled = false;
+        }
+        else
+        {
+            Debug.Log("box is null");
+        }
+    }
+    public void EnablePlayerBox()
+    {
+        if (box != null)
+        {
+            box.enabled = true;
+        }
+    }
+    public void DisableSoundtrack()
+    {
+        soundtrack.Stop();
+    }
+    public void EnableSoundtrack()
+    {
+        soundtrack.loop = true;
+     
+        soundtrack.Play();
     }
     public void ClickButtonSound()
     {
