@@ -21,34 +21,34 @@ MonoBehaviour:
   dialogue:
   - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
     line: Ethan gave a small chuckle
     noBackground: 0
   - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
     line: eyes glinting with both amusement and sincerity.
     noBackground: 0
   - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
     line: "\"Dummy girl\u2026 I\u2019ve been in love with you ever since the day
       I first saw you.\""
     noBackground: 0
   - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
     line: "\"You might not remember\u2026 "
     noBackground: 0
   - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
     line: "I was that little boy crying outside the headmaster\u2019s office\u2014and
       you happened to be there, comforting me.\""
     noBackground: 0
   - npc: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     ChangeImage: 0
-    background: {fileID: 21300000, guid: 9f238361705ef3e40bd6cb30ca28a1ee, type: 3}
+    background: {fileID: 21300000, guid: 085e2f361c50d334db0a693fbffc00eb, type: 3}
     line: "I was that little boy crying outside the headmaster\u2019s office\u2014and
       you happened to be there, comforting me.\""
     noBackground: 0

@@ -15,11 +15,11 @@ MonoBehaviour:
   SaveName: 
   playerName: test
   LoadFromMenu: 0
-  gameDay: 4
+  gameDay: 5
   maxStamina: 150
   money: 0
   currentLevel: 0
-  currentTrigger: ChloeLetterSecond
+  currentTrigger: 
   npcs:
   - {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}
   - {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
@@ -61,13 +61,16 @@ MonoBehaviour:
   - QuestTriggerName: HeeseungConfront
     isDone: 0
     cutscene: {fileID: 11400000, guid: 6db26804132bc5748ac2016b664e8e64, type: 2}
+  ending:
+  - {fileID: 11400000, guid: 92ac0d5f3a28091409a307647039b3a2, type: 2}
+  - {fileID: 11400000, guid: 6754de7cc10ca2244ab343e7adb64085, type: 2}
   wordguessScore: 4
   wordguessReward: 0
-  arriveSchool: 1
+  arriveSchool: 0
   InMiniGameScene: 0
-  finishedSchool: 1
+  finishedSchool: 0
   MessengerTrigger: 0
-  TodayTexted: 1
+  TodayTexted: 0
   PartTimeOnDay: 0
   MenuLooked: 0
   currentDessert: FoamSpellCraft
@@ -80,5 +83,5 @@ MonoBehaviour:
   DidParttimeToday: 0
   inPartTimeScene: 0
   chloeletterInHand: 1
-  chloeletterattempt: 0
-  closestnpc: {fileID: 0}
+  chloeletterattempt: 2
+  closestnpc: {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}

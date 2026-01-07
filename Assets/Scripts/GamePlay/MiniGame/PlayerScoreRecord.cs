@@ -4,15 +4,18 @@ using UnityEngine;
 using System;
 using System.Net.Http.Headers;
 using Unity.VisualScripting;
+using UnityEngine.UI;
 
 [Serializable]
 public class AllQuests
 {
     public String QuestTriggerName;
     public bool isDone;
+    //public bool isEnding;
     public CutSceneDialogue cutscene;
-
+    
 }
+
 
 
 [CreateAssetMenu(menuName = "Data/Player")]
@@ -30,7 +33,7 @@ public class PlayerScoreRecord : ScriptableObject
     public List<NPCDefintition> npcs = new List<NPCDefintition>();
     public bool CutSceneShow = false;
     public List<AllQuests> quest = new List<AllQuests>();
-
+    public List<CutSceneDialogue> ending = new List<CutSceneDialogue>();
     public int wordguessScore;
     public int wordguessReward;
     public bool arriveSchool = false;
@@ -52,5 +55,6 @@ public class PlayerScoreRecord : ScriptableObject
     public bool chloeletterInHand;
     public int chloeletterattempt;
     public NPCDefintition closestnpc;
+ 
     
 }

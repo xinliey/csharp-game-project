@@ -1,14 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class HeeseungConfront : MonoBehaviour
 {
     
     [SerializeField] PlayerScoreRecord player;
     NPCDefintition closestnpc;
+    float comparingscore = 0f;
     private void Awake()
     {
+        if (player.currentTrigger == "HeeseungConfront")
+        {
+            foreach (NPCDefintition n in player.npcs)
+            {
+                float total = n.DailyData.currentLevel + n.DailyData.level; 
+                Debug.Log($"{n.name}score is{total}");
+                if (total > comparingscore)
+                {
+                    closestnpc = n;
+                    comparingscore = total;
+                    Debug.Log($"{comparingscore},the closest npc is{closestnpc.Name}");
+                }
+            }
+            
+            player.closestnpc = closestnpc;
+        }
+
         if (player.currentTrigger == "HeeseungConfront")
         {
             playcutscene();

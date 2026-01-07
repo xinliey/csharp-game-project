@@ -17,8 +17,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject NewPlayerPanel;
     [SerializeField] Text Playername;
     [SerializeField] ImageFaderMenu ImageFader;
-
-
+    [SerializeField] GameObject EndingPanel;
     AsyncOperation operation;
 
     public void Awake()
@@ -80,6 +79,7 @@ public class MainMenu : MonoBehaviour
 
     private void ResetData()
     {
+        PlaySoundOfClick();
         foreach(ItemSlot slot in Inventory.slots)
         {//cleaning all the inventory 
             Debug.Log("restting inventory");
@@ -123,5 +123,17 @@ public class MainMenu : MonoBehaviour
     private void PlaySoundOfClick()
     {
         ClickSound.Play();
+    }
+
+    public void EndingCollectionButton()
+    {
+        PlaySoundOfClick();
+        EndingPanel.SetActive(true);
+    }
+
+    public void ClosingEndingTab()
+    {
+        PlaySoundOfClick();
+        EndingPanel.SetActive(false);
     }
 }

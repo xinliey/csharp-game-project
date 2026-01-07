@@ -40,19 +40,7 @@ public class Sleep : MonoBehaviour
     }
     internal void DoSleep()
     {
-        if (data.currentTrigger == "HeeseungConfront")
-        {
-            foreach (NPCDefintition n in character.npcreset)
-            {
-                if (n.DailyData.level > comparingscore)
-                {
-                    closestnpc = n;
-                    comparingscore = n.DailyData.level;
-                }
-            }
-            Debug.Log($"the closest npc is{closestnpc.Name}");
-            data.closestnpc = closestnpc;
-        }
+        
        
         DisplayBtn();
  

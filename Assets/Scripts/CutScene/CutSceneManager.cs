@@ -24,7 +24,9 @@ public class CutSceneManager : MonoBehaviour
     [SerializeField] AudioSource TypingSound;
     [SerializeField] GameObject CutScenePanel;
     [SerializeField] string relocationScene = "mc_house";
-    [SerializeField] Vector3 target; 
+    [SerializeField] Vector3 target;
+    [SerializeField] CanvasGroup BacktoMenuBtn;
+    float EndingTextDuration = 1f;
     string MenuName = "MainMenu"; 
     float totalTimeToType, currentTime;
     CutSceneDialogue currentCutScene;
@@ -274,17 +276,36 @@ public class CutSceneManager : MonoBehaviour
 
         }
         if (currentCutScene.EndingCutscene == true)
-        {
-            Show(false);
-            EndingMenu.gameObject.SetActive(true);
+        {Show(false);
+      
+          
+            
+            
             EndingText.text = currentCutScene.NextTriggerName;
-
+            player.ending.Add(currentCutScene);
+            StartCoroutine(FadeInEndingPanel());
         }
 
         GameManager.instance.EnableSoundtrack
             ();
     }
-    
+    IEnumerator FadeInEndingPanel()
+    {
+        yield return new WaitForSeconds(0.5f);
+        BacktoMenuBtn.gameObject.SetActive(true);
+        BacktoMenuBtn.alpha = 0f;
+        float t = 0f;
+
+        while (t < EndingTextDuration)
+        {
+            t += Time.deltaTime;
+            BacktoMenuBtn.alpha = Mathf.Lerp(0f, 1f, t / EndingTextDuration);
+            yield return null;
+        }
+        BacktoMenuBtn.alpha = 1f;
+        BacktoMenuBtn.interactable = true;
+        BacktoMenuBtn.blocksRaycasts = true;
+    }
     IEnumerator ChangeImage()
     {
         //Debug.Log("before tinting");

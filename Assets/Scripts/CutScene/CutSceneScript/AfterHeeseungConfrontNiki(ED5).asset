@@ -206,7 +206,7 @@ MonoBehaviour:
     line: "\u201CThis way, princess. Let me treat you well.\u201D"
     noBackground: 0
   - npc: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
-    ChangeImage: 0
+    ChangeImage: 1
     background: {fileID: 21300000, guid: a26192ff6ece2e240a95ed563d6a119c, type: 3}
     line: 
     noBackground: 0

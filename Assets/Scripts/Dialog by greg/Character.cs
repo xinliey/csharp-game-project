@@ -45,6 +45,7 @@ public class Character : MonoBehaviour
     [SerializeField] DisableControls disableControls;
     [SerializeField] PlayerRespawn playerRespawn;
     [SerializeField] public PlayerScoreRecord player;
+    [SerializeField] CutSceneDialogue endingtest;
     public List<NPCDefintition> npcreset = new List<NPCDefintition>();
     CutSceneManager cutsceneManager;
     GameTime gameTime; 
@@ -68,7 +69,15 @@ public class Character : MonoBehaviour
         UpdateHPBar();
         UpdateStaminaBar();
     
-    } 
+    }
+    public void Update()
+    {
+        /*checking cutscene ending animation
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            GameManager.instance.cutSceneManager.Initialize(endingtest);
+        }*/ 
+    }
 
     public void CheckLevel()
     {
