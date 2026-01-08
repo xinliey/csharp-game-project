@@ -20,13 +20,13 @@ MonoBehaviour:
   EndingCutscene: 0
   dialogue:
   - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
-    ChangeImage: 1
+    ChangeImage: 0
     background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
-    line: 'I was staring at the photo without realize sunghoon was behind me, he
-      came into the room and staying silent. '
+    line: 'I was staring at the photo without realize Ben was behind me, he came
+      into the room and staying silent. '
     noBackground: 0
   - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
-    ChangeImage: 0
+    ChangeImage: 1
     background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
     line: "It was very awkward to the point I had to ask him \u201Couh, so you two
       used to be friend\u201D."
@@ -34,12 +34,12 @@ MonoBehaviour:
   - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
     ChangeImage: 0
     background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
-    line: Sunghoon was in silent for awhile before he sighed and answered
+    line: Benjamin was in silent for awhile before he sighed and answered
     noBackground: 0
   - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
     ChangeImage: 0
     background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
-    line: "Sunghoon was in silent for \u201Cyes, we were very close\u201D he seems
+    line: "Benjamin was in silent for \u201Cyes, we were very close\u201D he seems
       reluctant as if he was thinking if he should tell me the rest of the story. "
     noBackground: 0
   - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}
@@ -76,7 +76,7 @@ MonoBehaviour:
   - npc: {fileID: 2800000, guid: 4149de8b69c3b7940987800c4b5c22ee, type: 3}
     ChangeImage: 0
     background: {fileID: 21300000, guid: 19605e74114db6f4e9b693d917e775a8, type: 3}
-    line: 'I looked at sunghoon with mix feeling , he showed me his rare smile yet
+    line: 'I looked at Benjamin with mix feeling , he showed me his rare smile yet
       his eyes clearly look very sad '
     noBackground: 0
   - npc: {fileID: 2800000, guid: ee268457f0f9ea341b0fb4ca03c2954a, type: 3}

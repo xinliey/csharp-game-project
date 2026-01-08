@@ -32,6 +32,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
+        
         PlaySoundOfClick();
        
         //Logo.gameObject.SetActive(false);
@@ -42,7 +43,12 @@ public class MainMenu : MonoBehaviour
     public void LoadGame()
     {
         PlaySoundOfClick();
-        ProceedToGameWithData();
+        if (DataUsing.ended == false)
+        {
+            
+            ProceedToGameWithData();
+        }
+        
         
     }
 
@@ -54,6 +60,7 @@ public class MainMenu : MonoBehaviour
             ResetData();
             DataUsing.currentTrigger = "Intro";
             DataUsing.playerName = Playername.text;
+            DataUsing.ended = false;
             ProceedToGameWithData();
         }
         else

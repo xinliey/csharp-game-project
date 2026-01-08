@@ -37,6 +37,7 @@ public class NPCRoom : Interactable
         if (questRoom == true && enterTrigger == PlayerCurrentItem)
         {
             sparkle.SetActive(true);
+            enterTrigger = "";
         }
         if (HideLayer == false)
         {

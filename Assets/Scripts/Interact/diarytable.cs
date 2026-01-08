@@ -11,6 +11,7 @@ public class diarytable : Interactable
 
     private void Awake()
     {
+        //Debug.Log("awakening diary tabke");
         if (player.gameDay==0)
         {
             Debug.Log("enabling spark , game dat is 0");
@@ -23,7 +24,7 @@ public class diarytable : Interactable
         if (player.finishedSchool == true)
         {
             
-            if (player.gameDay % 3 == 0)
+            if (player.gameDay % 2 == 0)
             {
                 Debug.Log("gameday is enough to trigger messenger");
                 if (player.TodayTexted == false) //finished school today but hasn't do the texting. 

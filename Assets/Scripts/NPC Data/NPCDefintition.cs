@@ -24,6 +24,7 @@ public class NPCInteraction
     public float level;
     public int currentLevel = 1;
     public bool talkedToToday;
+    public bool firstHint; 
     public bool questInteract = true;
     public bool giftPresent;
     public int talkedOnTheDayNumber = 0;
@@ -63,6 +64,7 @@ public class NPCDefintition : ScriptableObject
         DailyData.level = 0;
         DailyData.currentLevel = 0;
         DailyData.talkedToToday = false;
+        DailyData.firstHint = false;
         DailyData.questInteract = true;
         DailyData.giftPresent = false;
         DailyData.talkedOnTheDayNumber = 0;

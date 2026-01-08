@@ -92,12 +92,13 @@ public class TalkInteract : Interactable
 
     private void DailyInteract(Character character)
     {
-       // Debug.Log($"current level is{npcCharacter.CurrentLevel}");
+        // Debug.Log($"current level is{npcCharacter.CurrentLevel}");
         if (npcCharacter.CurrentLevel == 1)
         {
             DialogueContainer dialogueContainer;
             if (npcCharacter.level == 0f)
             {
+                npcDefintition.DailyData.firstHint = true;
                 dialogueContainer = npcDefintition.QuestAnswer[0];
             }
             else
@@ -107,9 +108,9 @@ public class TalkInteract : Interactable
             }
             score = 0.25f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
-            
+
         }
-        else if(npcCharacter.CurrentLevel == 0)
+        else if (npcCharacter.CurrentLevel == 0)
         {
             if (toolBarInventory == null)
             {
@@ -120,7 +121,7 @@ public class TalkInteract : Interactable
                 }
                 else
                 {
-                   // Debug.LogWarning("ToolBarPanel not found in the scene!");
+                    // Debug.LogWarning("ToolBarPanel not found in the scene!");
                     return; // Skip execution until it is found
                 }
             }
@@ -144,12 +145,14 @@ public class TalkInteract : Interactable
             score = 0;
 
         }
-        else if (npcCharacter.CurrentLevel == 2) 
+        else if (npcCharacter.CurrentLevel == 2)
         {
             DialogueContainer dialogueContainer;
             if (npcCharacter.level == 0f)
             {
+                npcDefintition.DailyData.firstHint = true;
                 dialogueContainer = npcDefintition.QuestAnswer[1];
+
             }
             else
             {
@@ -158,31 +161,34 @@ public class TalkInteract : Interactable
             }
             score = 0.25f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
-            
-            
+
+
         }
-        else if(npcCharacter.CurrentLevel == 3)
+        else if (npcCharacter.CurrentLevel == 3)
         {
             DialogueContainer dialogueContainer;
             if (npcCharacter.level == 0f)
             {
+                npcDefintition.DailyData.firstHint = true;
                 dialogueContainer = npcDefintition.QuestAnswer[2];
+
             }
             else
             {
                 dialogueContainer = npcDefintition.FriendDialogues[Random.Range
                 (0, npcDefintition.generalDialogues.Count)];
             }
-score = 0.15f;
+            score = 0.15f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
-            
-            
+
+
         }
-        else if(npcCharacter.CurrentLevel == 4)
+        else if (npcCharacter.CurrentLevel == 4)
         {
             DialogueContainer dialogueContainer;
             if (npcCharacter.level == 0f)
             {
+                npcDefintition.DailyData.firstHint = true;
                 dialogueContainer = npcDefintition.QuestAnswer[3];
             }
             else
@@ -190,14 +196,19 @@ score = 0.15f;
                 dialogueContainer = npcDefintition.BestieDialogues[Random.Range
                 (0, npcDefintition.generalDialogues.Count)];
             }
- score = 0.10f;
+            score = 0.10f;
             GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
-           
-           
+
+
 
         }
-        //Debug.Log($"score is{score}");
-        IncreaseRelationShip(score);
+        else if (npcCharacter.CurrentLevel == 5)
+        {//if npc surpass level four , keep level 4 on loop 
+            npcCharacter.CurrentLevel = 4;
+            npcCharacter.level =0.1f;
+        }
+            //Debug.Log($"score is{score}");
+            IncreaseRelationShip(score);
        
     }//add days later , only some day will have quest , create array from questorder to store the date
     private int QuestOrder;

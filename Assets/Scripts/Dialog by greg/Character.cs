@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.TextCore.Text;
 
 [Serializable]
 public class Stat
@@ -76,7 +77,7 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
         {
             GameManager.instance.cutSceneManager.Initialize(endingtest);
-        }*/ 
+        }*/
     }
 
     public void CheckLevel()
@@ -155,13 +156,21 @@ public class Character : MonoBehaviour
         foreach (NPCDefintition n in npcreset)
         {
 
-           // UnityEngine.Debug.Log($"reset talk stage for {n.name}");
             n.DailyData.talkedToToday = false;
-
-            if (n.DailyData.talkedOnTheDayNumber % 4 == 0) //reset every three days 
+            // TalkedOnTheDayNumber = gameTime.days;
+            gameTime.isNewDay = false;
+            if (n.DailyData.firstHint == true) //reset everytime leveling up player start from 0f from i left some room for first dialogue
+                                                       //because if player did quest while lore is being triggered , they will forced to do the first quest and will miss the quest hint since the score will be added.
             {
                 n.DailyData.questInteract = false;
+                n.DailyData.talkedToToday = true;
+                n.DailyData.firstHint = false;
+
+            }else if (n.DailyData.firstHint == false)
+            {
+                n.DailyData.questInteract = true;
             }
+
             if (n.DailyData.talkedOnTheDayNumber % 3 == 0) //reset every three days 
             {
                 n.DailyData.giftPresent = false;

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.Experimental.RestService;
+//using UnityEditor.Experimental.RestService;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -95,6 +95,14 @@ public class GameManager : MonoBehaviour
     {
         data.chloeletterInHand = true;
         letter.RecheckChloeLetter();
+    }
+    public static void DestroyInstance()
+    {
+        if (instance != null)
+        {
+            Destroy(instance.gameObject);
+            instance = null;
+        }
     }
 }
 

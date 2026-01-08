@@ -30,9 +30,12 @@ public class ChloeLetterSecondAttempt : MonoBehaviour
         
     }
     public void RecheckChloeLetter()
-    {
-        letterbtn.gameObject.SetActive(true);
-        Panel.SetActive(false);
+    {if (player.currentTrigger == "ChloeLetterSecond")
+        {
+            letterbtn.gameObject.SetActive(true);
+            Panel.SetActive(false);
+        }
+       
     }
     public void ChloeLetterBtnPressed()
     {

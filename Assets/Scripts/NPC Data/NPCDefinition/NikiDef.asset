@@ -19,13 +19,14 @@ MonoBehaviour:
     happy: {fileID: 2800000, guid: ba81a310623043b42a4dca5f8d5faf93, type: 3}
     angry: {fileID: 2800000, guid: 9ae45f5b4b78e9449afe6c2664d1f8c2, type: 3}
   DailyData:
-    level: 0.25
-    currentLevel: 2
-    talkedToToday: 0
+    level: 0.1
+    currentLevel: 4
+    talkedToToday: 1
+    firstHint: 1
     questInteract: 1
-    giftPresent: 0
-    talkedOnTheDayNumber: 6
-    loreLevel: 1
+    giftPresent: 1
+    talkedOnTheDayNumber: 18
+    loreLevel: 4
     TriggerLore: 0
   characterPrefab: {fileID: 5104874766477846290, guid: bca05c8ef65afe54196116651804deb3, type: 3}
   itemLike:

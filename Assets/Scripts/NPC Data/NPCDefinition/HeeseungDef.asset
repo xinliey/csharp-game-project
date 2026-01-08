@@ -19,12 +19,13 @@ MonoBehaviour:
     happy: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
     angry: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
   DailyData:
-    level: 0
+    level: 0.5
     currentLevel: 4
     talkedToToday: 1
+    firstHint: 0
     questInteract: 1
     giftPresent: 1
-    talkedOnTheDayNumber: 2
+    talkedOnTheDayNumber: 14
     loreLevel: 3
     TriggerLore: 0
   characterPrefab: {fileID: 7611141749421104484, guid: 27ddc2b6e7040534a8b3f5317d817738, type: 3}
@@ -46,7 +47,7 @@ MonoBehaviour:
     cutscene: {fileID: 11400000, guid: 90d57c649cd70d8499f6c035f9ed247d, type: 2}
   HiddenStory:
     QuestTriggerName: 
-    isDone: 0
+    isDone: 1
     cutscene: {fileID: 11400000, guid: 6f778c4faf97bef4a978fd5cd4fcf274, type: 2}
   Homeschedule:
   - note: walk tp the room door

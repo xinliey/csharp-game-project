@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Sleep : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Sleep : MonoBehaviour
     GameTime gameTime;
     NPCMove Niki;
     NPCDefintition closestnpc;
+    string MenuName = "MainMenu";
     float comparingscore=0; 
 
     private void Awake()
@@ -66,12 +68,27 @@ public class Sleep : MonoBehaviour
     }
     public void ExitGame()
     {
-        DisablrButton();
-        Application.Quit();
 
+
+        StartCoroutine(BackToMenuAnimation());
+        
+
+        
+
+       
+       
     }
 
-
+    IEnumerator BackToMenuAnimation()
+    { 
+        GameManager.instance.ClickButtonSound(); 
+        GameManager.instance.screenFader.FadeIn(); 
+        nextDay();
+        yield return new WaitForSeconds(1f);
+        GameManager.DestroyInstance();
+        SceneManager.LoadScene(MenuName, LoadSceneMode.Single);
+        yield return null; 
+    }
     IEnumerator SleepRoutine()
     {
         GameObject npcObj = GameObject.FindGameObjectWithTag("NPC");

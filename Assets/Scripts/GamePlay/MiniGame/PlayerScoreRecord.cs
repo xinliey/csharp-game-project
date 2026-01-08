@@ -33,6 +33,7 @@ public class PlayerScoreRecord : ScriptableObject
     public List<NPCDefintition> npcs = new List<NPCDefintition>();
     public bool CutSceneShow = false;
     public List<AllQuests> quest = new List<AllQuests>();
+    public bool ended;
     public List<CutSceneDialogue> ending = new List<CutSceneDialogue>();
     public int wordguessScore;
     public int wordguessReward;

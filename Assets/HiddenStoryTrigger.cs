@@ -35,7 +35,7 @@ public class HiddenStoryTrigger : Interactable
             yield return new WaitUntil(() => cutScene.concludedialog == true);  
             player.currentTrigger = currentTrigger;
             box.enabled = false;
-
+            GameManager.instance.disableControls.EnableControl();
 
         }
 

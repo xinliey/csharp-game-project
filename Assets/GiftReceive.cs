@@ -40,42 +40,50 @@ public class GiftReceive : MonoBehaviour
         //Debug.Log($"index is {selectedIndex}");
         if (selectedIndex >= 0 && selectedIndex < playerInventory.slots.Count)
         {
-            selectedItem = playerInventory.slots[selectedIndex].item;
-            inventoryItemPanel.Show();
-            //Debug.Log($"Selected Item: {selectedItem.Name}"); //the unhiglight is selected one
-            if (npcDefintition != null)
-            {
-                if (npcCharacter.GiftPresent == false) //prevent double gifting 
+            if (playerInventory.slots[selectedIndex].item.isQuestItem == false)
+           { 
+                selectedItem = playerInventory.slots[selectedIndex].item;
+                inventoryItemPanel.Show();
+                //Debug.Log($"Selected Item: {selectedItem.Name}"); //the unhiglight is selected one
+                if (npcDefintition != null)
                 {
-                    playerInventory.Remove(selectedItem,1);
-                    if (npcDefintition.itemLike.Contains(selectedItem))
+                    if (npcCharacter.GiftPresent == false) //prevent double gifting 
                     {
-                        //Debug.Log($"{npcDefintition.Name} likes this item!");
-                        npcCharacter.IncreaseRS(0.05f);
-                        talkInteract.LikeGiftDialogue();
+                        playerInventory.Remove(selectedItem, 1);
+                        if (npcDefintition.itemLike.Contains(selectedItem))
+                        {
+                            //Debug.Log($"{npcDefintition.Name} likes this item!");
+                            npcCharacter.IncreaseRS(0.05f);
+                            talkInteract.LikeGiftDialogue();
 
-                    }
-                    else if (npcDefintition.itemHate.Contains(selectedItem))
-                    {
-                        //Debug.Log($"{npcDefintition.Name} hates this item!");
-                        npcCharacter.IncreaseRS(-0.05f);
-                        talkInteract.HateGiftDialogue();
+                        }
+                        else if (npcDefintition.itemHate.Contains(selectedItem))
+                        {
+                            //Debug.Log($"{npcDefintition.Name} hates this item!");
+                            npcCharacter.IncreaseRS(-0.05f);
+                            talkInteract.HateGiftDialogue();
+                        }
+                        else
+                        {
+                            // Debug.Log($"{npcDefintition.Name} has no opinion on this item.");
+                            talkInteract.NormalGiftDialogue();
+
+                        }
+                        npcCharacter.GiftPresent = true;
+
                     }
                     else
                     {
-                        // Debug.Log($"{npcDefintition.Name} has no opinion on this item.");
-                        talkInteract.NormalGiftDialogue();
+                        SystemMessengerBox.Instance.ShowMessage("you given npc gift already");
 
                     }
-                    npcCharacter.GiftPresent = true;
-                    
-                }
-                else
-                {
-                    SystemMessengerBox.Instance.ShowMessage("you given npc gift already");
-                  
                 }
             }
+            else
+            {
+                SystemMessengerBox.Instance.ShowMessage("you cannot gift this item");
+            }
+            
             
         }
     }

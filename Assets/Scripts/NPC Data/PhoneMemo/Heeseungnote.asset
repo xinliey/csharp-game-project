@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: The president of student council of the school.
   - text: He is the girl's fiance.
   - text: The engagement was forced by adults.Seems like there's no love
-  - text: He mentioned Jay has a crush on her but he's happy for them.
+  - text: He mentioned Jay was dating her and he was happy for them.
   - text: He said I brought him peace? what does it mean.
   Name: Ethan
   actor: {fileID: 11400000, guid: f6eea15e963b05c498e904911ff2d7bc, type: 2}

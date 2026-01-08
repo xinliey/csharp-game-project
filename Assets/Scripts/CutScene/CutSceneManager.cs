@@ -217,7 +217,12 @@ public class CutSceneManager : MonoBehaviour
 }
     public void BackToMenuButton()
     {
-        GameManager.instance.ClickButtonSound();
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.ClickButtonSound();
+            GameManager.DestroyInstance();
+        }
+
         SceneManager.LoadScene(MenuName, LoadSceneMode.Single);
         
     }
@@ -291,7 +296,7 @@ public class CutSceneManager : MonoBehaviour
     }
     IEnumerator FadeInEndingPanel()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         BacktoMenuBtn.gameObject.SetActive(true);
         BacktoMenuBtn.alpha = 0f;
         float t = 0f;
@@ -305,6 +310,7 @@ public class CutSceneManager : MonoBehaviour
         BacktoMenuBtn.alpha = 1f;
         BacktoMenuBtn.interactable = true;
         BacktoMenuBtn.blocksRaycasts = true;
+        player.ended = true;
     }
     IEnumerator ChangeImage()
     {

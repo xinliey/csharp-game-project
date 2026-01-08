@@ -48,7 +48,11 @@ public class OrderInteraction : Interactable
                 menu.DisplayMenu();
                //Debug.Log("jay will show you today's menu ");
                 data.MenuLooked = true;
-                jay.IncreaseRelationship(score);
+                if (jay.level > 0)
+                {
+                    jay.IncreaseRelationship(score);
+                }
+                
                 isOpened = true;
             }
 
