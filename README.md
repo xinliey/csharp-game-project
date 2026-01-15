@@ -27,13 +27,13 @@ gameplay programming, debugging, optimization, and full project ownership.
 
 ## Challenges & Solutions
 - Optimized performance in gameplay-heavy scenes
-- NPC movement and function
+- Refined NPC movement, interaction logic, and scheduling behavior
 - Improved system structure after early prototypes
-- Ensured stability for release-ready builds
+- Ensured release-ready stability through extensive testing and bug fixing
 
 ## Release
-- Platform: Steam
-- Status: not yet released 
+- Platform: Itch.io
+- Status: successfully published and released (early version)
 - Role: Solo developer (full ownership)
 
 ## Notes
