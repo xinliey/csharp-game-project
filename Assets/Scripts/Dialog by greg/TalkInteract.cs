@@ -38,7 +38,7 @@ public class TalkInteract : Interactable
 
         if (character.player.currentTrigger != null)
         {
-            //collder.enabled = false;
+           
            // Debug.Log("current trigger is not null proceed to check the information");
             matchedCutscene = CheckTriggerName(character);
             if (matchedCutscene==false)
@@ -215,7 +215,7 @@ public class TalkInteract : Interactable
     private void QuestInteract(Character character) //for quest , talkinteract only choose the quest order but the rest of the
         //quest response and outcome will be in dialogue system since response buttons are implanted in the dialogue system
     {   
-        QuestOrder = npcCharacter.CurrentLevel;
+        QuestOrder = npcCharacter.CurrentLevel-1;
         npcCharacter.CheckCurrentRelationship();
         character.GetTired(talkStaminaCost);
         

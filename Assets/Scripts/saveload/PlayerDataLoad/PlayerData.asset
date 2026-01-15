@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   SaveName: 
-  playerName: xxx
+  playerName: xin
   LoadFromMenu: 0
-  gameDay: 22
-  maxStamina: 200
-  money: 5
+  gameDay: 5
+  maxStamina: 250
+  money: 420
   currentLevel: 0
-  currentTrigger: NextVictim
+  currentTrigger: 
   npcs:
   - {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}
   - {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
@@ -35,16 +35,16 @@ MonoBehaviour:
     isDone: 1
     cutscene: {fileID: 11400000, guid: e3e85f0ecb9f583429aabe8b65c90347, type: 2}
   - QuestTriggerName: JaySad
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: b76bc7fa331a54648a290a2f6b47b1bc, type: 2}
   - QuestTriggerName: HeeseungLie
     isDone: 0
     cutscene: {fileID: 11400000, guid: 58b9854d0f1ea3748b0b039223dbaa80, type: 2}
   - QuestTriggerName: SunghoonDesk
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: 888f1bfd5ce8390459fa3409c218479a, type: 2}
   - QuestTriggerName: JakeHomework
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: cde2c894e16674441ad37fc4bb338fb9, type: 2}
   - QuestTriggerName: JakePhone
     isDone: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
     isDone: 0
     cutscene: {fileID: 11400000, guid: 055e7d2053c729c47b66226948658db6, type: 2}
   - QuestTriggerName: JakeHouse
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: 4cf9378ffa90e4b42915a2b7ca8d67af, type: 2}
   - QuestTriggerName: HeeseungHouse
     isDone: 0
@@ -61,22 +61,23 @@ MonoBehaviour:
   - QuestTriggerName: HeeseungConfront
     isDone: 0
     cutscene: {fileID: 11400000, guid: 6db26804132bc5748ac2016b664e8e64, type: 2}
-  ended: 1
+  ended: 0
   ending:
   - {fileID: 11400000, guid: 92ac0d5f3a28091409a307647039b3a2, type: 2}
   - {fileID: 11400000, guid: 6754de7cc10ca2244ab343e7adb64085, type: 2}
   - {fileID: 11400000, guid: 00b3e78b6fbead745aef7114cf05d80f, type: 2}
-  wordguessScore: 22
-  wordguessReward: 3
-  arriveSchool: 1
+  wordguessScore: 1
+  wordguessReward: 0
+  arriveSchool: 0
   InMiniGameScene: 0
-  finishedSchool: 1
+  finishedSchool: 0
   MessengerTrigger: 0
-  TodayTexted: 1
-  PartTimeOnDay: 6
+  MessengeIndex: 0
+  TodayTexted: 0
+  PartTimeOnDay: 3
   MenuLooked: 0
-  currentDessert: "Goblin\u2019sGoldSlice"
-  currentCooking: "Goblin\u2019sGoldSlice"
+  currentDessert: 
+  currentCooking: CocoaCometSpiral
   dessertHolding: 
   ordered: 0
   FirstOrder: 1
@@ -86,4 +87,4 @@ MonoBehaviour:
   inPartTimeScene: 0
   chloeletterInHand: 1
   chloeletterattempt: 0
-  closestnpc: {fileID: 11400000, guid: 355dbcfdcdd1850459388bed6f7eb75d, type: 2}
+  closestnpc: {fileID: 0}

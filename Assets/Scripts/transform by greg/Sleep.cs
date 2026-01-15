@@ -114,6 +114,10 @@ public class Sleep : MonoBehaviour
         gameTime.SkipToMorning(); 
         //character.CheckLevel();
         data.DidParttimeToday = false;
+        data.FirstOrder = true;
+        data.isDessertInHand = false;
+        data.currentDessert = "";
+        data.dessertHolding = "";
         data.arriveSchool = false;
         data.finishedSchool = false;
         data.TodayTexted = false;

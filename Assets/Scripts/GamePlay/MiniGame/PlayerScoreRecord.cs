@@ -41,6 +41,7 @@ public class PlayerScoreRecord : ScriptableObject
     public bool InMiniGameScene = false;
     public bool finishedSchool = false; //reset everyday 
     public bool MessengerTrigger = false;
+    public int MessengeIndex;
     public bool TodayTexted;
     public int PartTimeOnDay = 0;
     public bool MenuLooked = false;

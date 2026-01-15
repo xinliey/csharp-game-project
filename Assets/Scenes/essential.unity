@@ -858,7 +858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2b4537a398bc599438c4a493d0d0803a, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1529,8 +1529,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64.7, y: -89.8}
-  m_SizeDelta: {x: 179.6014, y: 42.7}
+  m_AnchoredPosition: {x: -56.9, y: -91.874}
+  m_SizeDelta: {x: 208.1168, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166733121
 MonoBehaviour:
@@ -1552,7 +1552,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: if there's nothing you want in here make sure to drop by next time
+  m_text: "Refresh stock by close panel and reopen \nBring your item to this panel
+    to sell"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f23408e5cdffca4f83b5fdb95d59391, type: 2}
   m_sharedMaterial: {fileID: -2593459439831977359, guid: 4f23408e5cdffca4f83b5fdb95d59391, type: 2}
@@ -4836,7 +4837,7 @@ Transform:
   m_GameObject: {fileID: 446485563}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.29, y: -5.17, z: -10}
+  m_LocalPosition: {x: -4.64, y: 0.07, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9222,7 +9223,6 @@ MonoBehaviour:
   player: {fileID: 11400000, guid: d34e10f2f9a15bf4ebc7201122e4f07f, type: 2}
   fader: {fileID: 907663391}
   respondIndex: -2
-  contentIndex: -1
   DoneTexted: 0
   MessagesContent:
   - {fileID: 11400000, guid: 88239b3ee391f2e40913216b0964064b, type: 2}
@@ -10566,7 +10566,7 @@ Transform:
   m_GameObject: {fileID: 972003544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.29, y: -5.17, z: -10}
+  m_LocalPosition: {x: -4.64, y: 0.07, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14199,7 +14199,7 @@ Transform:
   m_GameObject: {fileID: 1531940294}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.29, y: -5.17, z: 0}
+  m_LocalPosition: {x: -4.64, y: 0.07, z: 0}
   m_LocalScale: {x: 0.8867, y: 0.8766, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

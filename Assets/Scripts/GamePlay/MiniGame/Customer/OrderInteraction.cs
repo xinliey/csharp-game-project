@@ -38,7 +38,7 @@ public class OrderInteraction : Interactable
                 }
                 else
                 {
-                    DisableJay();
+                    //DisableJay();
                 }
                 
                 

@@ -32,7 +32,7 @@ public class MessengerMenu :TimeAgent
     [SerializeField] Image fader;
     public int respondIndex = -2;
     int currentMessage = 0; //which bubble
-    public int contentIndex=-1;
+    
     public bool DoneTexted = false;
     PhoneMenuController phoneMenuController;
     MessengerContainer currentContent;//which chatroom
@@ -74,14 +74,14 @@ public class MessengerMenu :TimeAgent
         noteicon.SetActive(false);
         phoneicon.SetActive(false);
         NotificationButton.SetActive(false);
-        Debug.Log($"current content is{ contentIndex} ");
+        Debug.Log($"current content is{ player.MessengeIndex} ");
 
         if(DoneTexted == false)
         {
            
             ClearMessage();
             ExitBtn.SetActive(false);
-            currentContent = MessagesContent[contentIndex];
+            currentContent = MessagesContent[player.MessengeIndex];
             DoneTexted = true;
             currentMessage = 0;
             respondIndex = -2;
@@ -106,7 +106,7 @@ public class MessengerMenu :TimeAgent
             
              if (currentMessage < 3 && respondIndex<=0)
              {
-                 Debug.Log($"current messenge index :{currentContent}");
+                // Debug.Log($"current messenge index :{currentContent}");
                  NpcChatBubble[currentMessage].SetActive(true);
                  npcProfile[currentMessage].gameObject.SetActive(true);
                  UsernameText[currentMessage].text = currentContent.line[currentMessage].name;
@@ -117,7 +117,7 @@ public class MessengerMenu :TimeAgent
              else 
              { //moving the previous message upward
                
-                    Debug.Log("moving text upward");
+                   // Debug.Log("moving text upward");
 
                 for (int i = 0; i < 2; i++)
                 {
@@ -209,7 +209,7 @@ public class MessengerMenu :TimeAgent
         float scores = currentContent.choices[choiceIndex].score;
         float currentScores = currentContent.choices[choiceIndex].npc.DailyData.level;
         currentScores = currentScores + scores;
-        Debug.Log($"{currentScores}");
+        //Debug.Log($"{currentScores}");
            
 
    
@@ -254,10 +254,10 @@ public class MessengerMenu :TimeAgent
     }
    void ResetNotif()
     {
-        contentIndex += 1;
+        player.MessengeIndex += 1;
         player.MessengerTrigger = false;
         
-        Debug.Log($"finished school , loading messanges , content{contentIndex}");
+       // Debug.Log($"finished school , loading messanges , content{contentIndex}");
         
         NotificationButton.SetActive(true);
         DoneTexted = false;

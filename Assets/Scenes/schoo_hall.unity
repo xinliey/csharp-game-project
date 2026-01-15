@@ -1594,7 +1594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: spawnArea_width
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: objectSpawnLimit
@@ -1608,6 +1608,10 @@ PrefabInstance:
       propertyPath: spawn.Array.data[0]
       value: 
       objectReference: {fileID: 9013872408512945460, guid: beb06667cf480754e9cf033dd52b7d34, type: 3}
+    - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
+      propertyPath: spawn.Array.data[1]
+      value: 
+      objectReference: {fileID: 5122965426340322626, guid: fd9464815602dd943abf130ddfaedf4d, type: 3}
     - target: {fileID: 3307605138313255867, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.87

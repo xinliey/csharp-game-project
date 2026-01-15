@@ -26,7 +26,7 @@ MonoBehaviour:
   - text: "Like your backup crew, your team\u2014you know"
     expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
   - text: More like the people who get stuck with your mess.
-    expression: {fileID: 2800000, guid: 952e8c33e8a0b934a9e5d35123956760, type: 3}
+    expression: {fileID: 2800000, guid: 807b1bcd2a27bc6459e8629211e8ef10, type: 3}
   - text: you heard him lmao
     expression: {fileID: 2800000, guid: 0a0dc9203da83014f8283e756b0cb53c, type: 3}
   - text: gotta go mate , Nik wants to enter rank game.

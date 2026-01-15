@@ -44,7 +44,7 @@ public class GiftReceive : MonoBehaviour
            { 
                 selectedItem = playerInventory.slots[selectedIndex].item;
                 inventoryItemPanel.Show();
-                //Debug.Log($"Selected Item: {selectedItem.Name}"); //the unhiglight is selected one
+                Debug.Log($"Selected Item: {selectedItem.Name}"); //the unhiglight is selected one
                 if (npcDefintition != null)
                 {
                     if (npcCharacter.GiftPresent == false) //prevent double gifting 

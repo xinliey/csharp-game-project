@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: StoreContent
   m_EditorClassIdentifier: 
   slots:
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
+  - item: {fileID: 11400000, guid: 74c63439805aeda4da010ec2842bbe54, type: 2}
+    count: 4
+  - item: {fileID: 11400000, guid: 03c839a9b274d7145ad0c11dec01b35c, type: 2}
+    count: 4
+  - item: {fileID: 11400000, guid: af6649fe164dc8c47a1fecbd2be570ae, type: 2}
+    count: 1
+  - item: {fileID: 11400000, guid: 252133bd29ecde94fa9d9c951ad76453, type: 2}
+    count: 1
+  - item: {fileID: 11400000, guid: eb9af849d1d06aa4f80fa2556b2ebb08, type: 2}
+    count: 1
+  - item: {fileID: 11400000, guid: a298d8ce5329b904d9f3a1cd4fc7ed7d, type: 2}
+    count: 1
+  - item: {fileID: 11400000, guid: 446cca55a73f3bb4982ac9efffdda577, type: 2}
+    count: 1
+  - item: {fileID: 11400000, guid: 16804bb22c762a14cb9582de3559ccb4, type: 2}
+    count: 1
   isDirty: 0

@@ -90,10 +90,10 @@ public class GameTime : MonoBehaviour
             //Debug.Log("pausing time");
         }
         
-        if (Input.GetKeyDown(KeyCode.T))
+        /*if (Input.GetKeyDown(KeyCode.T))
         {
             SkipTime(hours: 1);
-        }
+        }*/
     }
     public void SkipSchoolTime()
     {
