@@ -93,3 +93,23 @@ Notes: Issues identified during long-session playtesting
 6. Cutscene System Review & Hint Logic  
    - Rechecked and verified cutscene system linkages and dependencies.
    - Added logic to provide player hints when required quest items are missing.
+
+
+# Game Version: v1.01 Testing Log – 2026/1/16
+Issues Identified:
+
+1. Some NPCDefinition quests are marked as isDone prematurely, which may prevent quest progression.
+   - Expected to be reset when starting a new game from the main menu.
+
+2. PlayerData was not fully reset before launching the game.
+   - Previous ending records remain in data but do not affect current gameplay.
+
+3. ItemSpawner in SchoolHall has an overly wide spawn range, causing items to appear outside the camera frame.
+
+4. Ethan’s "JaySad" quest trigger activates too late.
+   - Currently triggers at level 4; pacing feels slow.
+   - Consider allowing faster level progression or earlier trigger to avoid player boredom.
+
+5. Messenger trigger frequency is too high.
+   - Currently triggers every 2 days.
+   - Suggested change: trigger every 3 days to reduce interruption.
