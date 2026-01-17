@@ -113,3 +113,24 @@ Issues Identified:
 5. Messenger trigger frequency is too high.
    - Currently triggers every 2 days.
    - Suggested change: trigger every 3 days to reduce interruption.
+
+## Fixes Implemented – 2026/1/17
+
+1. Quest State Initialization – NPCDefinition  
+   - Fixed issue where some NPCDefinition quests were marked as `isDone` prematurely.
+   - Ensured quest states are correctly reset when starting a new game from the main menu.
+
+2. PlayerData Reset  
+   - Added full reset logic for ending-related records before launching a new game.
+   - Confirmed no residual data affects gameplay progression.
+
+3. ItemSpawner Range Adjustment – SchoolHall  
+   - Reduced spawn range to ensure items spawn within visible and reachable areas.
+
+4. Quest Pacing Adjustment – Ethan ("JaySad")  
+   - Adjusted quest trigger conditions to activate earlier.
+   - Improved pacing to prevent early-game stagnation.
+
+5. Messenger Trigger Frequency  
+   - Changed messenger trigger interval from every 2 days to every 3 days.
+   - Reduced interruption frequency during gameplay.

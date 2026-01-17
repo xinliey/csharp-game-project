@@ -106,6 +106,9 @@ public class MainMenu : MonoBehaviour
         {
             if (npc != null)
                 npc.ResetDailyData();
+            foreach(var n in npc.Questcutscene){
+                n.isDone = false;
+            }
             npc.DailyData.level = 0;
             npc.DailyData.loreLevel = 0;
             npc.DailyData.currentLevel = 1;
@@ -120,6 +123,11 @@ public class MainMenu : MonoBehaviour
         DataUsing.MessengerTrigger = false;
         DataUsing.TodayTexted = false;
         DataUsing.PartTimeOnDay = 0;
+        DataUsing.FirstOrder = true;
+        DataUsing.isDessertInHand = false;
+        DataUsing.currentDessert = "";
+        DataUsing.dessertHolding = "";
+      
         DataUsing.chloeletterattempt = 0;
         DataUsing.closestnpc = null;
         foreach(var n in DataUsing.quest)

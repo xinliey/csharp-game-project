@@ -24,7 +24,7 @@ public class diarytable : Interactable
         if (player.finishedSchool == true)
         {
             
-            if (player.gameDay % 2 == 0)
+            if (player.gameDay % 3 == 0)
             {
                 Debug.Log("gameday is enough to trigger messenger");
                 if (player.TodayTexted == false) //finished school today but hasn't do the texting. 

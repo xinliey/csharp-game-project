@@ -17,18 +17,10 @@ MonoBehaviour:
   line:
   - text: "\u201CI\u2019m certain Jay\u2019s had it much harder than I did,\u201D"
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: he said, his voice calm,but tinged with something softer.
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: "\u201CHe\u2019s the one dating Chloe, after all.\u201D"
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: He let out a quiet breath, almost a sigh
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: " \u201CThough\u2026 I\u2019ve heard he\u2019s been doing surprisingly
       well. Better than I expected, honestly.\u201D"
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: He looked toward you, not pushing, just suggesting.
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: "\u201CHave you spoken to him recently?\""
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: "\u201CHave you spoken to him recently?\""
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}

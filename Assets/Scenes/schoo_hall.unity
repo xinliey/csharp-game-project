@@ -1594,11 +1594,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: spawnArea_width
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: objectSpawnLimit
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
+      propertyPath: spawnArea_height
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: targetSaveJSONList
@@ -1614,11 +1618,11 @@ PrefabInstance:
       objectReference: {fileID: 5122965426340322626, guid: fd9464815602dd943abf130ddfaedf4d, type: 3}
     - target: {fileID: 3307605138313255867, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.87
+      value: -20.68
       objectReference: {fileID: 0}
     - target: {fileID: 3307605138313255867, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.99
+      value: -10.67
       objectReference: {fileID: 0}
     - target: {fileID: 3307605138313255867, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: m_LocalPosition.z

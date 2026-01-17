@@ -20,13 +20,13 @@ MonoBehaviour:
     angry: {fileID: 2800000, guid: 8aa26717011f90a44aa665018b6d3357, type: 3}
   DailyData:
     level: 0
-    currentLevel: 4
+    currentLevel: 1
     talkedToToday: 0
     firstHint: 0
     questInteract: 1
-    giftPresent: 1
-    talkedOnTheDayNumber: 13
-    loreLevel: 3
+    giftPresent: 0
+    talkedOnTheDayNumber: 0
+    loreLevel: 0
     TriggerLore: 0
   characterPrefab: {fileID: 7611141749421104484, guid: 27ddc2b6e7040534a8b3f5317d817738, type: 3}
   itemLike:
@@ -35,7 +35,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af6649fe164dc8c47a1fecbd2be570ae, type: 2}
   Questcutscene:
   - QuestTriggerName: HeeseungLie
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: 58b9854d0f1ea3748b0b039223dbaa80, type: 2}
   NextVictimDialogue:
     QuestTriggerName: HeeseungHouse
@@ -47,7 +47,7 @@ MonoBehaviour:
     cutscene: {fileID: 11400000, guid: 90d57c649cd70d8499f6c035f9ed247d, type: 2}
   HiddenStory:
     QuestTriggerName: 
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: 6f778c4faf97bef4a978fd5cd4fcf274, type: 2}
   Homeschedule:
   - note: walk tp the room door
@@ -209,8 +209,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e7d082c5f953cdd4988d16088585b042, type: 2}
   LoreDialogues:
   - {fileID: 11400000, guid: 1e9acde1dfe04fb46b8a505aaef12716, type: 2}
-  - {fileID: 11400000, guid: 4560162e71511334b9b2329b28258e2f, type: 2}
   - {fileID: 11400000, guid: f08bbbfaa30df8b46ab4e0b38f585d87, type: 2}
+  - {fileID: 11400000, guid: 4560162e71511334b9b2329b28258e2f, type: 2}
   - {fileID: 11400000, guid: 8e70849413c919b40be08eb769d9d7d6, type: 2}
   - {fileID: 11400000, guid: 1e6a3e27e0caeed49b236bb7dd6b1ca4, type: 2}
   QuestDialogues:

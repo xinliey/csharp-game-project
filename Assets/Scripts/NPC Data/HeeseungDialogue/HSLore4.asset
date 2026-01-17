@@ -15,19 +15,11 @@ MonoBehaviour:
   dialogueType: 0
   StoryItemTrigger: 
   line:
-  - text: Ethan extended a small package toward you
-    expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
-  - text: "\u201CHere,\u201D he said with a faint smile"
+  - text: "\u201CHere,\u201D "
     expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
   - text: " \u201CI made this for you. I\u2026 hope you like it.\u201D "
     expression: {fileID: 2800000, guid: 2981d505f648fa2428ca6cfaa1aef0f5, type: 3}
-  - text: 'There was a pause, not awkward, just thoughtful. '
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: Then he glanced away, just slightly.
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: "\u201CI\u2019ve been feeling much more at ease when you're around,\u201D "
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: ' he said, a touch of warmth slipping into his voice'
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: " \u201CThank you\u2026 for bringing me peace.\u201D"
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}

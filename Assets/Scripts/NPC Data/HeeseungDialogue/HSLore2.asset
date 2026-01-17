@@ -17,13 +17,7 @@ MonoBehaviour:
   line:
   - text: "\u201CChloe and I have known each other since we were young,\u201D"
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: he said calmly, but there was a subtle weight behind his words.
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: "\u201CBut the engagement\u2026 that was never ours to choose.\u201D "
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: A pause. He looked up, meeting your eyes with a quiet
-    expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
-  - text: resigned smile.
     expression: {fileID: 2800000, guid: f8841fb5a8d2d774382e707cd24997b2, type: 3}
   - text: "\u201CWe were just playing the roles adults assigned to us. Like puppets
       on strings.\u201D"
