@@ -21,6 +21,6 @@ public class Store : Interactable
         //Debug.Log("restocking item to the store");
         int randomIndex = Random.Range(0, itemrestock.Count);
         Item afterRandom = itemrestock[randomIndex];
-         storeContent.Add(afterRandom,1);
+         storeContent.AddStockToShop(afterRandom,1);
     }
 }

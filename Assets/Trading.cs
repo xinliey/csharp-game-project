@@ -54,8 +54,13 @@ public class Trading : MonoBehaviour
             {
                 money.Decrease(totalPrice);
                 playerInventory.Add(itemToBuy);
-                inventoryItemPanel.Show();
-                store.storeContent.slots[id].count -= 1;
+                if (GameManager.instance.inventoryContainer.inventoryFull == false)
+                {
+                    inventoryItemPanel.Show();
+                    store.storeContent.slots[id].count -= 1;
+
+                }
+                
             }
             else
             {

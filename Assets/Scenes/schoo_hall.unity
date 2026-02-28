@@ -1590,7 +1590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: probability
-      value: 0.05
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 975527523102863828, guid: 23c7326158d16994b817b62fdd75b289, type: 3}
       propertyPath: spawnArea_width

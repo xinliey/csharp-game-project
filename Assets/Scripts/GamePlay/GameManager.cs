@@ -7,6 +7,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject fadeImage;
+    
     [SerializeField] GameObject toolbar;
     [SerializeField] GameObject HpBar;
     [SerializeField] AudioSource clickSound;
@@ -42,6 +43,7 @@ public class GameManager : MonoBehaviour
     public GameTime gameTime;
     public CutSceneManager cutSceneManager;
     public DisableControls disableControls;
+    public QuestDisplay quest;
     public void DisableFade()
     {
         fadeImage.SetActive(false);

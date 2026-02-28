@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   SaveName: 
-  playerName: xin
+  playerName: x
   LoadFromMenu: 0
-  gameDay: 21
-  maxStamina: 200
-  money: 70
+  gameDay: 1
+  maxStamina: 100
+  money: 150
   currentLevel: 0
-  currentTrigger: SunghoonDesk
+  currentTrigger: JaySad
   npcs:
   - {fileID: 11400000, guid: 9e8a31b6617fad1408e94086919f9387, type: 2}
   - {fileID: 11400000, guid: 832033f6505a4654291275b961c0fe44, type: 2}
@@ -35,7 +35,7 @@ MonoBehaviour:
     isDone: 1
     cutscene: {fileID: 11400000, guid: e3e85f0ecb9f583429aabe8b65c90347, type: 2}
   - QuestTriggerName: JaySad
-    isDone: 1
+    isDone: 0
     cutscene: {fileID: 11400000, guid: b76bc7fa331a54648a290a2f6b47b1bc, type: 2}
   - QuestTriggerName: HeeseungLie
     isDone: 0
@@ -66,15 +66,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 92ac0d5f3a28091409a307647039b3a2, type: 2}
   - {fileID: 11400000, guid: 6754de7cc10ca2244ab343e7adb64085, type: 2}
   - {fileID: 11400000, guid: 00b3e78b6fbead745aef7114cf05d80f, type: 2}
-  wordguessScore: 17
-  wordguessReward: 3
+  wordguessScore: 0
+  wordguessReward: 0
   arriveSchool: 1
   InMiniGameScene: 0
-  finishedSchool: 1
+  finishedSchool: 0
   MessengerTrigger: 0
-  MessengeIndex: 6
+  MessengeIndex: 0
   TodayTexted: 0
-  PartTimeOnDay: 6
+  PartTimeOnDay: 0
   MenuLooked: 0
   currentDessert: 
   currentCooking: "Goblin\u2019sGoldSlice"

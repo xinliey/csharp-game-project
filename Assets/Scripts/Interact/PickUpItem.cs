@@ -13,7 +13,7 @@ public class PickUpItem : MonoBehaviour
     public int count = 1;
     ItemPanel toolBarInventory;
 
-    
+
     private void Start()
     {
         player = GameManager.instance.player.transform;
@@ -27,7 +27,7 @@ public class PickUpItem : MonoBehaviour
             Debug.LogWarning("ItemPanel not found in the scene!");
         }
     }
-    public void Set(Item item , int count)
+    public void Set(Item item, int count)
     {
         this.item = item;
         this.count = count;
@@ -47,44 +47,50 @@ public class PickUpItem : MonoBehaviour
             else
             {
                 Debug.LogWarning("ToolBarPanel not found in the scene!");
-                return; // Skip execution until it is found
+                return;
             }
         }
-        // ttl -= Time.deltaTime; 
-        // if(ttl < 0) { Destroy(gameObject); }
+
         float distance = Vector3.Distance(transform.position, player.position);
+
         if (distance > pickUpDistance)
+            return;
+
+     
+        if (!GameManager.instance.inventoryContainer.CanAdd(item, count))
         {
-            return; 
+            //SystemMessengerBox.Instance.ShowMessage("inventory is full");
+            return; // Stay on ground if inventory full
         }
-        //Debug.Log($"collected item: {item.name}");
+
+        // Float toward player only if inventory has space
         transform.position = Vector3.MoveTowards(
             transform.position,
             player.position,
             speed * Time.deltaTime);
+
         if (distance < 0.1f)
         {
-            
-            if (GameManager.instance.inventoryContainer != null)
+            GameManager.instance.inventoryContainer.Add(item, count);
+
+            if (item.isLookable)
             {
-                if (item.isLookable == true)
+                SystemMessengerBox.Instance.ShowMessage(
+                    "right click on the item in the inventory for more information");
+
+                if (item.Name == "Mysterious Note")
                 {
-                    SystemMessengerBox.Instance.ShowMessage("right click on the item in the inventory for more information");
-                    if (item.Name == "Mysterious Note")
-                    {
-                        GameManager.instance.ChloeLetterCheck();
-                    }
+                    GameManager.instance.ChloeLetterCheck();
                 }
-                GameManager.instance.inventoryContainer.Add(item, count);
-                toolBarInventory.Show();
             }
-            else
-            {
-                Debug.LogWarning("no inventory container ");
-            }
+
+            toolBarInventory.Show();
+
             Destroy(gameObject);
         }
+
     }
 }
+
 
 

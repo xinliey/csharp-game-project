@@ -102,6 +102,7 @@ public class MainMenu : MonoBehaviour
         DataUsing.gameDay = 0;
         DataUsing.currentLevel = 0;
         DataUsing.currentTrigger = null;
+        DataUsing.MessengeIndex = 0;
         foreach (var npc in DataUsing.npcs)
         {
             if (npc != null)
@@ -113,6 +114,7 @@ public class MainMenu : MonoBehaviour
             npc.DailyData.loreLevel = 0;
             npc.DailyData.currentLevel = 1;
             npc.DailyData.questInteract = true;
+            npc.DailyData.TriggerLore = false;
             npc.NextVictimDialogue.isDone = false;
             npc.HeeseungConfrontDialogue.isDone = false;
             npc.HiddenStory.isDone = false;

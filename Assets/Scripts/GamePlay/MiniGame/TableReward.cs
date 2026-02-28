@@ -159,15 +159,22 @@ public class TableReward : Interactable
             if (rewardReceived == false)
             {
                 Item itemToGet = rewardItems[data.wordguessReward  ];
+               
                 playerInventory.Add(itemToGet);
-                inventoryItemPanel.Show(); 
-                Color faded = ItemDisplay[data.wordguessReward].color;
+                //Debug.Log($"{GameManager.instance.inventoryContainer.inventoryFull}");
+                if (GameManager.instance.inventoryContainer.inventoryFull == false)
+                {
+                    inventoryItemPanel.Show();
+                    Color faded = ItemDisplay[data.wordguessReward].color;
 
-                faded.a = 0.3f;
-                ItemDisplay[data.wordguessReward].color = faded;
+                    faded.a = 0.3f;
+                    ItemDisplay[data.wordguessReward].color = faded;
 
-                data.wordguessReward += 1;
-              //  rewardReceived = true;
+                    data.wordguessReward += 1;
+                    rewardReceived = true;
+                }
+                
+                
 
             }
             else

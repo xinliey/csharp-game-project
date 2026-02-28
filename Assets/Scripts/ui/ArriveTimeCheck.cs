@@ -21,6 +21,10 @@ public class ArriveTimeCheck : MonoBehaviour
             {
                 SystemMessengerBox.Instance.ShowMessage("Enter classroom and interact with desk(Optional)");
                 //return;
+                if (playerData.quest[2].isDone == false) //make hs rs grow faster than anyone to trigger first hint
+                {
+                    AddScoreForHeeseung();
+                }//once first hint is triggered , back to normal
             }
             else
             {
@@ -51,6 +55,14 @@ public class ArriveTimeCheck : MonoBehaviour
                 Debug.Log("NPCCharacter is null");
             }
         }
+    }
+    private void AddScoreForHeeseung()
+    {
+     
+            NPCCharacter Heeseung = npc[3].GetComponent<NPCCharacter>();
+            Heeseung.IncreaseRelationship(0.3f);
+        
+        
     }
 }
 

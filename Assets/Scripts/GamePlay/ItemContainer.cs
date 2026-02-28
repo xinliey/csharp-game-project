@@ -35,38 +35,86 @@ public class ItemSlot
 [CreateAssetMenu(menuName = "Data/Item Container")]
 public class ItemContainer : ScriptableObject
 {
-    public List<ItemSlot> slots; 
-
+    public List<ItemSlot> slots;
+    public bool inventoryFull; 
     //to absorb the item that drop
     public void Add(Item item,int count =1)
     {
         if(item.stackable == true)
         {
+            //existed stackable item
             ItemSlot itemSlot = slots.Find(x => x.item == item);
             if(itemSlot != null)
             {
                 itemSlot.count += count;
             }
             else
-            {// add non stackabke item into inventory 
-                itemSlot = slots.Find(x => x.item == null);
-                if(itemSlot!= null)
-                {
-                    itemSlot.item = item;
-                    itemSlot.count = count; 
-                    
-                }
+            {// new stackable
+               // CheckInventorySpace();
+               
+                    itemSlot = slots.Find(x => x.item == null);
+                    if (itemSlot != null)
+                    {
+                    inventoryFull = false;
+                        itemSlot.item = item;
+                        itemSlot.count = count;
+
+                    }
+                    else
+                    {
+                        SystemMessengerBox.Instance.ShowMessage("Inventory is full, please sell or drop item");
+                    inventoryFull = true;
+                    }
+
+                
+               
+                
             }
         }else
         {//add non stackable item to our inventory
-            ItemSlot itemSlot =slots.Find(x => x.item == null);
-            if(itemSlot != null)
-            {
-                itemSlot.item = item;
-                itemSlot.count = count;
-            }
+           // CheckInventorySpace();
+           
+                ItemSlot itemSlot = slots.Find(x => x.item == null);
+                if (itemSlot != null)
+                {
+                inventoryFull = false;
+                    itemSlot.item = item;
+                    itemSlot.count = count;
+                }
+                else
+                {
+                    SystemMessengerBox.Instance.ShowMessage("Inventory is full, please sell or drop item");
+                inventoryFull = true;
+                }
+            
+            
         }
 
+    }
+    public void AddStockToShop(Item item, int count = 1)
+    {
+        ItemSlot itemSlot = slots.Find(x => x.item == null); //stocking product to the empty space 
+        if (itemSlot != null)
+        {
+            itemSlot.item = item;
+            itemSlot.count = count;
+        }
+   
+    }
+    public bool CanAdd(Item item, int count = 1)
+    {
+        if (item.stackable)
+        {
+            // If stack exists, we can add
+            ItemSlot existingSlot = slots.Find(x => x.item == item);
+            if (existingSlot != null)
+                return true;
+        }
+
+        // Otherwise need empty slot
+        ItemSlot emptySlot = slots.Find(x => x.item == null);
+
+        return emptySlot != null;
     }
     public void Remove(Item item , int count = 1)
     {

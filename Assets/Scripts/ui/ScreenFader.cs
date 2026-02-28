@@ -24,9 +24,11 @@ public class ScreenFader : MonoBehaviour
 
     public void Tint()
     {
-        imagefade.SetActive(true);
+        imagefade.SetActive(true); 
+        GameManager.instance.quest.checkcurrentcutscene();
         StopAllCoroutines(); //to make sure there's no coroutine crash, it was doubling the process without this code
         f = 0f;
+       
         StartCoroutine(FadeOut());
     }
 
