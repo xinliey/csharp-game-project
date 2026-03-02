@@ -19,11 +19,13 @@ public class CustomerManager : MonoBehaviour
         {
             customer.SetActive(false);
         }
+        SystemMessengerBox.Instance.ShowMessage("wait for customer to come in and get their order");
         ReleaseCustomer();
     }
 
     public void ReleaseCustomer()
     {
+
         if (usedCustomers.Count < customers.Count)
         {
             StartCoroutine(WaitForRelease());
@@ -59,15 +61,16 @@ public class CustomerManager : MonoBehaviour
     public void CheckOrdered()
     {
         CustomerServed += 1;
-        //Debug.Log($"current serving is {CustomerServed}");
+        Debug.Log($"current serving is {CustomerServed}");
         if (CustomerServed == 4)
         {
             GameManager.instance.dialogueSystem.Initialize(dialog);
             player.FirstOrder = true;
             player.inPartTimeScene = false;
+            
+        ExitCafe.SetActive(true);
         }
        
-        ExitCafe.SetActive(true);
         
     }
 

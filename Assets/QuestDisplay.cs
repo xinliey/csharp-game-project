@@ -20,7 +20,7 @@ public class QuestDisplay : MonoBehaviour
     }
     public void checkcurrentcutscene()
     {
-        if (player.currentTrigger == null)
+        if (player.currentTrigger == null || player.currentTrigger=="")
         {
             textbox.text= "interact with classmates for more info";
         }

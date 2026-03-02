@@ -60,7 +60,7 @@ public class ArriveTimeCheck : MonoBehaviour
     {
      
             NPCCharacter Heeseung = npc[3].GetComponent<NPCCharacter>();
-            Heeseung.IncreaseRelationship(0.3f);
+            Heeseung.EarlyForSchool(0.3f);
         
         
     }

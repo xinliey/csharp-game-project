@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.SymbolStore;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class NPCCharacter : TimeAgent
@@ -61,6 +62,7 @@ public class NPCCharacter : TimeAgent
     private const float LORE3 = 0.80f;
     private const float LORE4 = 1f;
     private BoxCollider2D collider;
+    public SpriteRenderer npc;
     public bool QuestDone;
     [Range(0f, 1f)]
     public float level;   //range of each level       
@@ -68,14 +70,20 @@ public class NPCCharacter : TimeAgent
 
 
    private void Awake()
-    {
-        
-        CheckCurrentRelationship();
+    {   
+       
         collider = GetComponent<BoxCollider2D>();
+        npc = GetComponent<SpriteRenderer>();
+ CheckCurrentRelationship();
     }
     
     public void CheckCurrentRelationship()
     {
+        if (GameManager.instance.CheckNextVictimState())//during the next victim state, there will be no npc walking around
+        {
+            collider.enabled = false;
+            npc.enabled = false;
+        }
         level = Level;
         if (level >= 1f)
         {
@@ -87,62 +95,6 @@ public class NPCCharacter : TimeAgent
             character.DailyData.giftPresent = true;
             //character.DailyData.questInteract = true;
         }
-        /*float roundedLevel = Mathf.Round(Level * 100f) / 100f;
-        UnityEngine.Debug.Log($"current score is {roundedLevel}");
-
-        if (roundedLevel < CLASSMATE)
-        {
-            //  Debug.Log(character.Name + " is a Stranger.");
-            CurrentLevel = 1;
-        }
-        else if (roundedLevel >= LORE1 && character.DailyData.TriggerLore == false) // Show lore1
-        {
-            UnityEngine.Debug.Log(character.Name + " lore level reach lv1");
-            LoreLevel = 0;
-            CurrentLevel = 0;
-            character.DailyData.TriggerLore = true;
-
-        }
-        else if (roundedLevel >= LORE1 && character.DailyData.TriggerLore == false && roundedLevel < FRIEND)
-        {
-            UnityEngine.Debug.Log(character.Name + " is now a classmate.");
-            CurrentLevel = 2;
-        }
-
-        else if (roundedLevel >= LORE2 && character.DailyData.TriggerLore == false) // Show lore2
-        {
-            UnityEngine.Debug.Log(character.Name + " lore level reach lv2.");
-            LoreLevel = 1;
-            CurrentLevel = 0;
-            character.DailyData.TriggerLore = true;
-        }
-        else if (roundedLevel > LORE2 && character.DailyData.TriggerLore == false && roundedLevel <= BESTIES)
-        {
-            //Debug.Log(character.Name + " is now a friend.");
-            CurrentLevel = 3;
-        }
-        else if (roundedLevel >= LORE3 && !character.DailyData.TriggerLore==false) // Show lore3
-        {
-            UnityEngine.Debug.Log(character.Name + " lore level reach lv3.");
-            LoreLevel = 2;
-            CurrentLevel = 0;
-            character.DailyData.TriggerLore = true;
-        }
-        else if (roundedLevel > LORE3 && character.DailyData.TriggerLore==false&&roundedLevel >= BESTIES)
-        {
-           //Debug.Log(character.Name + " is now a bestie.");
-            CurrentLevel = 4;
-
-        }
-        else if (roundedLevel >= LORE4 && character.DailyData.TriggerLore==false) // Show lore4 (final)
-        {
-            // Debug.Log(character.Name + " lore level reach lv4.");
-            UnityEngine.Debug.Log(character.Name + " you have now completed this character's story");
-            LoreLevel = 3;
-            CurrentLevel = 0;
-            character.DailyData.TriggerLore = true;
-        }*/
-        
     }
 
     internal void IncreaseRelationship(float v)
@@ -159,6 +111,16 @@ public class NPCCharacter : TimeAgent
         }
         Level += v;
         
+        CheckCurrentRelationship();
+    }
+    internal void EarlyForSchool(float v) //if player come to school early 
+    {
+        if (character.DailyData.level != 0f)
+        {
+           Level += v;
+        }
+        //if level is 0f mean it's triggering quest hint mode , dont mess it up    
+
         CheckCurrentRelationship();
     }
     internal void LateForSchoolDeduct(float v)

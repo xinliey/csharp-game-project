@@ -44,9 +44,21 @@ public class GameManager : MonoBehaviour
     public CutSceneManager cutSceneManager;
     public DisableControls disableControls;
     public QuestDisplay quest;
+    //public bool NextVictimTownScene =false;
     public void DisableFade()
     {
         fadeImage.SetActive(false);
+    }
+    public bool CheckNextVictimState()
+    {
+        if(data.currentTrigger == "NextVictim")
+        {
+           return true;
+        }
+        else
+        {
+            return false;
+        }
     }
     public void DisablePlayerBox()
     {

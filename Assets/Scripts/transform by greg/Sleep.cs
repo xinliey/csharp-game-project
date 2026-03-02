@@ -84,10 +84,14 @@ public class Sleep : MonoBehaviour
         GameManager.instance.ClickButtonSound(); 
         GameManager.instance.screenFader.FadeIn(); 
         nextDay();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         GameManager.DestroyInstance();
         SceneManager.LoadScene(MenuName, LoadSceneMode.Single);
         yield return null; 
+    }
+    private void ResetDailyData()
+    {
+       
     }
     IEnumerator SleepRoutine()
     {

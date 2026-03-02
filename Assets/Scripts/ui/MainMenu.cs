@@ -48,7 +48,10 @@ public class MainMenu : MonoBehaviour
             
             ProceedToGameWithData();
         }
-        
+        else
+        {
+            SystemMessengerBox.Instance.ShowMessage("please restart the game");
+        }
         
     }
 
@@ -102,7 +105,7 @@ public class MainMenu : MonoBehaviour
         DataUsing.gameDay = 0;
         DataUsing.currentLevel = 0;
         DataUsing.currentTrigger = null;
-        DataUsing.MessengeIndex = 0;
+        DataUsing.MessengeIndex = -1;
         foreach (var npc in DataUsing.npcs)
         {
             if (npc != null)
@@ -129,7 +132,7 @@ public class MainMenu : MonoBehaviour
         DataUsing.isDessertInHand = false;
         DataUsing.currentDessert = "";
         DataUsing.dessertHolding = "";
-      
+        DataUsing.chloeletterInHand = false;
         DataUsing.chloeletterattempt = 0;
         DataUsing.closestnpc = null;
         foreach(var n in DataUsing.quest)
